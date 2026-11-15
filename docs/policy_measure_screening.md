@@ -52,3 +52,65 @@ MUR PNRR Fifth Report, Section II: https://www.mur.gov.it/sites/default/files/20
 - Reason for inclusion, partial inclusion or exclusion.
 
 No amount should enter the quantitative shock until measure-level evidence and the accounting chain have been reviewed.
+
+
+## Expanded perimeter following official-source review (November 2026)
+
+The inventory has been deliberately widened from the initial high-confidence research measures to a **broad candidate universe**. Inclusion in this longlist does not imply that the full programme envelope is R&D or that it should enter the estimated shock. The purpose is to avoid premature exclusion and to make borderline decisions visible.
+
+### Additional candidate families now included
+
+| Measure | PNRR allocation / amount found | Screening treatment | Key source |
+|---|---:|---|---|
+| M4C2 Investment 2.1 — IPCEI | EUR 1.5bn | High-priority mixed R&D/innovation/first-industrial-deployment candidate; cost-level split required | https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-ipcei-progetti |
+| M4C2 Investment 2.2bis — Innovation Agreements | EUR 164m | High-priority direct business R&D candidate; distinguish R&D from broader innovation | https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-accordi-di-innovazione |
+| M1C2 Investment 4 — Satellite technologies and space economy | EUR 1.487bn PNRR; EUR 800m PNC reported separately | Include SatCom, Earth Observation, Space Factory and In-Orbit Economy; separate R&D from procurement, infrastructure and service deployment | https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-tecnologie-satellitari-ed-economia-spaziale |
+| M1C2 Investment 5.2 — Strategic production supply chains | EUR 750m | Include only Development Contracts with documented R&D work packages | https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-competitivita-e-resilienza-delle-filiere-produttive |
+| M1C2 Investment 6 — Industrial property system | EUR 30m | Include PoC/experimental development where Frascati conditions are met; exclude patenting, routine TTO and platform costs | https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-investimento-nel-sistema-della-proprieta-industriale |
+| M1C2 Reform 1 — Industrial property reform | No direct R&D allocation identified | Context/enabler only; no direct shock | https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-riforma-del-sistema-della-proprieta-industriale |
+| M1C2 Reform 3 — Simplification of business incentives | No direct R&D allocation identified | Context/enabler only; count only downstream funded R&D, not the reform itself | https://www.mimit.gov.it/it/pnrr/progetti-pnrr |
+| M2C2 Investment 5.1 — Net-zero technologies and strategic supply chains | EUR 3.727bn in MIMIT measure page; subsequent reprogramming must be reconciled | Broad candidate; include only project-level R&D/experimental-development costs, not production capacity, energy efficiency or ordinary capex | https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-rinnovabili-e-batterie |
+| M7 Investment 15 — Transition 5.0 | EUR 2.5bn target amount granted | Boundary candidate; ordinary digital/energy capex, renewable self-generation and training are not R&D. Do not count the credit envelope | https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-transizione-5-0 |
+| M7 Investment 16 — Renewable self-production by SMEs | EUR 155m latest MIMIT amount; earlier EUR 320m vintage | Boundary candidate; standard PV, mini-wind and storage installations are not R&D | https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-autoproduzione-di-energia-da-fonti-rinnovabili-nelle-pmi |
+| M2C2 Investment 5.5 — Green tax credit | Amount and precise CID mapping pending | Boundary candidate; no R&D absent a distinct qualifying cost trail | https://www.mimit.gov.it/it/pnrr/progetti-pnrr |
+| M6C2 Investment 1.3 — Health data infrastructure, analytics and simulation | Approximate total to be reconciled by sub-investment; Ministry pages report >EUR 1.3bn for FSE and nearly EUR 300m for Ministry infrastructure | Include algorithm/model development and scientific studies only where novel, uncertain and systematic; exclude routine IT and administrative data processing | https://www.pnrr.salute.gov.it/it/pnrr-pagina/rafforzamento-infrastruttura-tecnologica/ |
+| M6C2 Investment 1.1 — Hospital technological/digital equipment | Allocation to be reconciled | Boundary candidate; equipment replacement, hospital digitalisation and routine clinical use are not R&D | https://www.salute.gov.it/portale/pnrrsalute/dettaglioContenutiPNRRSalute.jsp?area=PNRR-Salute&id=5807&lingua=italiano&menu=investimenti |
+| M2C2 hydrogen investments — Investments 3.1/3.2 | Allocation and code mapping pending | Broad candidate; include only genuine experimental development, not commercial-scale production facilities or deployment | M2C2 CID annex and implementing sources to be reconciled |
+
+### Correction factors: do not apply one blanket haircut
+
+The inventory now includes separate fields for:
+- `rd_eligibility_share_factor`: share of the programme/project expenditure that corresponds to Frascati-eligible R&D performed in Italy;
+- `additionality_share_factor`: share of eligible R&D that is additional relative to the counterfactual;
+- `factor_status`: evidence and validation status.
+
+These fields are intentionally blank at this stage. A blank means **not yet estimated**, not zero. Do not assign a common factor to all measures. The two factors answer different questions and should be estimated separately, preferably at beneficiary/project level.
+
+For measure (i), year (t):
+
+`Incremental domestic R&D(i,t) = eligible beneficiary expenditure(i,t) × rd eligibility share(i,t) × additionality share(i,t) × domestic performance share(i,t)`
+
+The domestic-performance factor is required where a project has foreign partners, imported R&D services or performance outside Italy. For infrastructure, equity, tax credits and mixed industrial grants, the accounting bridge must be tailored to the instrument. The formula is a transparent estimation framework, not a causal estimate.
+
+Suggested treatment hierarchy:
+1. Use actual R&D costs and personnel costs reported by beneficiaries where available.
+2. Otherwise use approved project budgets split by Frascati-eligible cost categories, then reconcile to incurred expenditure.
+3. Where only aggregate programme data exist, report a scenario range and mark the estimate low-confidence; do not silently impute a precise coefficient.
+4. Where evidence shows no R&D activity (e.g. standard equipment installation or routine hospital equipment replacement), set the R&D eligibility share to zero for that activity, not necessarily for the entire programme if mixed projects exist.
+5. Estimate additionality separately using evaluation evidence, counterfactual analysis or transparent scenario assumptions. Do not treat public subsidy as equivalent to additional R&D.
+
+### Important exclusions and boundary findings
+
+- **Transition 5.0** primarily subsidises energy-efficient and digital capital investment, renewable self-generation and training. These are not R&D by default.
+- **M7 Investment 16** funds standard renewable generation and storage installations for SMEs. Ordinary installation is not R&D.
+- **M6C2 Investment 1.1** mainly replaces obsolete hospital equipment and improves digital infrastructure. Purchase and routine clinical use of advanced equipment are not GERD.
+- **M6C2 Investment 1.3** is not wholly research: the FSE and health-data systems include routine digital infrastructure. A specific algorithm, predictive model or scientific study may qualify if it meets Frascati tests.
+- **M1C2 Reform 1 and Reform 3** are enabling/regulatory reforms, not direct R&D expenditure.
+- **M1C2 Investment 5.2, M2C2 Investment 5.1 and IPCEI** are mixed industrial instruments. Their total allocations must never be treated as R&D. Their R&D work packages should be extracted from individual contracts and projects.
+- **M1C2 Investment 4 (space)** includes both upstream technology development and downstream infrastructure/services. The PNC allocation is recorded separately from PNRR.
+- **M4C2 Investment 2.3 (technology transfer centres)** and **M1C2 Investment 6 (industrial property/PoC/TTO)** overlap in policy function but are distinct PNRR measures; prevent project-level double counting where the same PoC or TTO activity receives support from more than one source.
+- **M4C2 Investment 3.2 (DTF)** and **M2C2 Investment 5.4 (GTF)** are equity injections. Count portfolio-company R&D performance only, never the capital injection or fund commitment itself.
+
+### Source-review caveat
+
+Official MIMIT and Ministry of Health project pages provide a useful measure-level inventory, but the CID history remains the legal source of measure identity, scope and revisions. All amounts above are programme allocations or target amounts, not actual R&D expenditure. The original 2021 CID, each adopted amendment and the August 2026 CID must still be reconciled measure by measure before final quantitative aggregation.
