@@ -12,6 +12,9 @@ The estimand is not:
 
 The unit of analysis should initially be the policy measure by year, with aggregation to annual national totals only after measure-level validation.
 
+### Policy perimeter
+The default policy universe includes PNRR measures and the national co-financing directly attached to those measures. It excludes unrelated national R&D, innovation or industrial-policy measures outside the PNRR. The data model must nevertheless allow an optional extension to other EU programmes, initially Cohesion Policy and the European Innovation Council (EIC). These programmes must be switchable on/off through configuration and reported separately from the PNRR core. Do not include them in the headline PNRR-only result.
+
 ## 2. R&D definition and statistical boundary
 
 Use the Frascati Manual definition of research and experimental development. Distinguish:
@@ -135,7 +138,18 @@ Do not add measure allocations mechanically to GERD. Policy accounting and R&D s
 
 Investigate current prices, constant prices and GDP ratios. Record the deflator, base year, GDP vintage and any series breaks. Do not splice Eurostat and OECD series without documenting differences.
 
-## 9. Model interface
+## 9. Output concepts and price basis
+
+Produce at least two distinct annual output series:
+
+1. **Additional domestic R&D performed in Italy:** incremental R&D expenditure actually performed by resident units in Italy, regardless of whether it is financed by public or private sources.
+2. **Publicly financed R&D performed in Italy:** the subset of domestic R&D expenditure financed by government/public sources, including the public financing component attributable to the interventions in scope.
+
+The second series is a financing-source view of the first, not an additional amount to be added to it. Where public support induces private co-financing, classify the resulting R&D by both performing sector and funding source. Do not add the two output series together.
+
+Retain nominal values and produce constant-price values using **2019 as the reference year**. Record the chosen deflator, source, vintage and conversion method. The 2019 reference year is a price base, not a counterfactual or policy baseline. Historical statistical coverage should target 2015–2024 where data are available.
+
+## 10. Model interface
 
 Keep the shock modular until the receiving macroeconomic model is supplied. Potential series include:
 - direct public R&D performed;
@@ -146,6 +160,6 @@ Keep the shock modular until the receiving macroeconomic model is supplied. Pote
 
 The model may require shocks by performing sector, funding source, type of R&D, price basis or timing. Map only after reviewing its equations and variable definitions.
 
-## 10. Evidence and review
+## 11. Evidence and review
 
 Every material input must be traceable to a source or explicitly labelled assumption. Keep extraction evidence, calculation lineage, parameter version and reviewer status. A result is not validated merely because an AI system extracted it.
