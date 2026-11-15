@@ -1,46 +1,45 @@
 # Initial PNRR R&D measure screening
 
-This is a screening register, not a final eligibility decision or financial estimate. Each candidate must be checked against the original 2021 CID annex, the latest adopted 2026 CID annex, intermediate revisions, implementing legislation, annual Budget Laws and implementation evidence.
+This is a screening register, not a final eligibility decision or financial estimate. Each candidate must be checked against the original 2021 CID annex, all intermediate amendments, the latest adopted August 2026 CID annex, implementing legislation, annual Budget Laws and implementation evidence.
 
 ## Priority candidate families
 
 | Priority | PNRR area / measure family | Initial R&D hypothesis | Main caution / evidence needed |
 |---|---|---|---|
-| 1 | M4C2 — From research to business | Core candidate for direct public and business R&D: research projects, technology transfer, innovation partnerships, research infrastructure and support to firms | Separate basic/applied research and experimental development from technology deployment, generic innovation and non-R&D infrastructure; identify beneficiary expenditure |
-| 1 | M4C1 — Education and skills | Selected activities may finance research capacity, doctoral programmes and research-related training | Do not classify all education expenditure as R&D; isolate research projects and R&D performed by universities/research units |
-| 2 | M6 — Health | Selected investments may include biomedical, clinical, health-system and health-technology research | Separate research activity from healthcare delivery, equipment purchases, digitalisation and ordinary health infrastructure |
-| 2 | M1C2 — R&D tax credit / business incentives | Potential support for private R&D expenditure | Distinguish the R&D tax credit from the general tax credit for capital goods under Transizione 4.0. Only eligible fundamental research, industrial research and experimental development qualify as R&D under the relevant rules; innovation/design categories need separate assessment |
-| 2 | M1C2 — Digital Transition Fund | Public venture-capital instrument may finance companies undertaking R&D | Fund commitments, equity investments and leverage are not R&D expenditure; trace portfolio-company R&D expenditure and timing |
-| 2 | M1C2 — Green Transition Fund | Public venture-capital instrument may finance companies undertaking R&D | Apply the same fund-to-company tracing; do not count green investment as R&D by default |
+| 1 | M4C2 — PNR/PRIN, extended partnerships, national R&D centres | Core direct public and business R&D candidates | Verify allocations, actual R&D activity and additionality; distinguish research from equipment, infrastructure and transfer |
+| 1 | M4C2 — Research and innovation infrastructures | Research-enabling investment with a potential direct R&D component | Construction and equipment are not automatically R&D; measure actual R&D performed by resident units |
+| 1 | M6C2 — Biomedical research | Direct R&D candidate: Proof of Concept, rare diseases, rare cancers and high-impact diseases | Identify project-level grants, eligible expenditure and year of performance; exclude general health-system expenditure |
+| 2 | M1C2 — Transition 4.0 | Partial business R&D candidate | Separate R&D tax-credit category from capital-goods credits, training and non-R&D innovation |
+| 2 | M4C1 — Research doctorates | Research labour / R&D capacity candidate | Measure research actually performed; distinguish doctoral training from research |
+| 2 | M4C2 — Technology transfer centres and innovation ecosystems | Partial direct R&D / enabling candidate | Separate R&D performance from transfer, networking, advisory and commercialisation |
+| 2 | M4C2 — Digital Transition Fund | Indirect venture-capital channel | Equity injection is a financial transaction; trace portfolio-company R&D expenditure |
+| 2 | M2C2 — Green Transition Fund | Indirect venture-capital channel | Green investment is not automatically R&D; trace portfolio-company R&D activity |
 
-## Specific classification note: Transizione 4.0
+## First verified findings
 
-The generic tax credit for investments in capital goods under Transizione 4.0 should not be counted as R&D expenditure merely because it supports technological upgrading. The separate R&D tax credit is a stronger candidate: the MIMIT description identifies fundamental research, industrial research and experimental development and refers to Frascati-based criteria. The R&D component should be separated from technological innovation, design and aesthetic conception, which are not automatically R&D under the Frascati boundary.
+- Latest adopted August 2026 CID: Council document ST 12357/26; annex ST 12357/26 ADD 1.
+- The August 2026 CID recitals list seven preceding amendments and state that the latest request concerns 118 measures.
+- The latest annex specifies, among other items, 900 PRIN researchers (M4C2-7), 14 research partnerships (M4C2-8), five national R&D centres (M4C2-9), EUR 309m disbursement for technology transfer centres (M4C2-14), 30 research/innovation infrastructure activity reports (M4C2-16bis), 10 innovation ecosystem activity reports (M4C2-18bis), EUR 400m transferred to DTF (M4C2-21bis), EUR 250m transferred to GTF (M2C2-42bis), and at least 200 biomedical research projects (M6C2-3).
+- The latest annex describes Transition 4.0 tax credits as covering capital goods, R&D and innovation activities, and training. Only qualifying R&D costs can enter the R&D shock.
 
-Official MIMIT reference: https://www.mimit.gov.it/it/incentivi/credito-d-imposta-r-s
+## Transition 4.0 classification
 
-## Sources to use for each candidate
+Generic Transition 4.0 capital-goods credits should not be counted as R&D merely because they support technological upgrading. The CID investment bundles multiple credit categories, including R&D and innovation activities. Isolate the R&D category from tangible/intangible capital goods, training and non-R&D innovation. Apply the Frascati definition to underlying activities and costs.
 
-1. Commission Italy RRF country page: https://reforms-investments.ec.europa.eu/recovery-and-resilience-facility-1/country-pages/italys-recovery-and-resilience-plan_en
-2. Original 2021 CID and annex: Council register, document 10160/21 and annex ST 10160 2021 ADD 1 REV 2.
-3. Latest adopted 2026 CID and annex: linked under the August 2026 update on the Commission country page. Retain all intermediate revisions.
-4. Italia Domani: calls/notices, open-data catalogue, project data, implementing bodies, tenders/awardees, financial framework, milestones/targets and progress.
-5. Annual Italian Budget Laws and implementing acts: reconstruct multiannual appropriations, changes, co-financing, tax expenditure and cash flows.
-6. MIMIT and MUR implementing-administration pages and administrative data; CDP/CDP Venture Capital and EIB fund-level and portfolio-level reporting where relevant.
+MIMIT R&D tax credit reference: https://www.mimit.gov.it/it/incentivi/credito-d-imposta-r-s
 
-## Required output of the screening phase
+## Required fields for every candidate
 
-For every candidate:
-- stable internal measure ID and all CID version-specific codes;
-- component and investment description in each CID version;
-- initial and revised allocation, EU and directly associated national financing separately;
-- legal basis and annual Budget Law references;
-- implementing body, calls/notices, beneficiaries and project-level data;
-- financial stages (appropriation, commitment, payment, beneficiary expenditure);
-- R&D activity and Frascati eligibility assessment;
-- performing sector and funding source;
-- cash/accrual/performance timing bridge;
-- source citations and human validation status;
-- reason for inclusion, partial inclusion or exclusion.
+- Stable internal measure ID and all CID version-specific codes.
+- Component and investment description in every adopted CID version.
+- Initial and revised allocations, EU and directly associated national financing separately.
+- Legal basis and annual Budget Law references.
+- Implementing body, calls/notices, beneficiaries and project-level data.
+- Financial stages: appropriation, commitment, payment, beneficiary expenditure.
+- R&D activity and Frascati eligibility assessment.
+- Performing sector and funding source.
+- Cash/accrual/performance timing bridge.
+- Source citations and human validation status.
+- Reason for inclusion, partial inclusion or exclusion.
 
-No amount should enter the quantitative shock until the measure-level evidence and accounting chain have been reviewed.
+No amount should enter the quantitative shock until measure-level evidence and the accounting chain have been reviewed.
