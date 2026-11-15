@@ -233,3 +233,17 @@ Do not infer that a transaction is outside general-government expenditure merely
 Internal transfers and transfers returned to the State budget must be eliminated in consolidated flow reconciliations. Budget commitments, cash payments, final-beneficiary expenditure and R&D performance are distinct stages and must never be added together.
 
 GBARD is the bridge to public R&D budget allocations: ISTAT derives central-government data using initial and adjusted State-budget forecasts acquired from RGS, while regional data are collected directly. GBARD is not realised GERD and is not a PNRR-only series. Use it as an aggregate allocation/plausibility check, not as a direct measure of PNRR-induced R&D.
+
+
+## 14. PNRR budget-law revisions and economies
+
+Record separately:
+- national expenditure already financed under existing legislation and subsequently relabelled as PNRR following plan revision;
+- resources returned from dedicated NGEU Treasury accounts to State-budget revenue;
+- economies identified at ministry level;
+- economies identified at individual-measure level;
+- actual expenditure / R&D performance.
+
+The November 2025 PNRR revision replaced approximately EUR 6.5bn of measures with nationally financed expenditure already provided for under existing legislation and largely incurred in previous years. This expenditure must not be treated as new PNRR-induced expenditure when relabelled. The 2026 Budget Law provides for EUR 7.102bn of returns from NGEU Treasury accounts over 2026–2028. Treat this as a financing/budget operation, not as new negative spending in the year of return.
+
+The February 2026 ministry-level economy annex totals EUR 1,587.510m but does not identify individual measures. The September 2026 measure-level economy annex identifies a further EUR 1,698m cohort, with measure-level data. Keep the two cohorts separate until their relationship with the 2026 Budget Law return and the legal/accounting perimeter is reconciled. An economy is not a negative GERD observation; a zero economy does not prove full expenditure or R&D performance.
