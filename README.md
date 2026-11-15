@@ -71,6 +71,7 @@ Read these files first:
 
 - [Research methodology](docs/methodology.md)
 - [Research framework](docs/research_framework.md)
+- [Initial PNRR R&D measure screening](docs/policy_measure_screening.md)
 - [Data dictionary](docs/data_dictionary.md)
 - [Decision log](docs/decisions_log.md)
 - [Source catalogue](config/sources.yaml)
