@@ -193,3 +193,21 @@ Useful official references:
 - Eurostat, Government finance statistics methodology (ESA 2010 accrual principle): https://ec.europa.eu/eurostat/web/government-finance-statistics/methodology
 - Eurostat, Manual on Government Deficit and Debt, 2022 edition: https://ec.europa.eu/eurostat/documents/3859598/16029761/KS-GQ-23-002-EN-N.pdf
 - MEF-RGS OpenBDAP, national accounts and cash accounts: https://openbdap.rgs.mef.gov.it/Home/ContiPubbliciContabilitaNazionale
+
+
+## 13. Expanded candidate universe and separate correction factors
+
+The candidate universe is intentionally broader than the set of measures expected to contribute materially to R&D. Mixed industrial, technology, health-data, space, energy-transition and enabling measures are retained for screening where project-level R&D may exist. This is not a presumption that their full allocation is R&D.
+
+For each measure/project/year, estimate separately:
+- R&D eligibility share: share of beneficiary expenditure meeting the Frascati definition;
+- domestic performance share: share of that R&D performed by resident units in Italy;
+- additionality share: share of eligible domestic R&D attributable to the intervention relative to the counterfactual.
+
+The preferred decomposition is:
+
+`Incremental domestic R&D = beneficiary expenditure × R&D eligibility share × domestic performance share × additionality share`
+
+Do not estimate one blanket haircut for a whole mission, component or instrument. A zero R&D eligibility share is appropriate for an activity such as routine equipment installation; it does not imply that every project within a mixed programme has zero R&D. Leave coefficients missing until evidence is available; missing is not zero. Where only aggregate evidence exists, show explicit low/central/high scenarios and uncertainty rather than a falsely precise point estimate.
+
+The broad inventory includes boundary/control candidates such as Transition 5.0, standard SME renewable installations and hospital equipment replacement. Their presence is intentional: they document why ordinary capital expenditure, routine digitisation, training, energy deployment or clinical service provision should not be mistaken for R&D.
