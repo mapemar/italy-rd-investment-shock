@@ -13,13 +13,13 @@ For this project, classify them under a dedicated **venture finance / start-up e
 | Digital Transition Fund | M4C2 I3.2 | EUR 400m on the MIMIT PNRR project page; EUR 300m on the MIMIT umbrella overview page | Both | MIMIT requires reporting of direct/indirect investment amounts; reconcile the envelope discrepancy against the latest financial agreement, CID and implementation report. |
 | Green Transition Fund | M2C2 I5.4 | EUR 250m | Both | MIMIT requires reporting of direct/indirect investment amounts; CDP's fund page reports 12 companies managed and 4 VC funds (portfolio-count snapshot, not deployed capital). |
 
-The EUR 300m / EUR 400m DTF discrepancy is deliberately left unresolved. Do not silently choose one value or add the two values. The operational dataset records both source claims and marks the amount for reconciliation.
+The apparent EUR 300m / EUR 400m DTF discrepancy is explained by a scale-up: the original allocation was EUR 300m and the December 2023 CID increased it by EUR 100m to EUR 400m. The MIMIT umbrella overview page still displays the initial EUR 300m, while the updated PNRR measure page, CDP fund page and MIMIT implementation reporting state EUR 400m. Use EUR 400m as the revised fund envelope and retain EUR 300m only as the original allocation.
 
 ## Direct and indirect transmission channels
 
 1. **Direct investments:** DTF/GTF subscribe equity or quasi-equity instruments in eligible start-ups/SMEs; the fund documentation also describes debt/quasi-debt support at instrument level.
 2. **Indirect investments:** DTF/GTF commit capital to third-party venture-capital / venture-debt funds or relevant investment vehicles. These funds then invest in portfolio companies.
-3. **Private co-investment / leverage:** capture private commitments and actual co-investment separately at both fund and portfolio-company level. Do not apply a generic leverage coefficient. A claimed DTF “2x” multiplier has not yet been verified in the official financial agreement or investment reports and is therefore not used.
+3. **Private co-investment / leverage:** capture private commitments and actual co-investment separately at both fund and portfolio-company level. Do not apply a generic leverage coefficient. The DTF call for indirect investments requires private investors to commit at least an amount equal to the DTF investment in the third-party fund / relevant vehicles / target companies, creating a cumulative minimum leverage effect of 1x1. This is an indirect-investment condition, not evidence of a universal 2x multiplier. The equivalent leverage condition for direct DTF investments has not yet been verified from the direct-investment call. Therefore, record 1x1 only for the documented indirect channel and leave direct leverage unquantified.
 
 Avoid double counting: a DTF/GTF commitment to a third-party fund is not added to the same fund's subsequent investment into a start-up as if these were two separate injections of capital. Maintain a capital-flow chain with unique transaction and fund identifiers.
 
@@ -71,4 +71,4 @@ Analytical treatment:
 
 ## Status
 
-Evidence inventory started. Fund-level allocation amounts are not measures of actual deployment or R&D. The DTF envelope discrepancy, DTF leverage claim and annual portfolio-company R&D data remain open items.
+Evidence inventory started. Fund-level allocation amounts are not measures of actual deployment or R&D. The DTF revised EUR 400m envelope is verified; the indirect 1x1 private-capital leverage condition is verified. The direct-investment leverage condition and annual portfolio-company R&D data remain open items.
