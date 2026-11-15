@@ -89,6 +89,12 @@ Code should be modular, tested and deterministic where possible. Raw data should
 **Stage 0 — Repository and research architecture.** No quantitative R&D shock estimate has yet been produced.
 
 
+## 2026 Budget Law and PNRR economies
+
+- [2026 Budget Law and PNRR economy reconciliation](docs/pnrr_2026_budget_reconciliation.md) — €7.102bn Treasury return, ministry-level and measure-level PNRR economies, and the double-counting implications.
+- [Ministry-level economies, February 2026](data/processed/pnrr_ministry_economies_feb2026.csv) — €1.588bn by administration; measure attribution not disclosed in the annex.
+- [Measure-level economies, September 2026](data/processed/pnrr_measure_economies_sep2026.csv) — ReGiS budgets and economies for eight R&D-relevant measures.
+
 ## Budget and execution reconciliation
 
 - [Budget and PNRR execution reconciliation](docs/budget_execution_reconciliation.md) — State-budget chapter datasets, Treasury-account flows, ReGiS reporting and the GBARD bridge.
