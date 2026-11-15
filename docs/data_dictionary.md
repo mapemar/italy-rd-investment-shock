@@ -165,3 +165,20 @@ The inventory schema includes the following screening fields:
 - `factor_status`: evidence status, estimation method and validation note.
 
 A blank factor is **not estimated**, not zero. Do not fill factors with generic coefficients across heterogeneous measures. Store low/central/high estimates, evidence, method and uncertainty in the separate Additionality parameter table. For mixed instruments, estimate the R&D eligibility share from project work packages and cost categories; estimate additionality separately. Where relevant, add a domestic-performance share and timing profile rather than embedding these concepts in a single haircut.
+
+
+## 11. Industrial R&D project register
+
+File: `data/processed/industrial_rd_project_register.csv`.
+
+One row represents either a beneficiary-level IPCEI participant or an aggregate project/workstream record where public sources do not disclose individual beneficiaries. Fields:
+- `record_type`: beneficiary, subinvestment, project_aggregate or programme_aggregate.
+- `pnrr_measure`, `submeasure_or_ipcei`: current measure and workstream identifier.
+- `beneficiary_or_project`, `CUP`: legal entity/project name and unique project code where disclosed.
+- `status_or_evidence_as_of`: status/vintage of public evidence.
+- `amount_eur`, `amount_type`: amount and its meaning (allocation, activated resources, concession, project value, sub-line budget). Never aggregate different amount types.
+- `R&D_relevance`: qualitative eligibility classification, not a numerical factor.
+- `additionality_and_accounting_note`: counterfactual, double-counting and accounting caveats.
+- `source_url`, `source_reference`: provenance.
+
+The current register has 35 records: 24 IPCEI participant/CUP records plus 11 workstream/aggregate records. A participant or selected project is not proof of final concession, payment, eligible R&D or additionality.
