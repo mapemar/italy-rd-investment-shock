@@ -209,3 +209,18 @@ Register of identified RGS OpenBDAP datasets for annual budget-law and final-acc
 - Internal transfers and transfers returned to the State budget are not final expenditure.
 - A budget chapter is not R&D solely because its title contains research/innovation terminology.
 - GBARD is a budget-allocation measure, not realised GERD.
+
+
+## PNRR economy datasets
+
+### `pnrr_ministry_economies_feb2026.csv`
+
+Ministry-level economies identified under Article 30(1) of DL 19/2026, based on the annex reported in the parliamentary dossier. The amounts total EUR 1,587.510m. The source does not allocate these amounts to individual measures; do not infer measure-level R&D economies from ministry totals.
+
+### `pnrr_measure_economies_sep2026.csv`
+
+Measure-level ReGiS budgets and economies reported in the parliamentary dossier for DL 162/2026, Article 7(1), at 10 September 2026. Values are in EUR millions. The economy share is the reported economy divided by the reported ReGiS measure budget. The eight rows are the R&D-relevant subset, not the complete list of measures in the annex.
+
+### Interpretation
+
+Economies are not negative R&D spending observations. Zero economies do not prove full expenditure or Frascati eligibility. Keep February ministry-level and September measure-level cohorts distinct pending legal/accounting reconciliation with the 2026 Budget Law return.
