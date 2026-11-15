@@ -163,3 +163,33 @@ The model may require shocks by performing sector, funding source, type of R&D, 
 ## 11. Evidence and review
 
 Every material input must be traceable to a source or explicitly labelled assumption. Keep extraction evidence, calculation lineage, parameter version and reviewer status. A result is not validated merely because an AI system extracted it.
+
+
+## 12. Cash, commitments, accrual and the year of R&D performance
+
+The project must preserve cash and accrual information, but must not treat the conversion of public cash expenditure into ESA accrual expenditure as equivalent to measuring R&D performed by the beneficiary.
+
+Maintain separate annual dates/amounts for:
+- budget appropriation and legal commitment;
+- public cash payment/disbursement;
+- recognition of the public-sector transaction under ESA 2010, where relevant;
+- investment or eligible cost incurred by the final beneficiary;
+- R&D activity actually performed and recorded in the relevant R&D statistics.
+
+The primary shock for the macroeconomic R&D model should be assigned to the year in which the R&D activity is performed in Italy, insofar as the evidence permits. Cash payments and commitments remain essential explanatory and reconciliation variables.
+
+ESA 2010 and Eurostat's Manual on Government Deficit and Debt are relevant for the government-accounting bridge, especially where national budget data are cash-based. However, ESA accrual rules are not a universal conversion formula for the timing of private or public-sector R&D performance. Apply transaction-specific rules and document the evidence used.
+
+Specific cautions:
+- **R&D tax credits:** distinguish payable/refundable from non-payable/non-refundable credits and record the fiscal cost according to the applicable ESA treatment. For the R&D shock, separately identify the year in which the eligible R&D costs are incurred/performed; do not use the later year of tax-credit utilisation as the R&D performance year. The Eurostat Manual on Government Deficit and Debt gives specific guidance on payable tax credits and the timing of recording.
+- **Grants and subsidies:** cash disbursement may precede or follow eligible costs. Link payments to the period in which the beneficiary incurs eligible expenditure and performs R&D, where data allow.
+- **Investment grants and infrastructure:** distinguish the timing of grant recognition/payment from construction, asset acquisition and the R&D services performed using the infrastructure. Only the R&D activity component enters GERD.
+- **Venture capital/equity:** the public acquisition of an equity stake or a fund commitment is a financial investment, not R&D expenditure. Track fund deployment and portfolio-company R&D expenditure separately; the latter enters the R&D shock in the year performed.
+- **Loans and guarantees:** neither loan disbursement nor guarantee exposure is itself R&D expenditure. Identify the additional R&D expenditure financed by the beneficiary and its timing.
+
+Do not create a single mechanical cash-to-accrual multiplier. Build an event/timing bridge at measure or instrument level, with explicit treatment and evidence. If beneficiary-level timing is unavailable, report the proxy, uncertainty and sensitivity.
+
+Useful official references:
+- Eurostat, Government finance statistics methodology (ESA 2010 accrual principle): https://ec.europa.eu/eurostat/web/government-finance-statistics/methodology
+- Eurostat, Manual on Government Deficit and Debt, 2022 edition: https://ec.europa.eu/eurostat/documents/3859598/16029761/KS-GQ-23-002-EN-N.pdf
+- MEF-RGS OpenBDAP, national accounts and cash accounts: https://openbdap.rgs.mef.gov.it/Home/ContiPubbliciContabilitaNazionale
