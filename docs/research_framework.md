@@ -81,3 +81,4 @@ Classify each intervention by policy channel, activity eligibility, performing s
 5. For every selected measure, reconstruct the legal and financial chain through all relevant annual Budget Laws and implementing acts.
 6. Preserve cash payments, commitments, ESA accrual timing and beneficiary R&D performance as distinct concepts; do not apply a mechanical cash-to-accrual conversion.
 7. Inventory the existing Eurostat workbook before downloading duplicate data.
+
