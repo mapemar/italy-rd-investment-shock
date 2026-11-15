@@ -211,3 +211,25 @@ The preferred decomposition is:
 Do not estimate one blanket haircut for a whole mission, component or instrument. A zero R&D eligibility share is appropriate for an activity such as routine equipment installation; it does not imply that every project within a mixed programme has zero R&D. Leave coefficients missing until evidence is available; missing is not zero. Where only aggregate evidence exists, show explicit low/central/high scenarios and uncertainty rather than a falsely precise point estimate.
 
 The broad inventory includes boundary/control candidates such as Transition 5.0, standard SME renewable installations and hospital equipment replacement. Their presence is intentional: they document why ordinary capital expenditure, routine digitisation, training, energy deployment or clinical service provision should not be mistaken for R&D.
+
+
+## 13. State-budget, Treasury and ESA reconciliation
+
+The State Budget Law and the Rendiconto generale dello Stato are core sources for annual appropriations, commitments and cash payments recorded in the State budget. They are not, on their own, a complete record of PNRR implementation flows. PNRR funding also passes through dedicated Treasury accounts (including accounts 25091 and 25092) and special accounts in Group 286. Some flows are subsequently transferred into ordinary State-budget chapters; others are paid through dedicated implementation arrangements.
+
+Maintain separate records for:
+- annual budget-law appropriations by chapter (initial and final; competence and cash);
+- budget adjustments and notes of variation;
+- final-account commitments, payments and residuals by chapter;
+- inflows and outflows from dedicated NGEU Treasury accounts;
+- internal transfers within Treasury / Group 286;
+- transfers to administrations and implementing bodies;
+- project expenditure declared and approved in ReGiS;
+- ESA 2010 transaction and institutional-sector classification;
+- actual R&D expenditure performed in Italy.
+
+Do not infer that a transaction is outside general-government expenditure merely because it is not visible as an ordinary ministry chapter at the point of cash movement. Conversely, do not infer that every Treasury transfer or budget appropriation is final public expenditure. ESA 2010 classification depends on the institutional unit and economic substance of the transaction; recording is accrual-based. Financial transactions, grants, tax credits, equity and loans require transaction-specific treatment.
+
+Internal transfers and transfers returned to the State budget must be eliminated in consolidated flow reconciliations. Budget commitments, cash payments, final-beneficiary expenditure and R&D performance are distinct stages and must never be added together.
+
+GBARD is the bridge to public R&D budget allocations: ISTAT derives central-government data using initial and adjusted State-budget forecasts acquired from RGS, while regional data are collected directly. GBARD is not realised GERD and is not a PNRR-only series. Use it as an aggregate allocation/plausibility check, not as a direct measure of PNRR-induced R&D.
