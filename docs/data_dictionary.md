@@ -181,4 +181,4 @@ One row represents either a beneficiary-level IPCEI participant or an aggregate 
 - `additionality_and_accounting_note`: counterfactual, double-counting and accounting caveats.
 - `source_url`, `source_reference`: provenance.
 
-The current register has 35 records: 24 IPCEI participant/CUP records plus 11 workstream/aggregate records. A participant or selected project is not proof of final concession, payment, eligible R&D or additionality.
+The current register has 36 records: 24 IPCEI participant/CUP records plus 12 workstream/aggregate records, including a Q4 2024 aggregate concession record. A participant or selected project is not proof of final concession, payment, eligible R&D or additionality.
