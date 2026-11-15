@@ -55,26 +55,49 @@ Specific annex evidence:
 - **M6C2 Investment 2.1 / biomedical research:** funds Proof of Concept and research initiatives on rare diseases, rare cancers and other high-impact diseases; target of at least 200 funded projects (annex pp. 390–393; target code M6C2-3).
 - **M1C2 Investment 1 / Transition 4.0:** the annex describes tax credits for tangible and intangible capital goods, R&D and innovation activities, and training (annex pp. 99–101). Aggregate Transition 4.0 credit counts or fiscal cost are not R&D expenditure.
 
+## MUR implementation and financial reconstruction — first completed extraction
+
+**Primary administrative source:** MUR / PNRR Fifth Report, Section II (administrations' implementation reports), relevant pages 299–316. This is an implementation snapshot, not a substitute for CID annexes or audited actual expenditure. It reports measure envelopes and implementation evidence after the December 2023 plan revision.
+
+| Investment | Reported envelope | Implementation evidence | Preliminary R&D treatment |
+|---|---:|---|---|
+| M4C2 1.1 PRIN / PNR fund | EUR 1.800bn | EUR 1.38bn described as projects in being and EUR 0.42bn new projects; first PRIN call financed 3,753 projects with EUR 741.7m total (EUR 550m PNRR); second PNRR PRIN window EUR 420m and 1,780 further projects; 600m researcher hiring and 230m PNR within the in-being breakdown | High research relevance, but additionality is not equal to the PNRR allocation |
+| M4C2 1.2 young researchers | EUR 210m | Supports 850 young researchers; EUR 220m call in 2022, with later MSCA/Seal of Excellence and ERC/postdoc lines | High direct R&D, verify actual research performance in Italy |
+| M4C2 1.3 extended partnerships | EUR 1.610bn | 14 partnerships awarded about EUR 1.6bn; 1,400 fixed-term researcher recruitment expected | High; research plus technology transfer and ecosystem activities |
+| M4C2 1.4 National Centres | EUR 1.600bn | Five centres awarded about EUR 1.59bn | High; split R&D from infrastructure, start-up support and other services |
+| M4C2 1.5 innovation ecosystems | EUR 1.2428bn | 11 ecosystems awarded about EUR 1.24bn | Medium/high; split research and infrastructure from training, start-up support and local engagement |
+| M4C2 3.1 research and innovation infrastructures | EUR 1.5781bn | 33 research infrastructures and 24 technological/innovation infrastructures funded (57 total) | Partial; infrastructure expenditure is not automatically GERD |
+| M4C2 3.3 innovative doctorates | EUR 510m | 6,000 innovative doctoral scholarships; Ministry contribution per scholarship increased from EUR 30,000 to EUR 60,000 | Partial; research labour and costs only, not training as a whole |
+| M4C1 4.1 research / innovative doctorates | EUR 504m revised envelope | 6,576 scholarships reported for first two cycles: 3,374 PNRR research doctorates, 2,640 PA doctorates and 562 cultural-heritage doctorates | Partial; the research-doctorate subcategory is the relevant candidate, not the whole envelope |
+
+**Important correction to the earlier screening:** the original national financial plan listed EUR 432m for M4C1 Investment 4.1, whereas the MUR Fifth Report after the December 2023 revision reports EUR 504m. Both values are retained as different vintages; the 72m difference must be reconciled against the successive CID annexes and budgetary/implementing acts. Do not silently overwrite the original value.
+
+For M4C2 1.1, the MUR DD 1567 annex decomposes the EUR 1.38bn projects-in-being envelope as EUR 600m researcher recruitment, EUR 230m PNR and EUR 550m PRIN, with EUR 420m new projects. These are national programmes incorporated into the RRF plan; their inclusion does not prove that the expenditure is additional to the pre-PNRR baseline.
+
+The seven MUR M4C2 envelopes above sum to approximately EUR 8.551bn, consistent with the MUR headline of EUR 8.55bn for “Dalla ricerca all'impresa”. This is a consistency check on programme envelopes, not an estimate of R&D expenditure.
+
+Source: https://www.mur.gov.it/sites/default/files/2025-04/PNRR_Quinta_Relazione_al_Parlamento_Sezione-II.pdf, pp. 299–316. Additional PNR/PRIN breakdown: https://www.mur.gov.it/sites/default/files/2022-10/Decreto%20Direttoriale%20n.%201567%20-%20Allegato%201.pdf, section 4.2.2, Table 7.
+
 ## Preliminary R&D classification
 
 | Investment | Preliminary classification | Treatment |
 |---|---|---|
-| M4C2 Investment 1.1 PNR/PRIN | High | Direct research funding and researcher employment; test pre-existing projects and additionality |
-| M4C2 Investment 1.3 extended partnerships/basic research | High | Direct research and business R&D; classify project activities and eligible costs |
-| M4C2 Investment 1.4 national R&D leaders | High | R&D centres; separate research from equipment, construction and services |
-| M4C2 Investment 2.3 technology transfer centres | Medium | Include only R&D performed; exclude pure transfer, advisory and commercialisation services |
-| M4C2 Investment 3.1 research and innovation infrastructures | High / partial | Infrastructure enables R&D; construction and asset acquisition are not themselves GERD |
+| M4C2 Investment 1.1 PNR/PRIN | High | EUR 1.8bn envelope; separate EUR 1.38bn projects-in-being from EUR 0.42bn new projects; test additionality and research performance |
+| M4C2 Investment 1.2 young researchers | High | EUR 210m; direct research projects performed in Italy; verify grant-level performance and employment |\n| M4C2 Investment 1.3 extended partnerships/basic research | High | EUR 1.61bn; direct research and business R&D; classify project activities and eligible costs |
+| M4C2 Investment 1.4 national R&D leaders | High | EUR 1.60bn; R&D centres; separate research from equipment, construction and services |
+| M4C2 Investment 1.5 innovation ecosystems | Medium / high | EUR 1.243bn; identify research activity within mixed ecosystem spending |\n| M4C2 Investment 2.3 technology transfer centres | Medium | Include only R&D performed; exclude pure transfer, advisory and commercialisation services |
+| M4C2 Investment 3.1 research and innovation infrastructures | High / partial | EUR 1.578bn; 33 research and 24 technology/innovation infrastructures; construction and asset acquisition are not themselves GERD |\n| M4C2 Investment 3.3 innovative doctorates | Medium / partial | EUR 510m; 6,000 innovative doctoral scholarships; include research labour/performance only |
 | M4C2 Investment 1.5 innovation ecosystems | Medium / high | Identify research projects and researcher costs; exclude networking and coordination not qualifying as R&D |
 | M4C2 Investment 3.2 DTF | Indirect / unquantified | Track portfolio-company R&D; fund equity injection is not R&D |
 | M2C2 Investment 5.4 GTF | Indirect / unquantified | Track portfolio-company R&D; green investment is not automatically R&D |
 | M1C2 Investment 1 Transition 4.0 | Partial | Isolate R&D tax-credit and eligible R&D expenditure; exclude generic capital-goods credits |
-| M4C1 Investment 4.1 research doctorates | Medium | Identify actual research performed and research labour costs; exclude training-only component |
+| M4C1 Investment 4.1 research doctorates | Medium / partial | Revised MUR envelope EUR 504m (original financial plan EUR 432m); identify actual research performed and exclude PA/cultural heritage and training-only elements |
 | M6C2 Investment 2.1 biomedical research | High | Direct research grants; map awards and expenditure by year of performance |
 
 ## Initial financial evidence and gaps
 
 - The original national financial plan identifies EUR 1.8 billion for M4C2 Investment 1.1 (PNR/PRIN), including EUR 1.38 billion in “projects in being” and EUR 0.42 billion in new projects. MUR implementation documentation decomposes the in-being component into researcher hiring, PNR and PRIN funding. This is an important additionality risk: incorporation of an existing national programme into the PNRR does not establish that all associated expenditure is incremental.
-- The original national financial plan lists EUR 432 million for M4C1 Investment 4.1 on research doctorates and innovative doctorates. This is a programme envelope, not a GERD estimate.
+- MUR's 2024 implementation report reports EUR 504 million for M4C1 Investment 4.1 after the December 2023 revision, compared with EUR 432 million in the original national financial plan. The difference remains to be reconciled against CID annexes. The MUR report records 6,576 awards in the first two cycles, of which 3,374 are PNRR research doctorates; the full envelope is not GERD.
 - The latest CID annex records EUR 400 million for DTF and EUR 250 million for GTF as fund-transfer milestones. These are financial transactions and must not enter the R&D shock directly.
 - The latest annex records EUR 309 million for technology transfer centres as a disbursement target. The R&D-eligible portion remains to be identified.
 - Measure-level initial and revised allocations for the remaining candidates have not yet been reconciled across all CID annexes. No missing amount has been imputed.
