@@ -87,3 +87,9 @@ Code should be modular, tested and deterministic where possible. Raw data should
 ## Status
 
 **Stage 0 — Repository and research architecture.** No quantitative R&D shock estimate has yet been produced.
+
+
+## Industrial project-level register
+
+- [Industrial R&D project register](data/processed/industrial_rd_project_register.csv) — 24 IPCEI participant/CUP records plus implementation records for space, strategic supply chains, net-zero, technology transfer and PoC.
+- [Expanded policy measure screening](docs/policy_measure_screening.md) — source-backed eligibility/exclusion decisions and project-level data priorities.
