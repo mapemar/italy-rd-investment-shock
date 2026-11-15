@@ -101,3 +101,11 @@ Record durable decisions here so that work does not depend on conversation histo
 
 
 | D014 | 2026-11-15 | Expand the candidate inventory beyond direct research measures to include mixed industrial, space, health-data, IP/PoC, IPCEI, innovation-agreement, net-zero and boundary/control measures. Maintain separate R&D-eligibility, domestic-performance and additionality factors; do not apply a blanket haircut. |
+
+
+## D015 — Use beneficiary/CUP-level implementation register for industrial measures
+
+- **Date:** 2026-11-15.
+- **Decision:** Maintain a separate project register for industrial measures. Use the 4 November 2025 MIMIT IPCEI list (including CUPs) as the current participant crosswalk, and retain the 28 June 2023 list as historical evidence.
+- **Rationale:** Participant status, concession, payment, eligible R&D cost and R&D performance are distinct stages. The MIMIT 2025 monitoring report supplies aggregate implementation data but does not provide all beneficiary-level R&D costs.
+- **Implication:** Match CUPs to concession decrees and work packages; keep national co-financing separate from PNRR. For aggregate-only data (space, supply chains, centres, PoC), record the source vintage and do not invent beneficiary identities or project-level amounts.
