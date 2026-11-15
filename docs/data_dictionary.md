@@ -21,6 +21,10 @@ This document defines the initial logical data model. Physical schemas may be re
 | measure_id | string | Stable internal ID |
 | measure_name | string | Official/common measure name |
 | pnrr_measure_code | string, nullable | CID/PNRR identifier |
+| programme | category | PNRR / Cohesion Policy / EIC / other explicitly approved EU programme |
+| funding_origin | category | EU / national co-financing / mixed |
+| in_core_scope | boolean | Whether included in the PNRR-plus-associated-co-financing core |
+| optional_programme_enabled | boolean | Whether an optional EU programme is enabled for the run |
 | component | string, nullable | PNRR component |
 | subcomponent | string, nullable | PNRR subcomponent |
 | channel | category | direct_public_rd / business_rd_incentive / venture_finance / enabling |
@@ -84,6 +88,9 @@ All monetary observations must include currency, unit, price basis, reference ye
 - `funding_source`
 - `funding_programme`
 - `national_or_eu`
+- `funding_origin_detail` (PNRR EU contribution / directly associated national co-financing / Cohesion Policy / EIC / other)
+- `programme`
+- `in_core_scope`
 - `gross_or_net`
 - `reallocation_or_revision_flag`
 - `source_reference`
@@ -103,6 +110,7 @@ All monetary observations must include currency, unit, price basis, reference ye
 - `price_basis`
 - `value`
 - `currency_or_ppp`
+- `constant_price_base_year` (2019 for the project's constant-price series)
 - `metadata_url`
 - `extraction_date`
 - `revision_or_break_note`
@@ -133,8 +141,10 @@ All monetary observations must include currency, unit, price basis, reference ye
 - `funding_source`
 - `rd_type`
 - `amount_eur_mn_current`
-- `amount_eur_mn_constant`
-- `constant_price_base_year`
+- `amount_eur_mn_constant_2019`
+- `constant_price_base_year` (2019)
+- `output_concept` (additional_domestic_rd_performed / publicly_financed_rd_performed)
+- `programme_scope` (pnrr_core / expanded_eu_programmes)
 - `share_of_gdp`
 - `observed_or_estimated`
 - `method_version`
@@ -142,4 +152,4 @@ All monetary observations must include currency, unit, price basis, reference ye
 
 ## 9. Controlled vocabularies
 
-Use controlled values and document extensions. Do not mix sector of performance and funding source in one field. Null means unknown/not available; zero means an observed or estimated zero and must not be used as a missing-value substitute.
+Use controlled values and document extensions. For output concepts, publicly financed R&D is a subset/view of domestic R&D performed and must not be added to it. Do not mix sector of performance and funding source in one field. Null means unknown/not available; zero means an observed or estimated zero and must not be used as a missing-value substitute.
