@@ -2,7 +2,7 @@
 
 ## Research question
 
-How much additional R&D expenditure in Italy has been generated, or is expected to be generated, by the PNRR and associated national policy interventions relative to a defined counterfactual?
+How much additional R&D expenditure in Italy has been generated, or is expected to be generated, by PNRR measures and their directly associated national co-financing, relative to a defined counterfactual? An optional, separately identifiable extension may include other EU programmes such as Cohesion Policy and the European Innovation Council (EIC).
 
 ## Workstreams
 
@@ -16,10 +16,13 @@ How much additional R&D expenditure in Italy has been generated, or is expected 
 - Map each policy measure to its legal basis and implementing acts.
 - Review annual Budget Laws and relevant budget annexes.
 - Track initial and revised appropriations, reallocations, national co-financing, commitments and payments.
-- Distinguish PNRR resources from national resources and avoid double counting.
+- Include national co-financing only where directly associated with an in-scope PNRR measure.
+- Exclude unrelated national measures outside the PNRR.
+- Avoid double counting between EU and national financing of the same intervention.
 
 ### WS3 — Statistical baseline
-- Eurostat and OECD historical R&D data.
+- Eurostat and OECD historical R&D data, targeting annual coverage from 2015 to 2024.
+- Retain nominal values and derive constant-price values with 2019 as the reference year.
 - GERD, BERD, GOVERD, HERD, funding sources and type of R&D.
 - GBARD and relevant budget statistics.
 - Metadata, revisions, units, prices, coverage and breaks.
@@ -33,7 +36,13 @@ Classify each intervention by policy channel, activity eligibility, performing s
 - Develop conservative, central and high-impact scenarios.
 - Run sensitivity and aggregation checks.
 
-### WS6 — Macroeconomic model interface
+### WS6 — Programme perimeter and optional EU extension
+- Default: PNRR measures plus directly associated national co-financing.
+- Optional configuration switch to include Cohesion Policy programmes and EIC support.
+- Keep programme-level outputs separately identifiable and provide PNRR-only and expanded-EU-programme totals.
+- Do not include unrelated national measures outside the PNRR.
+
+### WS7 — Macroeconomic model interface
 - Obtain the model equations, variable definitions, units and timing conventions.
 - Map the modular shock series to the required inputs.
 - Document any mismatch between the evidence dataset and model requirements.
