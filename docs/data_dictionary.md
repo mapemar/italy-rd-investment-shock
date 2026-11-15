@@ -182,3 +182,30 @@ One row represents either a beneficiary-level IPCEI participant or an aggregate 
 - `source_url`, `source_reference`: provenance.
 
 The current register has 36 records: 24 IPCEI participant/CUP records plus 12 workstream/aggregate records, including a Q4 2024 aggregate concession record. A participant or selected project is not proof of final concession, payment, eligible R&D or additionality.
+
+
+## Budget and execution datasets
+
+### `pnrr_treasury_flow_snapshots.csv`
+
+Cumulative public-source snapshots of PNRR Treasury movements and implementation transfers. These are not annual time series and must not be summed across snapshot dates.
+
+- `snapshot_date`: date to which the cumulative amount refers.
+- `reference_period`: period covered by the cumulative snapshot.
+- `flow_level`: Treasury accounts, implementation transfers, implementation reporting or PNC.
+- `indicator`: reported financial-flow concept.
+- `amount_eur_bn`: amount in EUR billions.
+- `source_url`, `source_note`: traceability and interpretation.
+- `status`: reported or approximate reported value.
+
+### `openbdap_budget_dataset_register.csv`
+
+Register of identified RGS OpenBDAP datasets for annual budget-law and final-account expenditure by chapter, plus a historical aggregate series. Dataset IDs and URLs are source identifiers; the annual panel must be extracted and harmonised before analysis.
+
+### Reconciliation principles
+
+- Do not sum Budget Law appropriations, Treasury transfers, ReGiS reported expenditure and ESA expenditure.
+- Competence, cash and residuals are separate fields.
+- Internal transfers and transfers returned to the State budget are not final expenditure.
+- A budget chapter is not R&D solely because its title contains research/innovation terminology.
+- GBARD is a budget-allocation measure, not realised GERD.
