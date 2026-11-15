@@ -13,6 +13,11 @@ How much additional R&D expenditure in Italy has been generated, or is expected 
 - Relevant Commission, Council and Italian Government implementation documents.
 
 ### WS2 — Legal and budgetary reconstruction
+- Build a harmonised 2020–2026 State-budget panel from RGS OpenBDAP Budget Laws, notes of variation, approved adjustments and Rendiconti at chapter level.
+- Reconstruct PNRR Treasury-account flows (accounts 25091/25092) and Group 286 special-account transfers separately from ordinary budget chapters.
+- Reconcile transfers to implementing bodies with ReGiS expenditure declared and approved; eliminate internal transfers and transfers returned to the State budget.
+- Keep State-budget accounting, Treasury cash movements and ESA 2010 general-government transactions distinct.
+- Use ISTAT GBARD as an aggregate cross-check of public R&D budget allocations, not as realised GERD or a PNRR-only measure.
 - Map each policy measure to its legal basis and implementing acts.
 - Review annual Budget Laws and relevant budget annexes.
 - Track initial and revised appropriations, reallocations, national co-financing, commitments and payments.
