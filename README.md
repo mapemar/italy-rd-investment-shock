@@ -84,9 +84,14 @@ Read these files first:
 
 Code should be modular, tested and deterministic where possible. Raw data should not be silently overwritten. Generated outputs should record input versions, parameters and execution date. Do not commit credentials, tokens, personal data or restricted institutional material.
 
+## Project overview and dashboard
+
+- [Interactive Research Dashboard](dashboard/index.html) — project status, workstream overview, selected PNRR economy charts, Treasury return profile, measure table and local CSV explorer.
+- [Project status and next actions](docs/project_status.md) — management summary of completed work, evidence milestones, analytical gaps and priorities.
+
 ## Status
 
-**Stage 0 — Repository and research architecture.** No quantitative R&D shock estimate has yet been produced.
+**Research architecture and substantial policy screening completed; budget reconstruction and statistical baseline in progress. No annual estimate of additional R&D expenditure has yet been produced.**
 
 
 ## 2026 Budget Law and PNRR economies
