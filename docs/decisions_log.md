@@ -69,3 +69,32 @@ Record durable decisions here so that work does not depend on conversation histo
 
 - **OD001:** Select the preferred deflator for conversion to 2019 prices after reviewing Eurostat/OECD metadata and the macroeconomic model requirements.
 - **OD002:** Confirm whether the model additionally requires funding-commitment series alongside expenditure-performed series.
+
+
+## D010 — Measure screening must be broader than explicit R&D labels
+
+- **Status:** Adopted.
+- **Decision:** Initial screening covers M4C1, M4C2, potentially R&D-relevant measures in M6, and M1C2 measures such as R&D tax credits and the Digital and Green Transition Funds. The screening is not a presumption that every euro in these components is R&D.
+- **Rationale:** Relevant research activity may be embedded in education, health, business incentives and financial instruments.
+- **Implication:** Assess each investment/measure and, where necessary, each eligible activity or beneficiary expenditure line against the Frascati definition.
+
+## D011 — Version-aware CID comparison
+
+- **Status:** Adopted.
+- **Decision:** Use the original 2021 CID and annex as the starting point and the latest adopted 2026 CID and annex as the end point, while retaining intermediate adopted revisions for change tracking.
+- **Rationale:** The annex has been replaced/amended multiple times; a simple comparison of two files may conceal when and why a measure changed.
+- **Implication:** Build a measure crosswalk with stable IDs, version-specific codes, descriptions, envelopes, milestones, targets and status. Do not assume measure codes or descriptions remain unchanged.
+
+## D012 — Italia Domani as implementation and project-level source
+
+- **Status:** Adopted.
+- **Decision:** Use Italia Domani, including its open-data catalogue, calls/notices and project/financial monitoring information, to complement CID and legal sources.
+- **Rationale:** CID defines the approved plan, while implementation data and calls provide information on beneficiaries, procedures, projects and actual progress.
+- **Implication:** Record dataset version, extraction date, project/measure identifiers and coverage limitations; do not treat portal data as a substitute for primary legal or accounting evidence.
+
+## D013 — Preserve cash, ESA accrual and R&D performance timing separately
+
+- **Status:** Adopted.
+- **Decision:** Record appropriations, commitments, cash payments, ESA accrual recognition where relevant, beneficiary eligible expenditure and the year of R&D performance as distinct time dimensions.
+- **Rationale:** ESA 2010 accrual accounting supports government fiscal statistics, but it does not provide a universal conversion of cash disbursements into the year in which firms, universities or hospitals perform R&D.
+- **Implication:** The macroeconomic R&D shock is assigned to the year of R&D performance where observable. Apply transaction-specific ESA rules for fiscal reconciliation, particularly for tax credits, grants and financial instruments. Never use a mechanical cash-to-accrual multiplier.
