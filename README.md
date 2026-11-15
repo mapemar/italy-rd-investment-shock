@@ -24,8 +24,11 @@ The analysis must distinguish policy commitments, budget appropriations, commitm
 ## Scope
 
 - Geography: Italy.
-- Historical statistical baseline: target 2015–2024, subject to source availability and methodological consistency.
-- Policy focus: PNRR 2021, subsequent revisions including the 2026 revision, related national legislation and budget laws.
+- Historical statistical coverage: target 2015–2024, subject to source availability and methodological consistency.
+- Constant-price reference year: 2019 (nominal series will also be retained).
+- Policy focus: PNRR 2021 and subsequent revisions, including national co-financing directly associated with PNRR measures.
+- Optional extension: other EU programmes, initially Cohesion Policy and the European Innovation Council (EIC), controlled through an explicit inclusion setting.
+- Exclusion: national measures outside the PNRR are outside the default scope.
 - Projection / shock horizon: target 2025–2030, with observed and estimated values clearly separated.
 - Statistical framework: Eurostat and OECD, with Frascati Manual definitions as the reference for R&D classification.
 
@@ -52,8 +55,9 @@ The analysis must distinguish policy commitments, budget appropriations, commitm
 4. Reconstruct the annual financial profile of each intervention.
 5. Build and validate the official R&D statistical baseline.
 6. Estimate the R&D-relevant and additional components using transparent assumptions.
-7. Produce scenarios and an annual shock dataset.
-8. Map the resulting variables to the macroeconomic model once its specification is available.
+7. Produce separate annual series for additional domestic R&D performed in Italy and the publicly financed component, with no double counting.
+8. Produce scenarios and an annual shock dataset.
+9. Map the resulting variables to the macroeconomic model once its specification is available.
 
 ## Evidence and traceability
 
