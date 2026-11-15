@@ -238,3 +238,19 @@ Fund-level inventory for DTF and GTF. It records PNRR codes, stated envelopes, d
 - Do not count the same capital once at fund level and again at portfolio-company level.
 - VC investment is not automatically R&D. Count only evidenced Frascati-eligible R&D performed in Italy, allocated to the performance year.
 - Treat Law 193/2024 Article 33 as an enabling reform to institutional VC investment, not as direct public R&D expenditure.
+
+
+## Temporal dimensions and year fields
+
+Do not use a single generic `year` field to mix policy implementation, R&D performance and financial flows. Where relevant, retain separate fields:
+
+- `policy_start_year`, `policy_end_year`: measure-specific eligibility and implementation period.
+- `rd_performance_year`: year in which eligible R&D is actually performed; this drives the annual R&D shock.
+- `budget_authorisation_year`: year of budget authority.
+- `commitment_year`: year of legal/administrative commitment.
+- `cash_flow_year`: year of payment, transfer or Treasury movement.
+- `esa_recording_year`: year of ESA 2010 recording.
+- `flow_type`: implementation / financing / repayment / return_to_budget / other.
+- `post_pnrr_tail_flag`: identifies post-2026 records that relate to an in-scope measure or financing instrument but are not automatically PNRR implementation.
+
+**Default PNRR implementation window:** 2020–2026. The 2027–2028 entries in the EUR 7.102bn Treasury return profile are return-to-budget cash/budget flows, not R&D performance or new PNRR implementation. The shock's primary annual series is therefore 2020–2026; a post-2026 R&D tail is included only when supported by evidence of actual eligible R&D performance in Italy.
