@@ -74,8 +74,10 @@ Classify each intervention by policy channel, activity eligibility, performing s
 
 ## Initial tasks
 
-1. Confirm whether the repository is intended to cover only PNRR measures or also complementary national measures and non-PNRR policies introduced during 2021–2026.
-2. Collect the original and revised CID documents and build a version-aware measure crosswalk.
-3. Inventory the existing Eurostat workbook supplied by the project owner before downloading duplicate data.
-4. Build a source register before bulk document extraction.
-5. Agree the annual accounting basis and price basis before aggregation.
+1. Download the original 2021 CID and annex and the latest 2026 adopted CID and annex from the Commission Italy country page; preserve intermediate revisions for change tracking.
+2. Build a version-aware crosswalk of measure codes, descriptions, milestones, targets and financial envelopes between the 2021 and 2026 annexes.
+3. Screen M4C1, M4C2, potentially R&D-relevant M6 measures, and M1C2 measures including the R&D tax credit and the Digital/Green Transition Funds.
+4. Use Italia Domani open data, calls and notices, project records and financial-monitoring datasets to trace implementation and beneficiaries.
+5. For every selected measure, reconstruct the legal and financial chain through all relevant annual Budget Laws and implementing acts.
+6. Preserve cash payments, commitments, ESA accrual timing and beneficiary R&D performance as distinct concepts; do not apply a mechanical cash-to-accrual conversion.
+7. Inventory the existing Eurostat workbook before downloading duplicate data.
