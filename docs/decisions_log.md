@@ -136,3 +136,12 @@ Record durable decisions here so that work does not depend on conversation histo
 - **Decision:** Include the Digital Transition Fund (M4C2 I3.2), Green Transition Fund (M2C2 I5.4) and Law 193/2024 Article 33 in the policy inventory under venture finance / start-up ecosystem and institutional-capital mobilisation.
 - **Rationale:** Both funds support start-ups/SMEs directly and indirectly through venture funds, and the Competition Law introduces incentives/requirements intended to mobilise institutional investment in venture-capital funds.
 - **Implication:** Show VC financing and start-up creation in the extended innovation-finance dashboard, but do not equate total VC investments with GERD. Count only evidenced R&D performed in Italy, in the relevant performance year, and estimate additionality separately. Preserve fund commitments, capital calls, portfolio-company investments and private co-investment as distinct flows. The DTF envelope discrepancy (EUR 300m vs EUR 400m across MIMIT pages) and any claimed 2x leverage remain unresolved and must not be assumed.
+
+
+## D019 — Clarify DTF scale-up and indirect leverage evidence
+
+- **Date:** 2026-11-15.
+- **Status:** Adopted.
+- **Decision:** Treat the DTF's EUR 400m as the revised envelope following the EUR 100m scale-up from the original EUR 300m allocation in the December 2023 CID. Record a minimum cumulative 1x1 private-capital leverage condition for the indirect investment channel only, as stated in the July 2024 DTF indirect-investment call.
+- **Rationale:** The MIMIT overview page still displays the initial EUR 300m, while the updated PNRR measure page, CDP fund page and implementation reporting state EUR 400m. The DTF indirect call explicitly requires private investors to commit at least an amount equal to the DTF investment.
+- **Implication:** Do not describe the DTF envelope as an unresolved EUR 300m/EUR 400m discrepancy. Do not generalise the indirect 1x1 condition to direct investments or describe it as a 2x multiplier. Direct-investment leverage remains unverified.
