@@ -118,3 +118,12 @@ Record durable decisions here so that work does not depend on conversation histo
 - **Decision:** Reconstruct annual State-budget appropriations and outturns, dedicated PNRR Treasury flows and ESA 2010 general-government transactions as three linked but distinct layers. Use OpenBDAP chapter-level datasets and parliamentary monitoring reports; use GBARD as an aggregate public-R&D-allocation cross-check.
 - **Rationale:** PNRR financing is channelled through dedicated Treasury accounts and special accounting arrangements, so it is not necessarily visible as a single line of final expenditure in annual Budget Laws. This does not imply that the underlying transaction is outside the general-government perimeter. Cash transfers, budget payments, beneficiary expenditure and R&D performed are different concepts.
 - **Implication:** Eliminate internal transfers; preserve competence, cash, commitments, residuals, ReGiS declared/approved expenditure, ESA treatment and R&D performance separately. Do not use Treasury outflows or transfers as proxies for final expenditure or R&D.
+
+
+## D017 — Treat PNRR relabelling and economies separately from new expenditure
+
+- **Date:** 2026-11-15.
+- **Status:** Adopted.
+- **Decision:** Record separately nationally financed expenditure relabelled as PNRR, Treasury returns, ministry-level economies and measure-level economies.
+- **Rationale:** The November 2025 PNRR revision included approximately EUR 6.5bn of expenditure already financed under national legislation and largely incurred in previous years. The 2026 Budget Law provides for EUR 7.102bn of returns from NGEU Treasury accounts over 2026–2028. Separate parliamentary annexes identify EUR 1,587.510m of ministry-level economies and a further EUR 1,698m measure-level cohort.
+- **Implication:** Do not count relabelled national expenditure as additional PNRR spending; do not treat Treasury returns as negative expenditure in the return year; do not assign ministry-level economies to R&D measures without the RGS/ReGiS breakdown; do not treat programme economies as negative GERD.
