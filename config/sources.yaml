@@ -18,6 +18,15 @@ project:
 
 source_families:
   pnrr:
+    commission_country_page: https://reforms-investments.ec.europa.eu/recovery-and-resilience-facility-1/country-pages/italys-recovery-and-resilience-plan_en
+    original_cid_2021:
+      council_register_document_number: 10160/21
+      annex_document_number: ST 10160 2021 ADD 1 REV 2
+      source_url: https://www.consilium.europa.eu/en/documents/public-register/public-register-search/?DocumentNumber=10160%2F21
+    latest_cid_2026:
+      adopted_version: August 2026
+      source_page: https://reforms-investments.ec.europa.eu/recovery-and-resilience-facility-1/country-pages/italys-recovery-and-resilience-plan_en
+      note: Use the adopted Council Implementing Decision and annex, not only the Commission proposal. Preserve the March 2026 and intermediate revisions for version history.
     - name: Original Italian PNRR
       institution: Government of Italy
       expected_material: plan, annexes, measure tables
@@ -37,6 +46,14 @@ source_families:
     eic:
       enabled_by_default: false
       expected_material: EIC Pathfinder, Transition and Accelerator grant/equity components, award and beneficiary data
+  implementation:
+    italiadomani:
+      portal: https://www.italiadomani.gov.it/
+      open_data_catalogue: https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html
+      expected_material: measures, projects, implementing bodies, tenders, awardees, calls and notices, financial framework, milestones and targets, implementation progress
+    mimit_pnrr_incentives:
+      portal: https://www.mimit.gov.it/it/pnrr/agevolazioni-pnrr
+      expected_material: R&D tax credit, business incentives, venture-capital funds and PNRR implementation information
   legislation_and_budget:
     - name: Italian Budget Laws
       institution: Government of Italy
@@ -44,6 +61,11 @@ source_families:
     - name: Implementing legislation
       institution: Relevant Italian administrations
       expected_material: decrees, allocation acts, implementing rules
+  accounting:
+    esa_2010_eurostat_methodology: https://ec.europa.eu/eurostat/web/government-finance-statistics/methodology
+    manual_on_government_deficit_and_debt_2022: https://ec.europa.eu/eurostat/documents/3859598/16029761/KS-GQ-23-002-EN-N.pdf
+    mef_rgs_openbdap_cash_and_national_accounts: https://openbdap.rgs.mef.gov.it/Home/ContiPubbliciContabilitaNazionale
+    note: Preserve cash, commitments, ESA accrual recognition and beneficiary R&D performance as separate timing fields.
   statistics:
     eurostat:
       candidate_datasets:
