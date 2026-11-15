@@ -175,3 +175,10 @@ The project should not attempt to derive ESA expenditure mechanically from Treas
 This first pass establishes that the data architecture exists and that the PNRR cash-to-reporting chain can be quantified from public parliamentary material. It does **not** yet provide a complete annual 2020–2026 measure-level series, nor does it prove the ESA classification of each PNRR transaction.
 
 The next validation gate is the extraction of the actual OpenBDAP annual files and the mapping of relevant chapters and treasury flows to the existing PNRR measure inventory. No R&D shock coefficient or annual R&D expenditure estimate should be produced until this reconciliation and the Frascati eligibility assessment are complete.
+
+
+## 10. September 2026 economy data and OpenBDAP availability
+
+The September 2026 parliamentary dossier on DL 162/2026 provides a measure-level table of EUR 1,698m of additional economies identified from ReGiS at 10 September 2026. The R&D-relevant subset has been extracted to `data/processed/pnrr_measure_economies_sep2026.csv`. A separate February 2026 ministry-level annex under DL 19/2026 (EUR 1,587.510m) is stored in `data/processed/pnrr_ministry_economies_feb2026.csv`. Do not merge or allocate the ministry-level totals to individual measures without the RGS breakdown.
+
+On 15 November 2026, the OpenBDAP catalogue landing page returned a notice of extraordinary maintenance. The annual dataset register is therefore a register of identified sources, not evidence that all raw annual files have been downloaded. Extraction and validation of chapter-level rows remains pending catalogue restoration.
