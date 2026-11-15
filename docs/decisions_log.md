@@ -98,3 +98,6 @@ Record durable decisions here so that work does not depend on conversation histo
 - **Decision:** Record appropriations, commitments, cash payments, ESA accrual recognition where relevant, beneficiary eligible expenditure and the year of R&D performance as distinct time dimensions.
 - **Rationale:** ESA 2010 accrual accounting supports government fiscal statistics, but it does not provide a universal conversion of cash disbursements into the year in which firms, universities or hospitals perform R&D.
 - **Implication:** The macroeconomic R&D shock is assigned to the year of R&D performance where observable. Apply transaction-specific ESA rules for fiscal reconciliation, particularly for tax credits, grants and financial instruments. Never use a mechanical cash-to-accrual multiplier.
+
+
+| D014 | 2026-11-15 | Expand the candidate inventory beyond direct research measures to include mixed industrial, space, health-data, IP/PoC, IPCEI, innovation-agreement, net-zero and boundary/control measures. Maintain separate R&D-eligibility, domestic-performance and additionality factors; do not apply a blanket haircut. |
