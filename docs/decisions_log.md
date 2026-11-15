@@ -127,3 +127,12 @@ Record durable decisions here so that work does not depend on conversation histo
 - **Decision:** Record separately nationally financed expenditure relabelled as PNRR, Treasury returns, ministry-level economies and measure-level economies.
 - **Rationale:** The November 2025 PNRR revision included approximately EUR 6.5bn of expenditure already financed under national legislation and largely incurred in previous years. The 2026 Budget Law provides for EUR 7.102bn of returns from NGEU Treasury accounts over 2026–2028. Separate parliamentary annexes identify EUR 1,587.510m of ministry-level economies and a further EUR 1,698m measure-level cohort.
 - **Implication:** Do not count relabelled national expenditure as additional PNRR spending; do not treat Treasury returns as negative expenditure in the return year; do not assign ministry-level economies to R&D measures without the RGS/ReGiS breakdown; do not treat programme economies as negative GERD.
+
+
+## D018 — Include DTF/GTF and institutional VC reform as a separate innovation-finance channel
+
+- **Date:** 2026-11-15.
+- **Status:** Adopted.
+- **Decision:** Include the Digital Transition Fund (M4C2 I3.2), Green Transition Fund (M2C2 I5.4) and Law 193/2024 Article 33 in the policy inventory under venture finance / start-up ecosystem and institutional-capital mobilisation.
+- **Rationale:** Both funds support start-ups/SMEs directly and indirectly through venture funds, and the Competition Law introduces incentives/requirements intended to mobilise institutional investment in venture-capital funds.
+- **Implication:** Show VC financing and start-up creation in the extended innovation-finance dashboard, but do not equate total VC investments with GERD. Count only evidenced R&D performed in Italy, in the relevant performance year, and estimate additionality separately. Preserve fund commitments, capital calls, portfolio-company investments and private co-investment as distinct flows. The DTF envelope discrepancy (EUR 300m vs EUR 400m across MIMIT pages) and any claimed 2x leverage remain unresolved and must not be assumed.
