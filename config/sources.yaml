@@ -1,8 +1,18 @@
 # Initial source catalogue. Add exact document URLs and dataset identifiers as they are verified.
 project:
   geography: IT
-  historical_baseline_start: 2015
-  historical_baseline_end: 2024
+  historical_coverage_start: 2015
+  historical_coverage_end: 2024
+  constant_price_reference_year: 2019
+  retain_nominal_series: true
+  policy_scope:
+    core: pnrr_plus_directly_associated_national_cofinancing
+    exclude_unrelated_national_measures: true
+    optional_eu_programmes:
+      enabled: false
+      programmes:
+        - cohesion_policy
+        - eic
   shock_horizon_start: 2015
   shock_horizon_end: 2030
 
@@ -20,6 +30,13 @@ source_families:
     - name: Council Implementing Decision 2026
       institution: Council of the European Union
       expected_material: revised CID and annexes
+  other_eu_programmes:
+    cohesion_policy:
+      enabled_by_default: false
+      expected_material: programmes, priorities, calls, selected operations, payments and R&D-relevant beneficiary expenditure
+    eic:
+      enabled_by_default: false
+      expected_material: EIC Pathfinder, Transition and Accelerator grant/equity components, award and beneficiary data
   legislation_and_budget:
     - name: Italian Budget Laws
       institution: Government of Italy
