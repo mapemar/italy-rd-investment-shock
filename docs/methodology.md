@@ -247,3 +247,21 @@ Record separately:
 The November 2025 PNRR revision replaced approximately EUR 6.5bn of measures with nationally financed expenditure already provided for under existing legislation and largely incurred in previous years. This expenditure must not be treated as new PNRR-induced expenditure when relabelled. The 2026 Budget Law provides for EUR 7.102bn of returns from NGEU Treasury accounts over 2026–2028. Treat this as a financing/budget operation, not as new negative spending in the year of return.
 
 The February 2026 ministry-level economy annex totals EUR 1,587.510m but does not identify individual measures. The September 2026 measure-level economy annex identifies a further EUR 1,698m cohort, with measure-level data. Keep the two cohorts separate until their relationship with the 2026 Budget Law return and the legal/accounting perimeter is reconciled. An economy is not a negative GERD observation; a zero economy does not prove full expenditure or R&D performance.
+
+
+## 12. Temporal architecture: PNRR implementation versus post-2026 fiscal flows
+
+The core PNRR implementation window is 2020–2026. Under Article 17(2) of Regulation (EU) 2021/241, measures initiated from 1 February 2020 may be eligible; the Facility's implementation deadline for milestones and targets was 31 August 2026, with final Commission payments due by 31 December 2026. The 2020–2026 window is therefore the principal policy and implementation period for the PNRR analysis.
+
+Do not interpret every year appearing in a budget or Treasury dataset as a year of PNRR implementation or R&D performance. Maintain distinct time dimensions:
+
+1. **Policy eligibility / implementation period:** normally 2020–2026 for PNRR measures, with measure-specific start and end dates.
+2. **R&D performance year:** year in which Frascati-eligible R&D is actually performed in Italy. This is the year assigned to the R&D shock.
+3. **Budget authorisation / commitment year:** year in which the relevant State-budget authorisation or commitment is recorded.
+4. **Cash-flow / Treasury year:** year in which a transfer, payment, return or cash movement occurs.
+5. **ESA recording year:** year in which the transaction is recorded under ESA 2010 rules.
+6. **Post-2026 financial tail:** 2027 and later may appear in budget or cash records because of repayment/return profiles, financial instruments, guarantees, loan maturities, final accounting or other national-budget consequences. These years must not be automatically classified as new PNRR implementation or new R&D performance.
+
+In particular, the EUR 7.102bn return of NGEU Treasury resources under the 2026 Budget Law (EUR 5.943bn in 2026, EUR 1.000bn in 2027 and EUR 0.159bn in 2028) is a budget/financing flow. The 2027–2028 amounts are not a continuation of the PNRR implementation period and must not be entered as negative R&D expenditure or new PNRR investment in those years.
+
+The R&D shock dataset should initially report annual PNRR-attributable R&D performance for 2020–2026, and may extend beyond 2026 only where evidence shows that an in-scope financial instrument or project actually finances eligible R&D performed in Italy after the PNRR implementation deadline. Such post-2026 R&D must be identified as a separately evidenced tail, not assumed from a budget profile.
