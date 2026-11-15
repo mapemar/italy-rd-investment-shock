@@ -114,3 +114,79 @@ Suggested treatment hierarchy:
 ### Source-review caveat
 
 Official MIMIT and Ministry of Health project pages provide a useful measure-level inventory, but the CID history remains the legal source of measure identity, scope and revisions. All amounts above are programme allocations or target amounts, not actual R&D expenditure. The original 2021 CID, each adopted amendment and the August 2026 CID must still be reconciled measure by measure before final quantitative aggregation.
+
+
+## Project-level reconstruction: MIMIT industrial and technology measures
+
+### Source base and vintage
+
+The principal implementation source used in this pass is the MIMIT *Relazione semestrale 2025 – Report di monitoraggio del PNRR MIMIT*, reporting September 2025 and using ReGiS extracts (including a territorial table updated 6 August 2025 and implementation tables at 30 June 2025). It is not a substitute for beneficiary payment data or annual R&D accounts, but it provides a materially better bridge from allocations to selected projects, commitments and implementation.
+
+Official source: https://www.mimit.gov.it/images/stories/documenti/allegati/pnrr/30092025_Mimit_Report_Semestrale_aggiornato_Def_061125.pdf
+
+### IPCEI: beneficiary-level register established
+
+The MIMIT decree of 4 November 2025 updates the participant list first published on 28 June 2023. It lists 24 participants across five IPCEIs: Hy2Tech (7), Hy2Use (3), Hy2Move (1), Microelectronics/Communication Technologies (ME/CT, 6) and Cloud Infrastructure and Services (CIS, 7). The updated decree includes CUP identifiers and reflects withdrawals/changes compared with the 2023 list. The 24 beneficiary-level records are in `data/processed/industrial_rd_project_register.csv`.
+
+Sources:
+- Updated participant list: https://www.mimit.gov.it/images/stories/normativa/DD_4_novembre_2025_per_web.pdf
+- MIMIT IPCEI measure: https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-ipcei-progetti
+
+Important accounting distinction: being listed as a participant is not evidence of final aid concession or R&D expenditure. The updated decree explicitly states that inclusion does not itself confer a right or advantage, and that PNRR funding is assigned by subsequent concession decrees; projects funded under another PNRR measure are excluded from this allocation. This is a key double-counting control.
+
+MIMIT's September 2025 report states that, at Q4 2024, seven concession operations for Hy2Tech/Hy2Use totalled approximately EUR 581m; six ME/CT concession operations totalled approximately EUR 450m; and seven CIS operations totalled approximately EUR 250m. It also reports one Hy2Move project whose PNRR financing was still being perfected. These are concession amounts and vintage-specific, not actual R&D expenditure or cash paid.
+
+For ME/CT, the current MIMIT page identifies EUR 629.82m PNRR and EUR 437.095m national resources within a total EUR 1.0669bn activation. For CIS, the corresponding figures are EUR 270.18m PNRR and EUR 187.426m national resources within EUR 457.606m. Do not attribute the national co-financing to the PNRR-only shock; record it in a separate public-finance layer. The full IPCEI measure envelope remains EUR 1.5bn PNRR, but it should not be allocated proportionately across individual firms without concession-level evidence.
+
+### Space economy: split the EUR 1.487bn by workstream
+
+The MIMIT report gives the following PNRR allocations:
+- SatCom: EUR 210m;
+- Earth Observation: EUR 797m;
+- Space Factory / Access to Space: EUR 180m;
+- In-Orbit Economy: EUR 300m.
+
+The report distinguishes PNRR from PNC co-financing. For Earth Observation, additional PNC resources of EUR 273m (ESA), EUR 40m (ASI) and EUR 90m (CDP Space Venture) are explicitly excluded from the EUR 797m PNRR figure. For SatCom, a further EUR 110m PNC allocation is excluded from the PNRR amount.
+
+The most directly R&D-oriented space sub-line is Access to Space: EUR 120m assigned to ESA for research, development and prototyping of green propulsion/launcher technologies (Space Transportation System and High Trust Engine), including flight demonstration. Space Factory 4.0 received EUR 60m through ASI; its smart-factory design and digital twin elements may involve development, but factory construction, equipment and production-line assets should not be classified wholesale as GERD. Earth Observation includes upstream constellation design/development but also launches, procurement and downstream services. SatCom includes satellite and ground-segment procurement/qualification. In-Orbit Economy requires contract/work-package review.
+
+The MIMIT report also explains that the satellite programme is implemented through contracts between ASI/ESA and suppliers, with SAL-based reimbursement. This reinforces the need to map procurement contract work packages to the year and location of R&D performance.
+
+### Strategic supply chains and net-zero: project values are not R&D
+
+For M1C2 I5.2 (strategic production supply chains), the MIMIT report records:
+- 119 applications at closure, with EUR 4.780bn total investment and EUR 1.551bn requested aid;
+- 51 Development Contracts approved by 29 December 2023, activating EUR 1.588bn of investment;
+- subsequently four further approvals and two beneficiary withdrawals;
+- the June 2025 ReGiS table reports three projects in the concluded category, with EUR 83.187m in the relevant project-value column.
+
+The 3-project / EUR 83.187m figure is not an R&D amount and not a full inventory of the 51+ contracts. The project-level Development Contract database and approved cost schedules must be obtained from Invitalia/MIMIT to isolate R&D programmes.
+
+For M2C2 I5.1, the June 2025 CID revision consolidated predecessor measures into the current EUR 3.727bn investment. The MIMIT report identifies predecessor lines of EUR 2.0bn net-zero technologies, EUR 500m strategic supply chains, EUR 500m battery industry and EUR 500m renewable production capacity. Do not add these predecessor allocations on top of the current consolidated measure. At 30 June 2025, the ReGiS table records EUR 698.872m activated for the EUR 3bn net-zero sub-investment and EUR 500m activated for the EUR 500m strategic supply-chain sub-investment. These are resource activation figures, not R&D costs. The bulk of supported investment concerns manufacturing capacity, production assets and energy efficiency; only project work packages meeting Frascati qualify.
+
+### Industrial property and technology transfer: granular implementation data
+
+M1C2 I6 (EUR 30m total) comprises:
+- EUR 7.5m for technology transfer offices (UTT);
+- EUR 8.5m for Proof of Concept;
+- EUR 10m for Brevetti+;
+- EUR 4m for digital infrastructure (Knowledge Share and UIBM).
+
+MIMIT reports 178 PoC projects funded through 27 programmes involving 33 universities, 3 public research organisations and 7 IRCCS; 117 had received at least one payment by 30 June 2025. The UTT line had 93 admitted projects worth about EUR 7.06m, 82 with at least one payment. These are useful project counts, but only PoC activities meeting Frascati criteria should enter R&D. Patent support, patent administration, TTO capacity building and digital platforms are not automatically R&D.
+
+M4C2 I2.3 (technology-transfer centres) has EUR 350m in the September 2025 MIMIT report; an earlier MIMIT page vintage cited EUR 330m. The report records EUR 44.675m for 12 centre projects in its June 2025 ReGiS table. Reconcile the EUR 330m/350m vintages against the adopted CID before finalising the amount. Competence centres and EDIHs provide advanced technological services and technology transfer; only actual R&D conducted by the centres or participating firms qualifies.
+
+### Innovation Agreements and historical measure substitution
+
+M4C2 I2.2bis has a EUR 164m envelope and a target of at least 32 final reports accepted. The measure explicitly funds research, development and innovation projects in Horizon Europe Pillar II areas. The MIMIT report explains that the May 2024 CID replaced the former M4C2 I2.2 Horizon Europe partnership measure with selected Innovation Agreements that had originally been financed under the PNC. The predecessor is therefore retained in the inventory as a historical exited measure, not added as a separate current shock. Project-level tracking must identify any transfer from PNC to PNRR to avoid double counting.
+
+### Correction factors and data priorities
+
+The register does not apply blanket coefficients. Priority for beneficiary-level R&D-cost extraction:
+1. IPCEI concession decrees, project work packages and R&D/first-industrial-deployment cost schedules;
+2. Innovation Agreements final reports and cost schedules;
+3. Access to Space and Earth Observation contracts, distinguishing design/prototyping from procurement, launches and services;
+4. Development Contracts under M1C2 I5.2 and M2C2 I5.1, isolating eligible R&D costs;
+5. PoC projects and centre-level work packages under M1C2 I6 and M4C2 I2.3.
+
+Use the three factors separately: Frascati R&D eligibility, domestic performance and additionality. For IPCEI and industrial grants, the counterfactual should account for projects that would have proceeded with national funds or other aid; for PNC/PNRR substitutions, count only the incremental funding/performance attributable to the PNRR shock.
