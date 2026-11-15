@@ -224,3 +224,17 @@ Measure-level ReGiS budgets and economies reported in the parliamentary dossier 
 ### Interpretation
 
 Economies are not negative R&D spending observations. Zero economies do not prove full expenditure or Frascati eligibility. Keep February ministry-level and September measure-level cohorts distinct pending legal/accounting reconciliation with the 2026 Budget Law return.
+
+
+## Venture capital and start-up finance datasets
+
+### `venture_capital_funds.csv`
+
+Fund-level inventory for DTF and GTF. It records PNRR codes, stated envelopes, direct/indirect channels, leverage and deployment evidence status, R&D treatment, additionality requirements and official sources. DTF's EUR 300m / EUR 400m envelope discrepancy is intentionally unresolved. Blank deployment fields mean that actual deployed amounts have not yet been extracted; they are not zero.
+
+### R&D and capital-flow rules
+
+- Distinguish public fund commitment, capital call, third-party VC fund commitment, portfolio-company financing, private co-investment and actual company R&D expenditure.
+- Do not count the same capital once at fund level and again at portfolio-company level.
+- VC investment is not automatically R&D. Count only evidenced Frascati-eligible R&D performed in Italy, allocated to the performance year.
+- Treat Law 193/2024 Article 33 as an enabling reform to institutional VC investment, not as direct public R&D expenditure.
