@@ -57,6 +57,24 @@ source_families:
       portal: https://www.italiadomani.gov.it/
       open_data_catalogue_navigation: locate_from_portal_navigation
       expected_material: measures, projects, implementing bodies, tenders, awardees, calls and notices, financial framework, milestones and targets, implementation progress
+
+    mimit_implementation_report_2025:
+      name: MIMIT PNRR monitoring report, September 2025 (updated PDF)
+      source_url: https://www.mimit.gov.it/images/stories/documenti/allegati/pnrr/30092025_Mimit_Report_Semestrale_aggiornato_Def_061125.pdf
+      expected_material: ReGiS implementation tables, project counts, activated resources, IPCEI concessions, sub-investment workstreams, PoC and UTT implementation
+      vintage: September 2025 report; tables dated June-August 2025
+      note: Allocation, project value, activated resources and concessions are not R&D expenditure. Keep each concept and date separate.
+    mimit_ipcei_participant_register:
+      original_decree_url: https://www.mimit.gov.it/images/stories/normativa/mimit.AOO_PIT.REGISTRO_UFFICIALEU.0215132.28-06-2023_2.pdf
+      updated_decree_url: https://www.mimit.gov.it/images/stories/normativa/DD_4_novembre_2025_per_web.pdf
+      expected_material: Participant legal names, IPCEI category, status and CUP; updated 4 November 2025 list supersedes 28 June 2023 list for current beneficiary register
+      note: Participant listing is not proof of concession or R&D expenditure; match CUP to concession decrees and project cost reports.
+    mimit_ipcei_microelectronics_2:
+      source_url: https://www.mimit.gov.it/it/incentivi/ipcei-microelettronica-2
+      expected_material: PNRR and national co-financing, concession decrees, eligible beneficiaries, reporting and project implementation
+    mimit_ipcei_cloud:
+      source_url: https://www.mimit.gov.it/it/incentivi/ipcei-infrastrutture-e-servizi-cloud-cis
+      expected_material: PNRR and national co-financing, eligible beneficiaries, concession and implementation data
     mimit_pnrr_incentives:
       portal: https://www.mimit.gov.it/it/pnrr/agevolazioni-pnrr
       expected_material: R&D tax credit, business incentives, venture-capital funds and PNRR implementation information
