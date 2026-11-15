@@ -31,7 +31,7 @@ The RGS OpenBDAP open-data catalogue provides the following useful datasets. The
 | 2026 Budget Law, expenditure by chapter | `2026_LBF_SPE_ELB_CAP_001` | 2026 appropriations; 7,035 rows |
 | Historical final accounts, expenditure by mission/programme/macro-aggregate | `RND_SPE_CRU_MPMAC_001` | 2008–2025; 10,889 rows |
 
-The annual 2022 and 2025 Budget Law / 2026 final-account datasets, and the 2020–2022 and 2024 final-account datasets, should be retrieved from the same OpenBDAP catalogue using the corresponding year and document type. The 2008–2025 historical aggregate series is useful for continuity checks, but it is not a substitute for chapter-level annual data.
+The chapter-level OpenBDAP register now identifies Budget Law datasets for every year from 2020 through 2026 and final-account datasets for every year from 2020 through 2025. The 2026 final account will only become available after the close of that financial year and subsequent publication. The 2008–2025 historical aggregate series is useful for continuity checks, but it is not a substitute for chapter-level annual data.
 
 The 2025 chapter-level final-account dataset exposes 41 fields, including administration, chapter number and description, mission, programme, economic category, initial and final estimates, variations, amounts paid and amounts remaining to be paid. These field definitions must be checked against the dataset metadata before aggregation. The 2026 Budget Law chapter dataset exposes 27 fields, including the three-year competence and cash estimates.
 
