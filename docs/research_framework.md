@@ -87,3 +87,10 @@ Classify each intervention by policy channel, activity eligibility, performing s
 6. Preserve cash payments, commitments, ESA accrual timing and beneficiary R&D performance as distinct concepts; do not apply a mechanical cash-to-accrual conversion.
 7. Inventory the existing Eurostat workbook before downloading duplicate data.
 
+
+
+### WS8 — Venture capital and start-up ecosystem
+- Add the Digital Transition Fund (M4C2 I3.2) and Green Transition Fund (M2C2 I5.4), distinguishing direct investments from indirect fund commitments.
+- Track fund commitments, capital calls, portfolio-company investment, private co-investment and leverage separately; avoid double counting fund-level and company-level flows.
+- Add Law 193/2024 Article 33 as an institutional-capital mobilisation reform, not a direct R&D expenditure measure.
+- Link portfolio companies to R&D actually performed in Italy and classify eligible costs using Frascati principles. Until such evidence is available, report VC deployment as innovation finance and leave its R&D contribution unquantified.
