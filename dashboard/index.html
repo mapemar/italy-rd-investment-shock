@@ -55,7 +55,9 @@ const DATA=[
 {id:'economies',name:'PNRR measure economies · Sep 2026',file:'data/processed/pnrr_measure_economies_sep2026.csv',description:'Measure-level budget and economies based on the 10 September 2026 ReGiS snapshot.'},
 {id:'treasury',name:'PNRR Treasury flow snapshots',file:'data/processed/pnrr_treasury_flow_snapshots.csv',description:'Treasury inflows, outflows and related cash-flow indicators.'},
 {id:'ministry',name:'PNRR Ministry economies · Feb 2026',file:'data/processed/pnrr_ministry_economies_feb2026.csv',description:'Economies by central administration; not attributable to individual measures.'},
-{id:'openbdap',name:'OpenBDAP budget dataset register',file:'data/processed/openbdap_budget_dataset_register.csv',description:'Register of identified budget-law and final-account datasets; not the full chapter data.'}
+{id:'openbdap',name:'OpenBDAP budget dataset register',file:'data/processed/openbdap_budget_dataset_register.csv',description:'Register of identified budget-law and final-account datasets; not the full chapter data.'},
+{id:'macro_panel',name:'Annual measure-year macro shock panel',file:'data/processed/pnrr_measure_year_macro_panel.csv',description:'Blank 2020–2026 evidence panel for annual financial execution, R&D and macro variables; blank values are not zero.'},
+{id:'macro_matrix',name:'Macro transmission matrix',file:'data/processed/macro_transmission_matrix.csv',description:'Qualitative measure-to-macro-variable channels, lags, proxies and evidence requirements; not causal estimates.'}
 ];
 let loaded={},active=null,sort={col:null,dir:1},charts={};
 const $=id=>document.getElementById(id);
