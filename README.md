@@ -89,6 +89,12 @@ Code should be modular, tested and deterministic where possible. Raw data should
 **Stage 0 — Repository and research architecture.** No quantitative R&D shock estimate has yet been produced.
 
 
+## Budget and execution reconciliation
+
+- [Budget and PNRR execution reconciliation](docs/budget_execution_reconciliation.md) — State-budget chapter datasets, Treasury-account flows, ReGiS reporting and the GBARD bridge.
+- [PNRR Treasury-flow snapshots](data/processed/pnrr_treasury_flow_snapshots.csv) — sourced cumulative snapshots; not annual expenditure estimates.
+- [OpenBDAP budget dataset register](data/processed/openbdap_budget_dataset_register.csv) — identified RGS chapter-level and historical datasets.
+
 ## Industrial project-level register
 
 - [Industrial R&D project register](data/processed/industrial_rd_project_register.csv) — 24 IPCEI participant/CUP records plus implementation records for space, strategic supply chains, net-zero, technology transfer and PoC.
