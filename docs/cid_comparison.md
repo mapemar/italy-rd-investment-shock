@@ -90,7 +90,6 @@ Source: https://www.mur.gov.it/sites/default/files/2025-04/PNRR_Quinta_Relazione
 | M4C2 Investment 2.3 technology transfer centres | Medium | Include only R&D performed; exclude pure transfer, advisory and commercialisation services |
 | M4C2 Investment 3.1 research and innovation infrastructures | High / partial | EUR 1.578bn; 33 research and 24 technology/innovation infrastructures; construction and asset acquisition are not themselves GERD | 
 | M4C2 Investment 3.3 innovative doctorates | Medium / partial | EUR 510m; 6,000 innovative doctoral scholarships; include research labour/performance only |
-| M4C2 Investment 1.5 innovation ecosystems | Medium / high | Identify research projects and researcher costs; exclude networking and coordination not qualifying as R&D |
 | M4C2 Investment 3.2 DTF | Indirect / unquantified | Track portfolio-company R&D; fund equity injection is not R&D |
 | M2C2 Investment 5.4 GTF | Indirect / unquantified | Track portfolio-company R&D; green investment is not automatically R&D |
 | M1C2 Investment 1 Transition 4.0 | Partial | Isolate R&D tax-credit and eligible R&D expenditure; exclude generic capital-goods credits |
