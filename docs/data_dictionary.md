@@ -153,3 +153,15 @@ All monetary observations must include currency, unit, price basis, reference ye
 ## 9. Controlled vocabularies
 
 Use controlled values and document extensions. For output concepts, publicly financed R&D is a subset/view of domestic R&D performed and must not be added to it. Do not mix sector of performance and funding source in one field. Null means unknown/not available; zero means an observed or estimated zero and must not be used as a missing-value substitute.
+
+
+## 10. Candidate screening and correction factors
+
+The expanded policy inventory includes broad candidates and boundary/control measures. Inclusion in the inventory is not equivalent to inclusion in the quantified R&D shock.
+
+The inventory schema includes the following screening fields:
+- `rd_eligibility_share_factor`: share of the relevant beneficiary expenditure that meets the Frascati definition and is performed in Italy (0–1; estimate at project/activity level where possible).
+- `additionality_share_factor`: share of eligible R&D that is additional relative to the specified counterfactual (0–1).
+- `factor_status`: evidence status, estimation method and validation note.
+
+A blank factor is **not estimated**, not zero. Do not fill factors with generic coefficients across heterogeneous measures. Store low/central/high estimates, evidence, method and uncertainty in the separate Additionality parameter table. For mixed instruments, estimate the R&D eligibility share from project work packages and cost categories; estimate additionality separately. Where relevant, add a domestic-performance share and timing profile rather than embedding these concepts in a single haircut.
