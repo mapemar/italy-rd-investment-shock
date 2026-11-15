@@ -109,3 +109,12 @@ Record durable decisions here so that work does not depend on conversation histo
 - **Decision:** Maintain a separate project register for industrial measures. Use the 4 November 2025 MIMIT IPCEI list (including CUPs) as the current participant crosswalk, and retain the 28 June 2023 list as historical evidence.
 - **Rationale:** Participant status, concession, payment, eligible R&D cost and R&D performance are distinct stages. The MIMIT 2025 monitoring report supplies aggregate implementation data but does not provide all beneficiary-level R&D costs.
 - **Implication:** Match CUPs to concession decrees and work packages; keep national co-financing separate from PNRR. For aggregate-only data (space, supply chains, centres, PoC), record the source vintage and do not invent beneficiary identities or project-level amounts.
+
+
+## D016 — Separate State-budget, Treasury and ESA accounting views
+
+- **Date:** 2026-11-15.
+- **Status:** Adopted.
+- **Decision:** Reconstruct annual State-budget appropriations and outturns, dedicated PNRR Treasury flows and ESA 2010 general-government transactions as three linked but distinct layers. Use OpenBDAP chapter-level datasets and parliamentary monitoring reports; use GBARD as an aggregate public-R&D-allocation cross-check.
+- **Rationale:** PNRR financing is channelled through dedicated Treasury accounts and special accounting arrangements, so it is not necessarily visible as a single line of final expenditure in annual Budget Laws. This does not imply that the underlying transaction is outside the general-government perimeter. Cash transfers, budget payments, beneficiary expenditure and R&D performed are different concepts.
+- **Implication:** Eliminate internal transfers; preserve competence, cash, commitments, residuals, ReGiS declared/approved expenditure, ESA treatment and R&D performance separately. Do not use Treasury outflows or transfers as proxies for final expenditure or R&D.
