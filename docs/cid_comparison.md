@@ -133,3 +133,20 @@ Source: https://www.mur.gov.it/sites/default/files/2025-04/PNRR_Quinta_Relazione
 - August 2026 annex: ST 12357/26 ADD 1, relevant pages 99–103, 140, 227, 319–330 and 390–403.
 - MUR, DD 1567 and related annex on “progetti in essere”: https://www.mur.gov.it/sites/default/files/2022-10/Decreto%20Direttoriale%20n.%201567%20-%20Allegato%201.pdf
 - Original national financial plan (Camera dei deputati): https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/007/057/Allegato_I_Piano_Finanziario_PNRR_e_PNC.pdf
+
+
+## MIMIT implementation evidence and beneficiary-level reconstruction (September 2025 report; November 2025 IPCEI update)
+
+A new project register is available at `data/processed/industrial_rd_project_register.csv`. It contains 24 IPCEI participant records with CUPs from the 4 November 2025 updated MIMIT decree, plus aggregate project/workstream records for space, Development Contracts, net-zero, technology transfer and Proof of Concept.
+
+Key findings:
+- IPCEI: 24 participants across Hy2Tech, Hy2Use, Hy2Move, ME/CT and CIS. Participant status is not equivalent to a concession. MIMIT's 2025 report records circa EUR 581m concessions for Hy2Tech/Hy2Use, EUR 450m for ME/CT and EUR 250m for CIS at Q4 2024; one Hy2Move project was still being perfected. The 2025 updated list contains CUPs and must be the operational register.
+- ME/CT: EUR 629.82m PNRR + EUR 437.095m national resources. CIS: EUR 270.18m PNRR + EUR 187.426m national resources. National resources must be kept separate from the PNRR-only shock.
+- Space: EUR 1.487bn PNRR split SatCom EUR 210m, Earth Observation EUR 797m, Space Factory/Access to Space EUR 180m and In-Orbit Economy EUR 300m. The Access to Space component includes EUR 120m explicitly for R&D/prototyping; the EUR 60m Space Factory component is mixed with factory development/equipment.
+- M1C2 I5.2: MIMIT reports 119 applications, EUR 4.780bn investment, EUR 1.551bn requested aid; 51 Development Contracts approved by 29 December 2023 activating EUR 1.588bn investment. A June 2025 table records three completed projects with EUR 83.187m in the project-value field. None of these amounts is an R&D estimate.
+- M2C2 I5.1: the June 2025 CID consolidates predecessor lines (net-zero EUR 2bn, strategic supply chains EUR 500m, batteries EUR 500m, renewable capacity EUR 500m) into EUR 3.727bn. Do not double count predecessor measures. June 2025 activated resources were EUR 698.872m for net-zero and EUR 500m for strategic supply chains.
+- M1C2 I6: 178 PoC projects were funded through 27 programmes; 117 had at least one payment by 30 June 2025. UTT: 93 projects admitted for about EUR 7.06m, 82 with at least one payment.
+- M4C2 I2.3: September 2025 MIMIT report records EUR 350m (older MIMIT page vintage EUR 330m); 12 centre projects appear in ReGiS with EUR 44.675m at June 2025. Resolve the vintage against the CID.
+- M4C2 I2.2bis: EUR 164m, at least 32 final reports; the May 2024 CID replaced the former Horizon Europe partnership line with selected Innovation Agreements previously funded under PNC. Keep predecessor only in historical lineage.
+
+The figures above are programme envelopes, approved/activated resources, project counts or concession amounts—not GERD. They must not be summed into a single R&D shock.
