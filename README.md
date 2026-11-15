@@ -110,3 +110,9 @@ Code should be modular, tested and deterministic where possible. Raw data should
 
 - [Industrial R&D project register](data/processed/industrial_rd_project_register.csv) — 24 IPCEI participant/CUP records plus implementation records for space, strategic supply chains, net-zero, technology transfer and PoC.
 - [Expanded policy measure screening](docs/policy_measure_screening.md) — source-backed eligibility/exclusion decisions and project-level data priorities.
+
+
+## Venture capital and institutional-investor reform
+
+- [DTF and GTF fund-level evidence register](data/processed/venture_capital_funds.csv) — direct/indirect channels, envelope status, leverage and R&D evidence gaps.
+- [Venture capital and start-up finance methodology](docs/venture_capital_and_startup_finance.md) — treatment of DTF/GTF, portfolio-company R&D and Law 193/2024 Article 33.
