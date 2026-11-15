@@ -1,0 +1,145 @@
+# Data dictionary
+
+This document defines the initial logical data model. Physical schemas may be refined as source files are inspected. Do not silently rename or repurpose fields; record schema changes in the decision log.
+
+## 1. Core entities and identifiers
+
+| Entity | Primary key | Description |
+|---|---|---|
+| Policy measure | `measure_id` | Stable identifier for a policy intervention |
+| Document | `document_id` | Stable identifier for a source document/version |
+| Legal act | `legal_act_id` | Stable identifier for legislation or implementing act |
+| Budget record | `budget_record_id` | Measure- and year-specific financial observation |
+| Statistical observation | `observation_id` | Official R&D statistical observation |
+| Parameter | `parameter_id` | Estimation coefficient or assumption |
+| Shock observation | `shock_id` | Estimated additional R&D value by year and dimension |
+
+## 2. Policy measure table — proposed fields
+
+| Field | Type | Meaning |
+|---|---|---|
+| measure_id | string | Stable internal ID |
+| measure_name | string | Official/common measure name |
+| pnrr_measure_code | string, nullable | CID/PNRR identifier |
+| component | string, nullable | PNRR component |
+| subcomponent | string, nullable | PNRR subcomponent |
+| channel | category | direct_public_rd / business_rd_incentive / venture_finance / enabling |
+| implementing_body | string, nullable | Responsible administration |
+| start_year | integer, nullable | Expected/actual start |
+| end_year | integer, nullable | Expected/actual end |
+| r_and_d_eligibility | category | confirmed / partial / indirect / not_established |
+| performing_sector | category, nullable | Business / Government / Higher education / PNP |
+| funding_source | category, nullable | Government / Business / Higher education / PNP / Rest of world / mixed |
+| evidence_status | category | extracted / source_checked / validated / disputed |
+
+## 3. Document register — proposed fields
+
+- `document_id`
+- `document_title`
+- `institution`
+- `document_type`
+- `document_date`
+- `version_or_status`
+- `url`
+- `local_path` (optional)
+- `language`
+- `relevant_pages`
+- `retrieved_at`
+- `checksum_sha256` (where locally stored)
+- `access_or_licence_notes`
+
+## 4. Legal evidence table — proposed fields
+
+- `legal_act_id`
+- `document_id`
+- `act_type`
+- `act_number`
+- `act_date`
+- `article`
+- `paragraph`
+- `annex_or_table`
+- `effective_date`
+- `amends_or_implements`
+- `measure_id`
+- `evidence_excerpt`
+- `page_number`
+- `source_url`
+- `validation_status`
+
+## 5. Budget and expenditure table — proposed fields
+
+All monetary observations must include currency, unit, price basis, reference year and accounting stage.
+
+- `budget_record_id`
+- `measure_id`
+- `legal_act_id` (nullable)
+- `document_id`
+- `financial_year`
+- `amount`
+- `currency`
+- `unit` (EUR / thousand EUR / million EUR)
+- `price_basis` (current / constant)
+- `price_base_year` (nullable)
+- `financial_stage` (envelope / appropriation / commitment / payment / beneficiary_expenditure / tax_expenditure)
+- `funding_source`
+- `funding_programme`
+- `national_or_eu`
+- `gross_or_net`
+- `reallocation_or_revision_flag`
+- `source_reference`
+- `evidence_status`
+
+## 6. Statistical observation table — proposed fields
+
+- `observation_id`
+- `geo`
+- `year`
+- `dataset_code`
+- `indicator_code`
+- `performing_sector`
+- `funding_source`
+- `rd_type`
+- `unit`
+- `price_basis`
+- `value`
+- `currency_or_ppp`
+- `metadata_url`
+- `extraction_date`
+- `revision_or_break_note`
+
+## 7. Additionality parameter table — proposed fields
+
+- `parameter_id`
+- `measure_id` (nullable if channel-level)
+- `parameter_name` (utilisation / rd_relevance / additionality / leverage / timing)
+- `scenario` (low / central / high, with interpretation documented)
+- `value`
+- `unit`
+- `lower_bound`
+- `upper_bound`
+- `method`
+- `evidence_document_id`
+- `rationale`
+- `uncertainty_rating`
+- `review_status`
+
+## 8. Shock output table — proposed fields
+
+- `shock_id`
+- `year`
+- `scenario`
+- `channel`
+- `performing_sector`
+- `funding_source`
+- `rd_type`
+- `amount_eur_mn_current`
+- `amount_eur_mn_constant`
+- `constant_price_base_year`
+- `share_of_gdp`
+- `observed_or_estimated`
+- `method_version`
+- `run_id`
+
+## 9. Controlled vocabularies
+
+Use controlled values and document extensions. Do not mix sector of performance and funding source in one field. Null means unknown/not available; zero means an observed or estimated zero and must not be used as a missing-value substitute.
