@@ -1,0 +1,58 @@
+# Initial source catalogue. Add exact document URLs and dataset identifiers as they are verified.
+project:
+  geography: IT
+  historical_baseline_start: 2015
+  historical_baseline_end: 2024
+  shock_horizon_start: 2015
+  shock_horizon_end: 2030
+
+source_families:
+  pnrr:
+    - name: Original Italian PNRR
+      institution: Government of Italy
+      expected_material: plan, annexes, measure tables
+    - name: Council Implementing Decision 2021
+      institution: Council of the European Union
+      expected_material: CID and annexes
+    - name: Revised Italian PNRR
+      institution: Government of Italy
+      expected_material: revised plan and annexes
+    - name: Council Implementing Decision 2026
+      institution: Council of the European Union
+      expected_material: revised CID and annexes
+  legislation_and_budget:
+    - name: Italian Budget Laws
+      institution: Government of Italy
+      expected_material: laws, budget tables, financial annexes
+    - name: Implementing legislation
+      institution: Relevant Italian administrations
+      expected_material: decrees, allocation acts, implementing rules
+  statistics:
+    eurostat:
+      candidate_datasets:
+        - rd_e_gerdact
+        - rd_e_gerdtot
+      note: Verify dataset codes, dimensions, units and current metadata before extraction.
+    oecd:
+      candidate_topics:
+        - GERD
+        - BERD
+        - GOVERD
+        - HERD
+        - GERD by source of funds
+        - GERD by type of R&D
+        - GBARD
+      note: Resolve exact OECD dataset and indicator identifiers from current OECD metadata.
+  financial_instruments:
+    - CDP
+    - CDP Venture Capital
+    - European Investment Bank
+    - InvestEU
+
+evidence_requirements:
+  store_retrieval_date: true
+  store_document_version: true
+  store_page_or_provision: true
+  store_source_url: true
+  store_unit_and_price_basis: true
+  require_human_validation_for_final_estimates: true
