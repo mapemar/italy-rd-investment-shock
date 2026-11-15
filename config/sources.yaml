@@ -112,6 +112,17 @@ source_families:
     - European Investment Bank
     - InvestEU
 
+  state_budget_and_execution:
+    openbdap_catalogue: https://bdap-opendata.rgs.mef.gov.it/parola-chiave/capitolo
+    openbdap_historical_expenditure_mission_programme_macroaggregate: https://bdap-opendata.rgs.mef.gov.it/content/rendiconto-pubblicato-serie-storica-spese-aggregato-missione-programma-e-macroaggregato-0?metadati=showall
+    openbdap_2025_final_accounts_chapters: https://bdap-opendata.rgs.mef.gov.it/content/2025-rendiconto-pubblicato-elaborabile-spese-capitolo?metadati=showall
+    openbdap_2026_budget_law_chapters: https://bdap-opendata.rgs.mef.gov.it/content/2026-legge-di-bilancio-pubblicata-elaborabile-spese-capitolo?metadati=showall
+    camera_pnrr_treasury_and_reporting_monitoring_2026: https://documenti.camera.it/leg19/dossier/testi/CP0926R.htm
+    camera_2025_final_accounts_2026_adjustment: https://documenti.camera.it/leg19/dossier/testi/BI0295.htm
+    istat_gbard_report_2025: https://www.istat.it/wp-content/uploads/2025/09/REPORT_RS_2025.pdf
+    istat_rd_release_2024_2026: https://www.istat.it/comunicato-stampa/la-ricerca-e-lo-sviluppo-in-italia-anni-2024-2026/
+    expected_material: annual budget-law and final-account datasets by chapter, Treasury-account flows, Group 286 special-account transfers, ReGiS expenditure reporting and ISTAT GBARD
+    note: State budget, Treasury flows, ESA general-government accounts and R&D performed are distinct views. Eliminate internal transfers and never treat cash transfers as final expenditure or R&D.
 evidence_requirements:
   store_retrieval_date: true
   store_document_version: true
