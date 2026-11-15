@@ -22,9 +22,14 @@ source_families:
     original_cid_2021:
       council_register_document_number: 10160/21
       annex_document_number: ST 10160 2021 ADD 1 REV 2
-      source_url: https://www.consilium.europa.eu/en/documents/public-register/public-register-search/?DocumentNumber=10160%2F21
+      source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=consil:ST_10160_2021_ADD_1_REV_2
+      cid_source_url: https://data.consilium.europa.eu/doc/document/ST-10160-2021-INIT/en/pdf
     latest_cid_2026:
       adopted_version: August 2026
+      council_document: ST 12357/26
+      annex_document: ST 12357/26 ADD 1
+      cid_url: https://reforms-investments.ec.europa.eu/document/download/e723ee8a-267f-4e5b-b857-ead3be9dddbf_en?filename=COM_2026_434_1_EN_ACT_part1_v3.pdf
+      annex_url: https://reforms-investments.ec.europa.eu/document/download/0531155b-8019-459a-8892-7bb5a1cc5a69_en?filename=COM_2026_434_1_EN_annexe_proposition_cp_part1_v4.pdf
       source_page: https://reforms-investments.ec.europa.eu/recovery-and-resilience-facility-1/country-pages/italys-recovery-and-resilience-plan_en
       note: Use the adopted Council Implementing Decision and annex, not only the Commission proposal. Preserve the March 2026 and intermediate revisions for version history.
     source_documents:
@@ -50,7 +55,7 @@ source_families:
   implementation:
     italiadomani:
       portal: https://www.italiadomani.gov.it/
-      open_data_catalogue: locate_from_portal_navigation
+      open_data_catalogue_navigation: locate_from_portal_navigation
       expected_material: measures, projects, implementing bodies, tenders, awardees, calls and notices, financial framework, milestones and targets, implementation progress
     mimit_pnrr_incentives:
       portal: https://www.mimit.gov.it/it/pnrr/agevolazioni-pnrr
