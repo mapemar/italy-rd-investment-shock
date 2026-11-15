@@ -112,6 +112,10 @@ source_families:
     - European Investment Bank
     - InvestEU
 
+  pnrr_2026_budget_reconciliation:
+    camera_dl_19_2026_budget_revision_and_ministry_economies: https://documenti.camera.it/leg19/dossier/testi/D26019avol2.htm
+    camera_dl_162_2026_measure_level_economies: https://documenti.camera.it/leg19/dossier/testi/D26162.htm
+    note: 2026 Budget Law returns, national expenditure relabelled as PNRR, and ministry-/measure-level economies must be reconciled separately; do not infer R&D performance from economy data.
   state_budget_and_execution:
     openbdap_catalogue: https://bdap-opendata.rgs.mef.gov.it/parola-chiave/capitolo
     openbdap_historical_expenditure_mission_programme_macroaggregate: https://bdap-opendata.rgs.mef.gov.it/content/rendiconto-pubblicato-serie-storica-spese-aggregato-missione-programma-e-macroaggregato-0?metadati=showall
