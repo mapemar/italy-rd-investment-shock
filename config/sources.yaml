@@ -13,7 +13,7 @@ project:
       programmes:
         - cohesion_policy
         - eic
-  shock_horizon_start: 2015
+  shock_horizon_start: 2021
   shock_horizon_end: 2030
 
 source_families:
@@ -27,18 +27,19 @@ source_families:
       adopted_version: August 2026
       source_page: https://reforms-investments.ec.europa.eu/recovery-and-resilience-facility-1/country-pages/italys-recovery-and-resilience-plan_en
       note: Use the adopted Council Implementing Decision and annex, not only the Commission proposal. Preserve the March 2026 and intermediate revisions for version history.
-    - name: Original Italian PNRR
-      institution: Government of Italy
-      expected_material: plan, annexes, measure tables
-    - name: Council Implementing Decision 2021
-      institution: Council of the European Union
-      expected_material: CID and annexes
-    - name: Revised Italian PNRR
-      institution: Government of Italy
-      expected_material: revised plan and annexes
-    - name: Council Implementing Decision 2026
-      institution: Council of the European Union
-      expected_material: revised CID and annexes
+    source_documents:
+      - name: Original Italian PNRR
+        institution: Government of Italy
+        expected_material: plan, annexes, measure tables
+      - name: Council Implementing Decision 2021
+        institution: Council of the European Union
+        expected_material: CID and annexes
+      - name: Revised Italian PNRR
+        institution: Government of Italy
+        expected_material: revised plan and annexes
+      - name: Council Implementing Decision 2026
+        institution: Council of the European Union
+        expected_material: revised CID and annexes
   other_eu_programmes:
     cohesion_policy:
       enabled_by_default: false
@@ -49,7 +50,7 @@ source_families:
   implementation:
     italiadomani:
       portal: https://www.italiadomani.gov.it/
-      open_data_catalogue: https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html
+      open_data_catalogue: locate_from_portal_navigation
       expected_material: measures, projects, implementing bodies, tenders, awardees, calls and notices, financial framework, milestones and targets, implementation progress
     mimit_pnrr_incentives:
       portal: https://www.mimit.gov.it/it/pnrr/agevolazioni-pnrr
