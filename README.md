@@ -92,10 +92,12 @@ Code should be modular, tested and deterministic where possible. Raw data should
 
 - [Interactive Research Dashboard](dashboard/index.html) — project status, workstream overview, selected PNRR economy charts, Treasury return profile, measure table and local CSV explorer.
 - [Project status and next actions](docs/project_status.md) — management summary of completed work, evidence milestones, analytical gaps and priorities.
+- [First quantitative shock estimate](docs/first_quantitative_shock_estimate_nov2026.md) — GERD/GDP trend diagnostic, sectoral expenditure bridge and verified DTF/GTF investment evidence.
+- [First shock estimate dataset](data/processed/first_shock_estimate.csv) — machine-readable observations, calculations and proxy indicators.
 
 ## Status
 
-**Research architecture and substantial policy screening completed; budget reconstruction and statistical baseline in progress. No annual estimate of additional R&D expenditure has yet been produced.**
+**First quantitative diagnostic completed.** Aggregate and sectoral R&D trends, a pre-2020 trend benchmark and a partial DTF/GTF investment proxy are now documented. A full annual causal estimate of additional R&D expenditure remains in progress.
 
 
 ## 2026 Budget Law and PNRR economies
