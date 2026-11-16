@@ -79,7 +79,7 @@ Evidence inventory started. Fund-level allocation amounts are not measures of ac
 - MIMIT's updated DTF page confirms a EUR 400m fund-capital contribution (M4C2 I3.2), created by DM 11 March 2022, financial agreement 27 June 2022, and revised agreement 10 June 2024. It requires a report by Q2 2026 stating direct/indirect investments and amounts per financial product. The general MIMIT VC overview still shows EUR 300m and is stale relative to the updated project page; retain EUR 300m as the original allocation, EUR 400m as revised envelope.
 - MIMIT's GTF page confirms EUR 250m (M2C2 I5.4), DM 3 March 2022, agreement 27 June 2022, revised agreement 10 June 2024, and reporting of direct/indirect investment amounts.
 - Both funds provide equity, quasi-equity, debt or quasi-debt, directly or indirectly. Neither fund capital nor startup financing is itself GERD. Only underlying R&D actually performed in Italy can enter the R&D series.
-- DTF indirect investment call: the reviewed policy materials describe minimum private commitments at least equal to DTF commitment in the relevant indirect vehicle (1x1). This does not establish a universal 2x leverage ratio or a direct-investment leverage condition. The direct-investment leverage remains unverified; do not impute a multiple.
+- DTF indirect investment call: the reviewed policy materials describe minimum private commitments at least equal to DTF commitment in the relevant indirect vehicle (1x1). This does not establish a universal 2x leverage ratio or a direct-investment leverage condition. The direct-investment call does, however, provide that certain follow-on rounds may be subject to the presence of third-party investors, without specifying a minimum matching ratio. Thus direct co-investment is a contractual feature in qualifying follow-on rounds, but not a quantified leverage multiple. Do not impute a direct leverage coefficient.
 
 ## Historical PRIN baseline
 
@@ -104,3 +104,10 @@ Law 193/2024 Article 33 creates an enabling channel by linking favourable tax tr
 - MIMIT, DTF PNRR project page: https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-finanziamento-di-start-up
 - MIMIT, GTF PNRR project page: https://www.mimit.gov.it/it/pnrr/progetti-pnrr/pnrr-supporto-a-start-up-e-venture-capital-attivi-nella-transizione-ecologica
 - Law 193/2024 and subsequent clarifications: https://www.senato.it/show-doc?id=1468593&leg=19&part=dossier_dossier1-sezione_sezione12-h2_h270&tipodoc=DOSSIER
+
+
+## Direct DTF call: co-investment nuance
+
+The direct-investment invitation (CDP VC, updated 30 September 2024) allows DTF to obtain an option/right to subscribe in a future round, potentially more than pro rata, subject to milestones and approval. Where the SGR considers it economically sustainable, it may instead provide a binding commitment to participate in a subsequent round; that subsequent round must include third-party investors. The call does not specify a minimum third-party matching ratio. This is why the direct leverage field remains unquantified, even though third-party participation is a contractual condition in the relevant follow-on structure.
+
+Sources: [DTF direct investment invitation](https://www.mimit.gov.it/images/stories/documenti/Invito-PNRR-CDP_VC_DTF_DIRETTI_Clean_30.09.2024.pdf); [DTF indirect investment invitation](https://www.mimit.gov.it/images/stories/documenti/Invito-PNRR-CDP_VC_DTF_INDIRETTI_Clean_26.07.2024.pdf).
