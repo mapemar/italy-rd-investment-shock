@@ -128,3 +128,5 @@ Code should be modular, tested and deterministic where possible. Raw data should
 - [Historical R&D policy register](data/processed/historical_rd_policy_register.csv) — PRIN, FCS/FIT, innovation agreements, R&D tax credits, DTF/GTF and institutional VC reform.
 
 - [R&D tax credit evidence 2020–2022](data/processed/rd_tax_credit_evidence_2020_2022.csv) — accrued R&D&I credits and Istat tax-relief indicators, with scope caveats.
+
+- [OECD R&D tax-credit impact evidence](data/processed/rd_tax_credit_impact_evidence.csv) — Italy-specific causal estimates for 2007–09 and 2015–19, plus 2023 policy-mix statistic; not directly transferable to 2020–22.
