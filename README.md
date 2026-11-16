@@ -126,3 +126,5 @@ Code should be modular, tested and deterministic where possible. Raw data should
 
 - [Historical PRIN funding, 2007–2022](data/processed/prin_historical_funding_2007_2022.csv) — MUR-reported annual funding allocations.
 - [Historical R&D policy register](data/processed/historical_rd_policy_register.csv) — PRIN, FCS/FIT, innovation agreements, R&D tax credits, DTF/GTF and institutional VC reform.
+
+- [R&D tax credit evidence 2020–2022](data/processed/rd_tax_credit_evidence_2020_2022.csv) — accrued R&D&I credits and Istat tax-relief indicators, with scope caveats.
