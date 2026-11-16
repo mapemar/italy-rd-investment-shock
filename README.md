@@ -21,6 +21,10 @@ The project distinguishes four policy channels:
 
 The analysis must distinguish policy commitments, budget appropriations, commitments, disbursements, beneficiary expenditure and measured R&D activity. Additionality must be estimated against an explicit counterfactual, and uncertainty must be reported.
 
+## Research window and chronology
+
+The observation window is 2018–2030: 2018–2019 establish the pre-RRF baseline, 2020–2026 cover the RRF implementation window (subject to the measure-specific 1 February 2020 eligibility test), and 2027–2030 capture persistence and spillovers. Policy origin, legal basis, first implementation, PNRR inclusion and RRF eligibility are recorded separately. See [policy chronology and RRF eligibility](docs/policy_chronology_and_rrf_eligibility.md) and the [measure timeline register](data/processed/pnrr_measure_timeline.csv).
+
 ## Scope
 
 - Geography: Italy.
