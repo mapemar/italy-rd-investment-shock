@@ -287,3 +287,40 @@ Sources:
 - MEF/Bank of Italy/MIMIT, *Gli incentivi in investimenti 4.0: una valutazione dell'impatto della misura* (2024): https://img.innovationpost.it/wp-content/uploads/2024/11/29161253/Gli-incentivi-in-investimenti-4.0-una-valutazione-dellimpatto-della-misura.pdf
 - MIMIT, R&D tax credit legal and administrative overview: https://www.mimit.gov.it/it/incentivi/credito-d-imposta-r-s
 - Istat business R&D survey: https://www.istat.it/informazioni-sulla-rilevazione/ricerca-imprese/
+
+
+## 9. R&D tax-credit additionality: empirical evidence and transferability
+
+A separate evidence table, `data/processed/rd_tax_credit_impact_evidence.csv`, records Italy-specific OECD microBeRD+ estimates and a 2023 policy-mix indicator reported in the OECD Economic Survey 2026.
+
+### Historical causal estimates (OECD microBeRD+, 2023)
+
+The OECD reports difference-in-differences estimates for two distinct Italian tax-credit regimes:
+
+- **2007–2009 volume-based credit:** policy-change DiD; intramural R&D log ATT -0.061 (s.e. 0.032), reported incrementality ratio 0.59; sample 19,181 firm-years.
+- **2015–2019 incremental credit:** policy-uptake DiD; intramural R&D log ATT 0.389 (s.e. 0.016), R&D employment log ATT 0.279 (s.e. 0.009), extramural R&D log ATT 0.144 (s.e. 0.060); reported incrementality ratio 2.24; respective samples 90,371, 89,128 and 24,512 firm-years.
+
+These estimates are valuable Italy-specific evidence that tax-credit design and treatment matter. They are **not interchangeable**. In particular, the 2.24 ratio applies to the 2015–2019 incremental scheme, not automatically to the 2020-onward volume-based R&D&I tax credit. The 0.59 estimate concerns a different 2007–2009 regime. Do not use either as a point estimate for the 2020–2022 credit amounts. They may be used only as historical benchmark / sensitivity bounds, with an explicit transferability caveat.
+
+The OECD Economic Survey: Italy 2026 reports that tax incentives represented 64% of total government support to business R&D in 2023 (OECD average: 58%). This is a composition statistic, not an additionality coefficient and not the share of BERD financed by government.
+
+### Estimation design for the 2020-onward regime
+
+Preferred strategy:
+1. Obtain beneficiary-level administrative data on R&D, technological innovation and design tax-credit claims separately, ideally by firm, year and eligible cost category.
+2. Link claims to firm-level Istat R&D survey outcomes (intramural R&D, extramural R&D, R&D personnel), financial statements, employment and productivity.
+3. Construct treatment intensity from eligible credit actually accrued / eligible expenditure, not from the scheme's budget ceiling.
+4. Use a firm-level panel with firm and year fixed effects, and exploit variation in treatment intensity / eligibility thresholds / rate changes. Test pre-trends and anticipation.
+5. Where credible thresholds or eligibility discontinuities exist, use regression discontinuity or difference-in-discontinuities; otherwise use matched DiD / event-study and report identifying assumptions.
+6. Estimate heterogeneity by firm size, age, sector, profitability/tax capacity, region and whether the firm is a startup.
+7. Separate intramural R&D performed in Italy from extramural R&D purchased from providers; verify domestic location before including the latter in domestic R&D.
+8. Convert estimated causal effects into additional R&D by year of performance. Keep fiscal cost, credit accrual, F24 offsets and actual R&D performance as distinct series.
+
+### Interim modelling rule
+
+Until a causal estimate for the 2020-onward regime is obtained, the annual incremental R&D shock attributable to the 2020–2022 R&D&I tax credit remains **not estimated**. Do not multiply the observed €1.183bn / €1.379bn / €1.080bn corporate R&D&I credit amounts by 2.24. The published amounts combine R&D with technological innovation and design and the 2.24 coefficient belongs to a different, incremental scheme.
+
+Sources:
+- OECD (2023), *The Impact of R&D Tax Incentives: Results from the OECD microBeRD+ Project*, Table 18: https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/10/the-impact-of-r-d-tax-incentives_bc42ab04/1937ac6b-en.pdf
+- OECD (2026), *OECD Economic Surveys: Italy 2026*, section on business dynamism and public support to R&D: https://www.oecd.org/en/publications/oecd-economic-surveys-italy-2026_539538b2-en/full-report/enhancing-business-dynamism-to-raise-productivity_ec8ed53a.html
+- Banca d'Italia (2024), *Innovation and public support policies: a comparative analysis*, QEF No. 898: https://www.bancaditalia.it/pubblicazioni/qef/2024-0898/
