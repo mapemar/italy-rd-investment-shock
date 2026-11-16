@@ -132,3 +132,5 @@ Code should be modular, tested and deterministic where possible. Raw data should
 - [OECD R&D tax-credit impact evidence](data/processed/rd_tax_credit_impact_evidence.csv) — Italy-specific causal estimates for 2007–09 and 2015–19, plus 2023 policy-mix statistic; not directly transferable to 2020–22.
 
 - [Italy R&D macro baseline 2019–2025](data/processed/italy_rd_macro_baseline_2019_2025.csv) — Istat national R&D outcome series, sector breakdown and preliminary 2025 indicators.
+
+**Macro outcome convention:** the headline national outcome is GERD as a share of GDP (R&D intensity, percentage points); nominal and real GERD levels remain companion series. See [methodology](docs/methodology.md#11-main-macro-outcome-rd-intensity-as-a-share-of-gdp).
