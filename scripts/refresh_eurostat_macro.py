@@ -66,14 +66,15 @@ def main():
     # GDP: current-price level and chain-linked volume index. GDP deflator is
     # computed downstream as a proxy; it is not an R&D-specific price index.
     gdp_rows=[]
-    for unit in [" current prices, million euro","chain linked volumes, index 2020=100"]:
-        unit_code = "MIO_EUR" if unit.startswith(" current") else "CLV_I20"
+    for unit_code in ["CP_MEUR","CLV_I20"]:
         js,url=get_json("nama_10_gdp",{"freq":"A","unit":unit_code,"geo":"IT","na_item":"B1GQ",
             "sinceTimePeriod":str(START),"untilTimePeriod":str(END)})
         gdp_rows += unpack(js,"nama_10_gdp",url,"na_item",unit_code)
     with (OUT/"eurostat_gdp_italy_2010_2024.csv").open("w",newline="",encoding="utf-8") as f:
         w=csv.DictWriter(f,fieldnames=HEADERS);w.writeheader();w.writerows(gdp_rows)
-    print(f"Saved {len(rows)} GERD intensity observations and {len(gdp_rows)} GDP observations.")
+    print(f"Saved {len(rows)} GERD intensity observations and {len(gdp_rows)} GDP observations (expected up to {2*(END-START+1)}).")
+    if len(rows) == 0 or len(gdp_rows) == 0:
+        raise RuntimeError("Eurostat returned an empty core series; refusing to publish empty datasets.")
 
 if __name__ == "__main__":
     main()
