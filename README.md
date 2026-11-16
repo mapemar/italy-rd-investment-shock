@@ -94,10 +94,12 @@ Code should be modular, tested and deterministic where possible. Raw data should
 - [Project status and next actions](docs/project_status.md) — management summary of completed work, evidence milestones, analytical gaps and priorities.
 - [First quantitative shock estimate](docs/first_quantitative_shock_estimate_nov2026.md) — GERD/GDP trend diagnostic, sectoral expenditure bridge and verified DTF/GTF investment evidence.
 - [First shock estimate dataset](data/processed/first_shock_estimate.csv) — machine-readable observations, calculations and proxy indicators.
+- [PNRR R&D execution evidence](data/processed/pnrr_rd_execution_evidence.csv) — measure-/administration-level cumulative ReGiS and Court of Auditors snapshots.
+- [Innovation Agreements 2026 pipeline](data/processed/innovation_agreements_2026_pipeline.csv) — 23 signed projects with stated R&D costs and public contributions.
 
 ## Status
 
-**First quantitative diagnostic completed.** Aggregate and sectoral R&D trends, a pre-2020 trend benchmark and a partial DTF/GTF investment proxy are now documented. A full annual causal estimate of additional R&D expenditure remains in progress.
+**Execution evidence expanded.** The project now includes PRIN cumulative expenditure at end-2024, MUR/MIMIT ReGiS execution snapshots at end-November 2025, and 23 signed 2026 Innovation Agreements with stated R&D costs. These are cumulative execution/pipeline observations, not yet an annual causal R&D shock series.
 
 
 ## 2026 Budget Law and PNRR economies
