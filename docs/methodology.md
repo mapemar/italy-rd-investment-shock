@@ -324,3 +324,38 @@ Sources:
 - OECD (2023), *The Impact of R&D Tax Incentives: Results from the OECD microBeRD+ Project*, Table 18: https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/10/the-impact-of-r-d-tax-incentives_bc42ab04/1937ac6b-en.pdf
 - OECD (2026), *OECD Economic Surveys: Italy 2026*, section on business dynamism and public support to R&D: https://www.oecd.org/en/publications/oecd-economic-surveys-italy-2026_539538b2-en/full-report/enhancing-business-dynamism-to-raise-productivity_ec8ed53a.html
 - Banca d'Italia (2024), *Innovation and public support policies: a comparative analysis*, QEF No. 898: https://www.bancaditalia.it/pubblicazioni/qef/2024-0898/
+
+
+## 10. National R&D macro baseline (Istat)
+
+The processed file `data/processed/italy_rd_macro_baseline_2019_2025.csv` records the official national outcome series, separated by indicator and observation status.
+
+### Intra-muros GERD
+- 2019: EUR 26,259.661 million; 1.46% GDP.
+- 2020: EUR 25,028.257 million; 1.50% GDP.
+- 2021: EUR 25,991.328 million; 1.41% GDP.
+- 2022: EUR 27,286.216 million; 1.37% GDP.
+- 2023: EUR 29,399.402 million; 1.37% GDP.
+- 2024: EUR 31,043.211 million; 1.40% GDP (latest revised Istat September 2026 release).
+
+The 2019–2023 figures come from Istat's 2025 Statistical Yearbook (national accounts vintage September 2025). The 2024 value is from the September 2026 Istat release. The latter is a revised vintage: do not treat the older 2024 preliminary estimate of EUR 30,414.964 million (1.38% GDP) as the current observation. The dashboard uses the 2026 vintage for 2024 and flags this break.
+
+### 2024 performing-sector decomposition
+- Business enterprises: EUR 17,565.795 million.
+- Government institutions: EUR 4,575.193 million.
+- Higher education: EUR 8,351.861 million.
+- Private non-profit: EUR 550.362 million.
+- Total: EUR 31,043.211 million.
+
+R&D personnel amounted to 352,333.4 full-time equivalents, of which 188,317 in enterprises, 47,718.8 in government, 108,592 in higher education and 7,705.6 in private non-profit.
+
+### Preliminary 2025 information
+Istat reports preliminary sector-specific growth rates for 2025: business R&D -2.6%, government institutions +6.2%, and private non-profit +6.4%. No total GERD growth rate is inferred from these partial sector indicators. Do not extrapolate or sum them to construct a national total.
+
+### Interpretation
+The series measures R&D performed in Italy (intra-muros), irrespective of funding source. It is the macro outcome, not a measure of PNRR impact. Nominal values must be deflated before interpreting real growth or estimating a real R&D shock. Sector of performance and source of funds are distinct dimensions; public funding of business R&D does not mean the public sector performed that R&D.
+
+Sources:
+- Istat, *La ricerca e sviluppo in Italia – Anni 2024–2025*, 24 September 2026: https://www.istat.it/wp-content/uploads/2026/09/REPORT_RS_2026.pdf
+- Istat, *Annuario Statistico Italiano 2025*, Chapter 21, Table 21.1: https://www.istat.it/storage/ASI/2025/capitoli/C21.pdf
+- Eurostat, `rd_e_gerdtot`, GERD by sector of performance: https://ec.europa.eu/eurostat/databrowser/view/rd_e_gerdtot/default/table
