@@ -59,7 +59,8 @@ const DATA=[
 {id:'macro_panel',name:'Annual measure-year macro shock panel',file:'data/processed/pnrr_measure_year_macro_panel.csv',description:'Blank 2020–2026 evidence panel for annual financial execution, R&D and macro variables; blank values are not zero.'},
 {id:'macro_matrix',name:'Macro transmission matrix',file:'data/processed/macro_transmission_matrix.csv',description:'Qualitative measure-to-macro-variable channels, lags, proxies and evidence requirements; not causal estimates.'},
 {id:'snapshots2025',name:'Official MUR & MIMIT implementation snapshots · Nov 2025',file:'data/processed/pnrr_implementation_snapshots_2025.csv',description:'Cumulative official snapshot: administration totals and selected financial instruments; not an annual R&D series.'},
-{id:'fund_events',name:'DTF & GTF fund-manager transfer events',file:'data/processed/pnrr_fund_transfer_events.csv',description:'Dated DTF/GTF capital transfer milestones to CDP Venture Capital SGR; not portfolio-company R&D.'}
+{id:'fund_events',name:'DTF & GTF fund-manager transfer events',file:'data/processed/pnrr_fund_transfer_events.csv',description:'Dated DTF/GTF capital transfer milestones to CDP Venture Capital SGR; not portfolio-company R&D.'},
+{id:'timeline',name:'Policy chronology & RRF eligibility register',file:'data/processed/pnrr_measure_timeline.csv',description:'One row per measure; policy origin, first implementation, PNRR inclusion and RRF eligibility dates to be verified.'}
 ];
 let loaded={},active=null,sort={col:null,dir:1},charts={};
 const $=id=>document.getElementById(id);
