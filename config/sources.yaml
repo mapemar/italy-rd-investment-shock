@@ -145,3 +145,17 @@ evidence_requirements:
     institutional_vc_reform_senate_dossier: https://www.senato.it/show-doc?id=1463045&leg=19&part=dossier_dossier1-sezione_sezione8-h2_h22&tipodoc=DOSSIER
     mimit_made_in_italy_2030: https://www.mimit.gov.it/images/stories/documenti/Made_in_Italy_2030_-_Per_una_nuova_strategia_industriale.pdf
     note: DTF initially had EUR 300m and was scaled up by EUR 100m in the December 2023 CID to EUR 400m; some MIMIT overview pages retain the original EUR 300m. The DTF indirect investment call requires private investors to commit at least an amount equal to the DTF investment, i.e. cumulative minimum leverage of 1x1; do not generalise this condition to direct investments without the relevant call. VC is not automatically R&D; only evidenced portfolio-company R&D performed in Italy may enter the R&D shock.
+
+  rd_tax_credit:
+    istat_2015_2020:
+      url: https://www.istat.it/comunicato-stampa/gli-incentivi-alle-imprese-per-la-ricerca-e-sviluppo-anni-2015-2020/
+      content: Istat analysis of tax-credit and Patent Box effects, 2015-2020; combined tax-relief ratios only in press note.
+    mef_bdi_mimit_transizione_40:
+      url: https://img.innovationpost.it/wp-content/uploads/2024/11/29161253/Gli-incentivi-in-investimenti-4.0-una-valutazione-dellimpatto-della-misura.pdf
+      content: 2020-2022 tax returns; R&D&I category includes R&D, technological innovation and design; 2022 data provisional.
+    mimit_current_rules:
+      url: https://www.mimit.gov.it/it/incentivi/credito-d-imposta-r-s
+      content: Current statutory rates and administrative requirements; distinguish R&D from innovation and design.
+    istat_business_rd_survey:
+      url: https://www.istat.it/informazioni-sulla-rilevazione/ricerca-imprese/
+      content: Annual business R&D intramural and extramural performance outcome.
