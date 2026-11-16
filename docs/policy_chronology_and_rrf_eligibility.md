@@ -49,3 +49,7 @@ Blank values mean not collected, not zero. Annual observations must be assigned 
 - Commission Staff Working Document, analysis of Italy's RRP, SWD(2021) 165: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52021SC0165
 - Italian Ministry of Health PNRR FAQ, questions 64–65: https://www.pnrr.salute.gov.it/it/pnrr-contenuti-di-sezione/faq/?faq.page=12&lingua=italiano
 - European Commission country page, Italy's RRP and successive CID versions: https://reforms-investments.ec.europa.eu/recovery-and-resilience-facility-1/country-pages/italys-recovery-and-resilience-plan_en
+
+## Historical programme evidence
+
+MUR's PRIN series for 2007–2022 and the chronology of FCS/FIT, innovation agreements and R&D tax credits are now recorded separately in `data/processed/prin_historical_funding_2007_2022.csv` and `data/processed/historical_rd_policy_register.csv`. These are policy/budget history sources, not annual GERD expenditure. For PRIN, do not treat the MUR funding series as actual annual research performance; separate the national PRIN 2022 call from the PNRR-funded November 2022 call.
