@@ -44,12 +44,14 @@ The 100% coefficient agreed for DTF and GTF is retained as a **broad innovation-
 
 Verified evidence:
 - Both funds became operational in 2023 (CDP Venture Capital Annual Financial Report 2024).
-- At end-2024, CDP reported combined investment deliberations equal to 43% of the two funds' total investible capital. Applying 43% to the EUR 650m endowment gives a cumulative deliberated pipeline of approximately **EUR 279.5m**. This is a decision/approval metric, not necessarily cash invested, final beneficiary expenditure or annual R&D.
+- At end-2024, CDP reported combined investment deliberations equal to 43% of the two funds' total investible capital. Applying 43% to the EUR 650m endowment gives a cumulative deliberated amount of approximately **EUR 279.5m**.
+- CDP's 2025 Annual Financial Report reports that cumulative deliberations reached **74% of total investible resources** in 2025. Applying this percentage to EUR 650m gives approximately **EUR 481.0m cumulative deliberations** at end-2025.
+- The implied increase in the cumulative deliberated amount between the two reporting dates is **EUR 201.5m** (EUR 481.0m minus EUR 279.5m). This is a derived annual proxy for new investment decisions in 2025, not a cash-disbursement or company R&D measure. It is the strongest annual VC innovation-shock proxy currently supported by the fund-level evidence.
 - GTF's periodic disclosure reports **EUR 15.65m invested in seven companies** as at 31 December 2024.
 - DTF's Annual Financial Report shows NAV of approximately EUR 16m and nine direct startup investments plus three VC funds (with seven underlying startups); NAV is not the same as gross deployment and is not used as an investment-flow proxy here.
 - The same CDP annual report reports GTF NAV of approximately EUR 18m and seven direct startup investments plus three VC funds; the GTF SFDR disclosure says no indirect startup investments had yet occurred as at the reporting date.
 
-**Quantification rule at this stage:** include EUR 15.65m as the verified cumulative GTF deployed-investment proxy by 2024. Do not infer a DTF deployment amount from NAV. Retain EUR 279.5m as a cumulative deliberated/pipeline indicator, not as realised shock. Update when fund-level investment schedules by transaction and year become available.
+**Quantification rule adopted for the extended innovation shock:** count 100% of fund-level deliberated investments as the VC-backed innovation proxy, in line with the user's explicit modelling assumption. Record EUR 279.5m cumulative by end-2024 and EUR 201.5m as the incremental 2025 proxy; cumulative end-2025 is EUR 481.0m. These are approvals/deliberations, not cash deployment. The EUR 15.65m GTF actual investment disclosure is a subset/validation point and must not be added again. DTF NAV is not used as a deployment measure. The proxy is kept outside official GERD/BERD.
 
 ## 5. What is and is not estimated
 
@@ -57,13 +59,12 @@ Verified evidence:
 - Historical GERD intensity and sector shares through 2024.
 - Approximate real GERD expenditure bridge 2019–2024.
 - Simple 2010–2019 linear trend benchmark and 2024 gap.
-- Verified GTF cumulative investments as an extended innovation proxy.
-- Combined DTF/GTF deliberated share by end-2024.
+- Verified DTF/GTF cumulative deliberated amount at end-2024 and end-2025, with the 2025 incremental proxy.
+- GTF's disclosed EUR 15.65m actual investment as a partial deployment validation point.
 
 ### Not yet estimable from the evidence in the repository
 - Annual additional R&D expenditure caused by each MUR/MIMIT PNRR measure.
-- Annual DTF deployment and DTF portfolio-company investment amounts.
-- Full annual GTF investment flow (only cumulative amount as at 31 December 2024 verified here).
+- Annual cash deployment by DTF/GTF and fund-by-fund direct/indirect transaction flows; the current annual proxy uses investment deliberations.
 - Private capital mobilised by DTF/GTF, including direct/indirect channel split and the DTF 1:1 indirect leverage requirement's realised amount.
 - Annual impact of Law 193/2024 Article 33 on institutional VC commitments.
 - Additionality/crowding-in and the counterfactual for all measures.
@@ -73,7 +74,7 @@ No annual PNRR R&D shock total or causal multiplier is published in this version
 
 ## 6. Next calculation steps
 
-1. Extract DTF/GTF transaction-level investment dates and amounts from CDP's 2025 annual report, semi-annual reports and MIMIT T2 2026 target report.
+1. Obtain DTF/GTF transaction-level cash deployment by year and direct/indirect channel; replace the deliberation-based 2025 proxy when available.
 2. Reconstruct annual expenditure profiles for the MUR measures from beneficiary expenditure / ReGiS / annual MUR reports; separate pre-existing PRIN and other programmes.
 3. Reconstruct MIMIT R&D grant and tax-credit eligible expenditure, separating R&D from capital goods, innovation and training.
 4. Build a country comparison panel (GERD, BES, GOV, HES, GDP) to assess whether Italy's sectoral changes differ from comparable EU countries.
@@ -85,6 +86,7 @@ No annual PNRR R&D shock total or causal multiplier is published in this version
 - Eurostat `rd_e_gerdtot`, repository extraction: `data/processed/eurostat_macro_panel_italy_2010_2024.csv`.
 - Eurostat `nama_10_gdp`, repository extraction: `data/processed/eurostat_gdp_italy_2010_2024.csv`.
 - CDP Venture Capital, *Relazione Finanziaria Annuale 2024*, especially pp. 66–67 and discussion of PNRR funds: https://cds.cdpventurecapital.it/cdpventurecapital/public/cms/documents/CDP_VC_Bilancio_2024.pdf
+- CDP Venture Capital, *Relazione Finanziaria Annuale 2025*, especially pp. 69 and 100–101: https://cds.cdpventurecapital.it/cdpventurecapital/public/cms/documents/CDPVC_Relazione%20Finanziaria_Annuale_2025.pdf
 - CDP Venture Capital, GTF periodic disclosure (as at 31 December 2024): https://cds.cdpventurecapital.it/cdpventurecapital/public/cms/documents/Estratto%20periodica%20per%20sitoweb_GTF_20250610_VENG_Final.pdf
 - MIMIT, DTF and GTF reporting and control guidelines: https://www.mimit.gov.it/images/stories/documenti/allegati/LLGG_Rendicontazione_e_controllo_Investimenti_CDP_VC_PNRR_MIMIT_versione_2.pdf
 
