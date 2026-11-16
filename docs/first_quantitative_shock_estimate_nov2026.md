@@ -34,7 +34,11 @@ Calculations: GERD expenditure = GERD intensity × nominal GDP. 2024 values are 
 
 Sector totals need not sum exactly because of rounding and the private non-profit sector is omitted from this compact table.
 
-## 3. Venture-capital component: now grounded in deployment evidence
+## 3. Cross-check with the latest ISTAT national vintage
+
+The separate ISTAT national series reports GERD of EUR 26.260bn in 2019 and EUR 31.043bn in 2024, with 2024 intensity at 1.40% of GDP. Deflating the 2024 amount by the same GDP-wide deflator proxy (115.0252, 2019=100) gives approximately EUR 26.988bn in 2019 prices, around +2.8% relative to 2019. This is a separate national-statistics vintage and should not be spliced into the Eurostat panel. ISTAT reports 2024 nominal growth of 5.6%; its preliminary 2025 sector data show business R&D -2.6%, government institutions +6.2%, and private non-profit +6.4%, but do not provide a complete 2025 GERD estimate in this source.
+
+## 4. Venture-capital component: now grounded in deployment evidence
 
 The 100% coefficient agreed for DTF and GTF is retained as a **broad innovation-shock proxy**, not official GERD/BERD.
 
@@ -47,7 +51,7 @@ Verified evidence:
 
 **Quantification rule at this stage:** include EUR 15.65m as the verified cumulative GTF deployed-investment proxy by 2024. Do not infer a DTF deployment amount from NAV. Retain EUR 279.5m as a cumulative deliberated/pipeline indicator, not as realised shock. Update when fund-level investment schedules by transaction and year become available.
 
-## 4. What is and is not estimated
+## 5. What is and is not estimated
 
 ### Estimated / observed
 - Historical GERD intensity and sector shares through 2024.
@@ -67,7 +71,7 @@ Verified evidence:
 
 No annual PNRR R&D shock total or causal multiplier is published in this version. The data currently support a sectoral diagnostic and a partial VC proxy, not a complete causal estimate.
 
-## 5. Next calculation steps
+## 6. Next calculation steps
 
 1. Extract DTF/GTF transaction-level investment dates and amounts from CDP's 2025 annual report, semi-annual reports and MIMIT T2 2026 target report.
 2. Reconstruct annual expenditure profiles for the MUR measures from beneficiary expenditure / ReGiS / annual MUR reports; separate pre-existing PRIN and other programmes.
