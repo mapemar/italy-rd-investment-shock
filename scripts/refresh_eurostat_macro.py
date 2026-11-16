@@ -72,6 +72,34 @@ def main():
         gdp_rows += unpack(js,"nama_10_gdp",url,"na_item",unit_code)
     with (OUT/"eurostat_gdp_italy_2010_2024.csv").open("w",newline="",encoding="utf-8") as f:
         w=csv.DictWriter(f,fieldnames=HEADERS);w.writeheader();w.writerows(gdp_rows)
+    # Build a compact annual macro panel. GDP deflator is a derived GDP-wide
+    # price proxy, rebased to 2019=100; it is not an R&D-specific deflator.
+    gdp_map={}
+    for row in gdp_rows:
+        gdp_map.setdefault(int(row["year"]),{})[row["unit"]]=float(row["value"])
+    base=gdp_map.get(2019,{})
+    if "CP_MEUR" not in base or "CLV_I20" not in base:
+        raise RuntimeError("Cannot rebase GDP deflator to 2019: missing base-year GDP observations.")
+    deflator_2019={}
+    for year, vals in gdp_map.items():
+        if "CP_MEUR" in vals and "CLV_I20" in vals:
+            deflator_2020=(vals["CP_MEUR"]/gdp_map[2020]["CP_MEUR"])/(vals["CLV_I20"]/gdp_map[2020]["CLV_I20"])*100
+            base_deflator=(base["CP_MEUR"]/gdp_map[2020]["CP_MEUR"])/(base["CLV_I20"]/gdp_map[2020]["CLV_I20"])*100
+            deflator_2019[year]=deflator_2020/base_deflator*100
+    gerd_map={(int(x["year"]),x["category_code"]):x for x in rows}
+    panel=[]
+    for year in range(START,END+1):
+        for sector in ["TOTAL","BES","GOV","HES","PNP"]:
+            x=gerd_map.get((year,sector),{})
+            vals=gdp_map.get(year,{})
+            panel.append({"year":year,"sector_code":sector,"sector_label":x.get("category_label",""),
+                "rd_intensity_pct_gdp":x.get("value",""),"rd_flag":x.get("flag",""),
+                "nominal_gdp_eur_mn":vals.get("CP_MEUR",""),"gdp_volume_index_2020_100":vals.get("CLV_I20",""),
+                "gdp_deflator_proxy_2019_100":round(deflator_2019[year],4) if year in deflator_2019 else "",
+                "deflator_note":"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",
+                "source_rd":"Eurostat rd_e_gerdtot","source_gdp":"Eurostat nama_10_gdp"})
+    with (OUT/"eurostat_macro_panel_italy_2010_2024.csv").open("w",newline="",encoding="utf-8") as f:
+        fields=list(panel[0].keys());w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(panel)
     print(f"Saved {len(rows)} GERD intensity observations and {len(gdp_rows)} GDP observations (expected up to {2*(END-START+1)}).")
     if len(rows) == 0 or len(gdp_rows) == 0:
         raise RuntimeError("Eurostat returned an empty core series; refusing to publish empty datasets.")
