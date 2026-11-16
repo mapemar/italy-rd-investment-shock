@@ -53,7 +53,31 @@ Verified evidence:
 
 **Quantification rule adopted for the extended innovation shock:** count 100% of fund-level deliberated investments as the VC-backed innovation proxy, in line with the user's explicit modelling assumption. Record EUR 279.5m cumulative by end-2024 and EUR 201.5m as the incremental 2025 proxy; cumulative end-2025 is EUR 481.0m. These are approvals/deliberations, not cash deployment. The EUR 15.65m GTF actual investment disclosure is a subset/validation point and must not be added again. DTF NAV is not used as a deployment measure. The proxy is kept outside official GERD/BERD.
 
-## 5. What is and is not estimated
+## 5. New MIMIT implementation evidence at 31 December 2025
+
+The MIMIT *PNRR Report – second semester 2025* adds a stronger operational picture for the venture-capital funds and financial progress indicators for other R&D-relevant measures.
+
+### DTF and GTF
+
+- GTF (EUR 250m): approx. 70% of total resources committed, including direct and indirect investments and costs; 8 direct start-ups, 3 third-party VC funds investing in 6 further start-ups, 14 investee companies in total, and 95 additional jobs relative to the investment date.
+- DTF (EUR 400m): approx. 70% committed, including direct and indirect investments and costs; 16 direct start-ups, 6 third-party VC funds investing in 28 further start-ups, 44 investee companies in total, and 132 additional jobs relative to the investment date.
+- Combined portfolio: 58 investee companies and 227 additional jobs.
+- Applying 70% to the combined EUR 650m envelope gives EUR 455m indicative committed resources (EUR 175m GTF; EUR 280m DTF). This includes costs and is not cash deployed in companies.
+- CDP's 74% deliberations figure is a separate indicator with a different scope; do not combine it with the MIMIT 70% commitment ratio.
+
+The adopted 100% coefficient remains applicable to the broad innovation-shock proxy. For the present annual series, however, EUR 455m is a cumulative commitment indicator at end-2025, not an annual flow. The actual annual deployment profile remains to be obtained.
+
+### Other MIMIT measures: financial progress snapshot
+
+The MIMIT report's financial table at 31 December 2025 reports:
+- IPCEI (EUR 1.5bn envelope): EUR 215.36m financial progress (14.67%).
+- Innovation Agreements (EUR 164m): EUR 11.38m (6.94%).
+- Technology Transfer Centres (EUR 350m): EUR 46.95m (13.41%); the report separately reports 6,500+ firms reached and 420+ R&D projects financed.
+- Net Zero / strategic supply chains (EUR 3.5bn): EUR 698.87m (19.97%).
+
+These are measure-level implementation indicators, not automatically R&D expenditure. IPCEI includes R&D, innovation and first industrial deployment; technology transfer includes services and centre operations; Net Zero is a mixed industrial investment programme. The R&D share must be isolated before including these amounts in official-boundary R&D.
+
+## 6. What is and is not estimated
 
 ### Estimated / observed
 - Historical GERD intensity and sector shares through 2024.
@@ -72,7 +96,7 @@ Verified evidence:
 
 No annual PNRR R&D shock total or causal multiplier is published in this version. The data currently support a sectoral diagnostic and a partial VC proxy, not a complete causal estimate.
 
-## 6. Next calculation steps
+## 7. Next calculation steps
 
 1. Obtain DTF/GTF transaction-level cash deployment by year and direct/indirect channel; replace the deliberation-based 2025 proxy when available.
 2. Reconstruct annual expenditure profiles for the MUR measures from beneficiary expenditure / ReGiS / annual MUR reports; separate pre-existing PRIN and other programmes.
@@ -88,6 +112,7 @@ No annual PNRR R&D shock total or causal multiplier is published in this version
 - CDP Venture Capital, *Relazione Finanziaria Annuale 2024*, especially pp. 66–67 and discussion of PNRR funds: https://cds.cdpventurecapital.it/cdpventurecapital/public/cms/documents/CDP_VC_Bilancio_2024.pdf
 - CDP Venture Capital, *Relazione Finanziaria Annuale 2025*, especially pp. 69 and 100–101: https://cds.cdpventurecapital.it/cdpventurecapital/public/cms/documents/CDPVC_Relazione%20Finanziaria_Annuale_2025.pdf
 - CDP Venture Capital, GTF periodic disclosure (as at 31 December 2024): https://cds.cdpventurecapital.it/cdpventurecapital/public/cms/documents/Estratto%20periodica%20per%20sitoweb_GTF_20250610_VENG_Final.pdf
+- MIMIT, *PNRR Report – second semester 2025*, pp. 31, 77–80, 94 and 98–101: https://www.mimit.gov.it/images/stories/documenti/allegati/pnrr/31122025_Mimit_Report_Semestrale_DEF_.pdf
 - MIMIT, DTF and GTF reporting and control guidelines: https://www.mimit.gov.it/images/stories/documenti/allegati/LLGG_Rendicontazione_e_controllo_Investimenti_CDP_VC_PNRR_MIMIT_versione_2.pdf
 
 
