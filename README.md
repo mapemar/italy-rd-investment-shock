@@ -94,6 +94,8 @@ Code should be modular, tested and deterministic where possible. Raw data should
 - [Project status and next actions](docs/project_status.md) — management summary of completed work, evidence milestones, analytical gaps and priorities.
 - [First quantitative shock estimate](docs/first_quantitative_shock_estimate_nov2026.md) — GERD/GDP trend diagnostic, sectoral expenditure bridge and verified DTF/GTF investment evidence.
 - [First shock estimate dataset](data/processed/first_shock_estimate.csv) — machine-readable observations, calculations and proxy indicators.
+- [MIMIT 2025 execution snapshot](docs/mimit_pnrr_execution_snapshot_2025.md) — latest MIMIT evidence on DTF/GTF portfolios, jobs and R&D-relevant measure progress.
+- [MIMIT 2025 execution dataset](data/processed/mimit_pnrr_execution_snapshot_2025.csv) — measure-level snapshot as at 31 December 2025.
 - [PNRR R&D execution evidence](data/processed/pnrr_rd_execution_evidence.csv) — measure-/administration-level cumulative ReGiS and Court of Auditors snapshots.
 - [Innovation Agreements 2026 pipeline](data/processed/innovation_agreements_2026_pipeline.csv) — 23 signed projects with stated R&D costs and public contributions.
 
