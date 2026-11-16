@@ -391,3 +391,12 @@ Sources:
 - Eurostat, *GERD by sector of performance*, dataset `rd_e_gerdtot`, unit percentage of GDP: https://ec.europa.eu/eurostat/databrowser/view/rd_e_gerdtot/default/table
 - Eurostat, *GDP and main components*, dataset `nama_10_gdp`: https://ec.europa.eu/eurostat/databrowser/view/nama_10_gdp/default/table
 - Eurostat metadata on current prices, chain-linked volumes and implicit deflators: https://ec.europa.eu/eurostat/cache/metadata/EN/nama_10_gdp_esms.htm
+
+
+## 12. Eurostat master series and GDP deflator proxy
+
+The Eurostat master outcome is `rd_e_gerdtot`, filtered to Italy, annual frequency, percentage of GDP and sectors TOTAL/BES/GOV/HES/PNP. The 2010–2024 extraction is stored in `data/processed/eurostat_rd_intensity_italy_2010_2024.csv`; nominal GDP and chain-linked GDP volume index from `nama_10_gdp` are stored in `data/processed/eurostat_gdp_italy_2010_2024.csv`. The merged panel is `data/processed/eurostat_macro_panel_italy_2010_2024.csv`.
+
+A GDP-wide implicit-deflator proxy is derived from current-price GDP and the chain-linked volume index, then rebased to 2019=100. This proxy captures economy-wide price movements and must not be described as an observed R&D deflator. It may be used as a transparent provisional deflation assumption, with sensitivity analysis. The preferred approach for real R&D is an R&D-specific price index or cost deflator if a defensible source is identified.
+
+The primary dependent variable is GERD/GDP in percentage points. Preserve nominal GERD, nominal GDP, chain-linked GDP volume index and the deflator proxy as companion series. Never combine constant-price R&D with current-price GDP when calculating a ratio.
