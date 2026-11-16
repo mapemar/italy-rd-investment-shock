@@ -265,3 +265,25 @@ Do not interpret every year appearing in a budget or Treasury dataset as a year 
 In particular, the EUR 7.102bn return of NGEU Treasury resources under the 2026 Budget Law (EUR 5.943bn in 2026, EUR 1.000bn in 2027 and EUR 0.159bn in 2028) is a budget/financing flow. The 2027–2028 amounts are not a continuation of the PNRR implementation period and must not be entered as negative R&D expenditure or new PNRR investment in those years.
 
 The R&D shock dataset should initially report annual PNRR-attributable R&D performance for 2020–2026, and may extend beyond 2026 only where evidence shows that an in-scope financial instrument or project actually finances eligible R&D performed in Italy after the PNRR implementation deadline. Such post-2026 R&D must be identified as a separately evidenced tail, not assumed from a budget profile.
+
+
+## R&D tax credit: measurement and current evidence
+
+The tax-credit series must distinguish at least: (i) the eligible R&D expenditure performed in the tax year; (ii) the credit accrued/recognised by the beneficiary for that tax year; (iii) the amount offset in F24 in a later year; and (iv) the ESA tax expenditure/cash or accrual treatment. These are not interchangeable.
+
+The incremental R&D credit applied from 2015 to 2019, based on eligible expenditure above a historical average. From 2020, Law 160/2019 introduced the volume-based regime and separately defined R&D, technological innovation and design. For the 2020–2022 official evaluation, the published R&D&I category is a combined aggregate and must not be treated as pure Frascati R&D.
+
+The dataset `data/processed/rd_tax_credit_evidence_2020_2022.csv` records:
+- exact tax credits accrued by companies limited by shares in the combined R&D&I category: EUR 1,183m in 2020, EUR 1,379m in 2021 and EUR 1,080m in 2022; beneficiary counts: 18,736, 15,768 and 12,517 respectively;
+- approximate all-entity R&D&I amounts read from Figure 1 (EUR 1,200m, 1,050m and 850m), flagged as approximate and not to be combined with the corporate-only table;
+- Istat's combined cumulative tax-relief indicator for R&D tax credit plus Patent Box (0.04% GDP in 2015, 0.28% in 2019, 0.18% in 2020), kept separate because it does not isolate the R&D credit.
+
+The combined R&D&I grouping includes technological innovation and design, so the dataset is an upper-bound proxy for the relevant R&D tax expenditure, not the pure R&D amount. A pure annual series requires disaggregated tax return records or administrative data. The 2022 tax-return data are provisional. The MEF/Bank of Italy/MIMIT evaluation uses integrated tax-return, business-account and employment data for 2016–2022 and is a useful basis for impact evaluation; its public report does not expose the full microdata.
+
+For annual R&D performance, use Istat's business R&D survey (intra-muros and extra-muros R&D) as the outcome series, not the credit accrued. The tax credit can influence private R&D but is not itself GERD.
+
+Sources:
+- Istat, *Gli incentivi alle imprese per la ricerca e sviluppo – Anni 2015–2020*: https://www.istat.it/comunicato-stampa/gli-incentivi-alle-imprese-per-la-ricerca-e-sviluppo-anni-2015-2020/
+- MEF/Bank of Italy/MIMIT, *Gli incentivi in investimenti 4.0: una valutazione dell'impatto della misura* (2024): https://img.innovationpost.it/wp-content/uploads/2024/11/29161253/Gli-incentivi-in-investimenti-4.0-una-valutazione-dellimpatto-della-misura.pdf
+- MIMIT, R&D tax credit legal and administrative overview: https://www.mimit.gov.it/it/incentivi/credito-d-imposta-r-s
+- Istat business R&D survey: https://www.istat.it/informazioni-sulla-rilevazione/ricerca-imprese/
