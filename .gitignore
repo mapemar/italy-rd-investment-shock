@@ -19,6 +19,8 @@ data/intermediate/*
 !data/intermediate/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/eurostat_rd_intensity_italy_2010_2024.csv
+!data/processed/eurostat_gdp_italy_2010_2024.csv
 documents/*
 !documents/.gitkeep
 outputs/*
