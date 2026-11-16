@@ -16,6 +16,8 @@ This document defines the initial logical data model. Physical schemas may be re
 
 ## 2. Policy measure table — proposed fields
 
+For PNRR measures with a pre-existing policy lineage, retain separate dates for policy origin, legal basis, first implementation on the ground, PNRR inclusion and RRF eligibility start. Do not overload a single start_year field: the RRF eligibility test is measure/phase-specific and requires costs recorded after 1 February 2020.
+
 | Field | Type | Meaning |
 |---|---|---|
 | measure_id | string | Stable internal ID |
