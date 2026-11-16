@@ -359,3 +359,35 @@ Sources:
 - Istat, *La ricerca e sviluppo in Italia – Anni 2024–2025*, 24 September 2026: https://www.istat.it/wp-content/uploads/2026/09/REPORT_RS_2026.pdf
 - Istat, *Annuario Statistico Italiano 2025*, Chapter 21, Table 21.1: https://www.istat.it/storage/ASI/2025/capitoli/C21.pdf
 - Eurostat, `rd_e_gerdtot`, GERD by sector of performance: https://ec.europa.eu/eurostat/databrowser/view/rd_e_gerdtot/default/table
+
+
+## 11. Main macro outcome: R&D intensity as a share of GDP
+
+The primary national outcome for the macro panel and the eventual model interface is **intra-muros GERD as a percentage of GDP** (R&D intensity). The nominal GERD level in EUR million remains a complementary series and must be retained in the database.
+
+### Why use the GDP share as the headline series?
+
+- It normalises R&D performance by the size of the economy and is the standard Eurostat indicator for cross-country comparison and national R&D intensity targets.
+- The shock can be expressed transparently as an incremental contribution in percentage points of GDP.
+- It avoids presenting nominal expenditure growth as an improvement in R&D effort when the change may partly reflect inflation or GDP growth.
+
+### Important interpretation and modelling caveats
+
+1. The ratio is not a real-volume measure. A rise in GERD/GDP can occur because GERD rises, GDP falls, or both. Retain nominal GERD and nominal GDP as companion series and, for real expenditure analysis, deflate the GERD numerator separately.
+2. For a policy shock, calculate the additional GERD amount in constant prices first, then divide by the corresponding GDP in the same price basis (or use a consistent nominal numerator and nominal GDP for a current-price ratio). Do not divide constant-price GERD by current-price GDP.
+3. Distinguish percentage points from percentage changes. An increase from 1.40% to 1.45% of GDP is +0.05 percentage points of GDP, not +0.05%.
+4. Do not use the observed post-2020 change in GERD/GDP as the PNRR treatment effect. The counterfactual must account for pre-existing trends, the business cycle, other national and EU policies, and GDP denominator movements.
+5. The present detailed Istat series combines the 2019–2023 vintage in the 2025 Statistical Yearbook with the revised 2024 observation published in September 2026. The vintage is explicitly recorded at observation level. For econometric work and international comparison, a fully harmonised Eurostat `rd_e_gerdtot` extraction should be the preferred master series; the Istat series is retained for detailed national consistency and sector decomposition.
+6. The 2025 indicators are preliminary sector-specific growth rates, not a complete GERD/GDP observation. No total 2025 intensity is inferred.
+
+### Proposed macro-model dependent variables
+
+- Primary: GERD/GDP (percentage points), total and by sector of performance where available.
+- Secondary: real GERD (2019 prices), total and by sector.
+- Supporting outcomes: BERD/GDP, HERD/GDP, GOVERD/GDP, R&D personnel (FTE) and business R&D employment.
+- Funding-source decomposition (government, business, abroad, higher education, private non-profit) is a separate dimension from sector of performance and must not be conflated with it.
+
+Sources:
+- Eurostat, *GERD by sector of performance*, dataset `rd_e_gerdtot`, unit percentage of GDP: https://ec.europa.eu/eurostat/databrowser/view/rd_e_gerdtot/default/table
+- Eurostat, *GDP and main components*, dataset `nama_10_gdp`: https://ec.europa.eu/eurostat/databrowser/view/nama_10_gdp/default/table
+- Eurostat metadata on current prices, chain-linked volumes and implicit deflators: https://ec.europa.eu/eurostat/cache/metadata/EN/nama_10_gdp_esms.htm
