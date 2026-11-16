@@ -170,3 +170,16 @@ evidence_requirements:
     bancaditalia_qef_898:
       url: https://www.bancaditalia.it/pubblicazioni/qef/2024-0898/
       content: Comparative analysis of innovation and public support policies, Italy and peer countries.
+
+  macro_baseline:
+    istat_2024_2025_release:
+      url: https://www.istat.it/wp-content/uploads/2026/09/REPORT_RS_2026.pdf
+      publication_date: 2026-09-24
+      content: Revised 2024 intra-muros R&D total and sector breakdown; preliminary 2025 growth rates by selected performing sectors.
+    istat_asi_2025_chapter_21:
+      url: https://www.istat.it/storage/ASI/2025/capitoli/C21.pdf
+      content: 2019-2023 intra-muros R&D total series and GDP intensity; 2024 earlier preliminary vintage explicitly superseded by September 2026 release.
+    eurostat_gerd:
+      dataset_code: rd_e_gerdtot
+      url: https://ec.europa.eu/eurostat/databrowser/view/rd_e_gerdtot/default/table
+      content: Cross-country harmonised GERD by sector of performance; use for validation and EU comparison.
