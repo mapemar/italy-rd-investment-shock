@@ -42,7 +42,17 @@ Capture grants and tax incentives only to the extent that eligible activity is g
 
 ### 3.3 Venture capital and financial instruments
 
-Track public commitments, fund-level investments, private co-investment and final company expenditure separately. Estimate the R&D component using defensible company- or portfolio-level evidence. Financing is not itself R&D expenditure; the same euro must not be counted both as an investment and again as the activity financed.
+Track public commitments, fund-level investments, private co-investment and final company expenditure separately. The official GERD/Frascati statistical series should continue to include only R&D activity actually performed by resident units in Italy.
+
+**Project-specific broad innovation-shock proxy (adopted D019):** for the Digital Transition Fund (DTF, M4C2 I3.2) and Green Transition Fund (GTF, M2C2 I5.4), count 100% of the two funds' deployed investment capital as a separate *VC-backed innovation and technology-business-creation proxy*. This is an explicit simplifying assumption motivated by the funds' targeted investment in start-ups/innovative companies and the Italian innovative-start-up eligibility framework. It is not a claim that every euro meets the Frascati definition or is recorded in GERD.
+
+Apply the proxy to actual annual deployment/investment by the funds, not automatically to the full approved envelope in the year of allocation. Until annual deployment data are available, show the EUR 400m DTF and EUR 250m GTF envelopes as committed/potential proxy exposure, not as realised annual expenditure. Do not add private co-investment or a leverage multiplier to the proxy unless separately evidenced and explicitly reported; avoid double counting fund-level commitments and downstream company investments.
+
+Report two parallel outputs:
+1. **Official-boundary additional domestic R&D:** Frascati-eligible R&D actually performed in Italy, with additionality estimated separately.
+2. **Broad innovation shock including VC proxy:** the official-boundary series plus the DTF/GTF proxy, clearly labelled as an extended innovation/technology-business-creation measure and never presented as official GERD or BERD.
+
+The proxy should be shown in a separate component and sensitivity table so that users can see how much of the broad shock comes from this approximation. Where later portfolio-company data become available, replace or validate the proxy with company-level R&D and innovation expenditure, while retaining a bridge to the original 100% assumption.
 
 ### 3.4 Ecosystem and enabling measures
 
