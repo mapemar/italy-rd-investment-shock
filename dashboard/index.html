@@ -60,7 +60,9 @@ const DATA=[
 {id:'macro_matrix',name:'Macro transmission matrix',file:'data/processed/macro_transmission_matrix.csv',description:'Qualitative measure-to-macro-variable channels, lags, proxies and evidence requirements; not causal estimates.'},
 {id:'snapshots2025',name:'Official MUR & MIMIT implementation snapshots · Nov 2025',file:'data/processed/pnrr_implementation_snapshots_2025.csv',description:'Cumulative official snapshot: administration totals and selected financial instruments; not an annual R&D series.'},
 {id:'fund_events',name:'DTF & GTF fund-manager transfer events',file:'data/processed/pnrr_fund_transfer_events.csv',description:'Dated DTF/GTF capital transfer milestones to CDP Venture Capital SGR; not portfolio-company R&D.'},
-{id:'timeline',name:'Policy chronology & RRF eligibility register',file:'data/processed/pnrr_measure_timeline.csv',description:'One row per measure; policy origin, first implementation, PNRR inclusion and RRF eligibility dates to be verified.'}
+{id:'timeline',name:'Policy chronology & RRF eligibility register',file:'data/processed/pnrr_measure_timeline.csv',description:'One row per measure; policy origin, first implementation, PNRR inclusion and RRF eligibility dates to be verified.'},
+{id:'prin_history',name:'Historical PRIN funding baseline · 2007–2022',file:'data/processed/prin_historical_funding_2007_2022.csv',description:'MUR-reported annual PRIN funding/band allocations; not cash expenditure or GERD.'},
+{id:'historical_policies',name:'Historical national R&D and VC policy register',file:'data/processed/historical_rd_policy_register.csv',description:'Pre-existing PRIN, FCS, R&D tax credit, DTF/GTF and institutional VC reform chronology.'}
 ];
 let loaded={},active=null,sort={col:null,dir:1},charts={};
 const $=id=>document.getElementById(id);
