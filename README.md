@@ -120,3 +120,9 @@ Code should be modular, tested and deterministic where possible. Raw data should
 
 - [DTF and GTF fund-level evidence register](data/processed/venture_capital_funds.csv) — direct/indirect channels, envelope status, leverage and R&D evidence gaps.
 - [Venture capital and start-up finance methodology](docs/venture_capital_and_startup_finance.md) — treatment of DTF/GTF, portfolio-company R&D and Law 193/2024 Article 33.
+
+
+## Historical national R&D policy baseline
+
+- [Historical PRIN funding, 2007–2022](data/processed/prin_historical_funding_2007_2022.csv) — MUR-reported annual funding allocations.
+- [Historical R&D policy register](data/processed/historical_rd_policy_register.csv) — PRIN, FCS/FIT, innovation agreements, R&D tax credits, DTF/GTF and institutional VC reform.
