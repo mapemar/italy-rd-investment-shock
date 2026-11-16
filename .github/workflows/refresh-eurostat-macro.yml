@@ -1,0 +1,28 @@
+name: Refresh Eurostat macro data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 15 * *"
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download Eurostat series
+        run: python scripts/refresh_eurostat_macro.py
+      - name: Commit refreshed datasets
+        run: |
+          if git diff --quiet; then
+            echo "No Eurostat data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/eurostat_rd_intensity_italy_2010_2024.csv data/processed/eurostat_gdp_italy_2010_2024.csv
+          git commit -m "Refresh Eurostat R&D intensity and GDP series"
+          git push
