@@ -154,3 +154,13 @@ Record durable decisions here so that work does not depend on conversation histo
 - **Decision:** Set 2020–2026 as the default PNRR policy/implementation window and the initial annual reporting window for the PNRR-attributable R&D shock. Maintain separate year dimensions for policy implementation, R&D performance, budget authorisation, commitments, cash flows and ESA recording.
 - **Rationale:** The RRF permits eligible measures initiated from 1 February 2020; milestones and targets had to be completed by 31 August 2026 and final Commission payments are due by 31 December 2026. Financial records may nevertheless contain later years.
 - **Implication:** The EUR 1.000bn return in 2027 and EUR 0.159bn return in 2028 under the 2026 Budget Law are return-to-budget flows, not new PNRR implementation or negative R&D expenditure. Any post-2026 R&D performance must be separately evidenced, for example where a financial instrument continues financing eligible R&D after the RRF implementation deadline.
+
+
+## D019 — Count the full DTF/GTF deployment as a broad innovation-shock proxy
+
+- **Date:** 2026-11-16.
+- **Status:** Adopted.
+- **Decision:** For the project's extended innovation-shock measure, apply a 100% proxy coefficient to the actual annual investment capital deployed by the Digital Transition Fund (DTF, EUR 400m envelope) and Green Transition Fund (GTF, EUR 250m envelope). Treat the full deployed amount as VC-backed innovation/technology-business-creation exposure.
+- **Rationale:** The funds target start-ups and innovative companies, whose selection framework is strongly associated with high-technology products, R&D, qualified human capital and/or intellectual property. The user accepts this as a reasonable approximation for the broader innovation shock.
+- **Boundary and caveat:** This is a project-specific proxy, not a Frascati-compliant measurement of R&D performed and not an official GERD/BERD amount. Keep it separate from the official-boundary additional domestic R&D estimate. Do not count the entire EUR 650m approved envelope as annual realised expenditure; phase the proxy by actual deployment year. Do not assume additional private leverage or co-investment without evidence.
+- **Implication:** Publish two parallel results: (i) official-boundary additional domestic R&D; and (ii) an extended innovation shock including 100% of DTF/GTF deployed capital. Show the VC component separately and transparently.
