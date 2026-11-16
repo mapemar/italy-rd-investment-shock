@@ -1,0 +1,76 @@
+year,sector_code,sector_label,rd_intensity_pct_gdp,rd_flag,nominal_gdp_eur_mn,gdp_volume_index_2020_100,gdp_deflator_proxy_2019_100,deflator_note,source_rd,source_gdp
+2010,TOTAL,All sectors,1.21,,1615671.1,107.669,91.3167,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2010,BES,Business enterprise sector,0.65,,1615671.1,107.669,91.3167,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2010,GOV,Government sector,0.17,,1615671.1,107.669,91.3167,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2010,HES,Higher education sector,0.35,,1615671.1,107.669,91.3167,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2010,PNP,Private non-profit sector,0.04,,1615671.1,107.669,91.3167,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2011,TOTAL,All sectors,1.2,,1655357.1,108.449,92.8868,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2011,BES,Business enterprise sector,0.65,,1655357.1,108.449,92.8868,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2011,GOV,Government sector,0.16,,1655357.1,108.449,92.8868,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2011,HES,Higher education sector,0.34,,1655357.1,108.449,92.8868,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2011,PNP,Private non-profit sector,0.04,,1655357.1,108.449,92.8868,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2012,TOTAL,All sectors,1.26,,1630709.8,105.144,94.38,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2012,BES,Business enterprise sector,0.68,,1630709.8,105.144,94.38,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2012,GOV,Government sector,0.19,,1630709.8,105.144,94.38,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2012,HES,Higher education sector,0.35,,1630709.8,105.144,94.38,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2012,PNP,Private non-profit sector,0.04,,1630709.8,105.144,94.38,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2013,TOTAL,All sectors,1.29,,1618965.0,103.464,95.2217,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2013,BES,Business enterprise sector,0.71,,1618965.0,103.464,95.2217,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2013,GOV,Government sector,0.18,,1618965.0,103.464,95.2217,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2013,HES,Higher education sector,0.37,,1618965.0,103.464,95.2217,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2013,PNP,Private non-profit sector,0.04,,1618965.0,103.464,95.2217,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2014,TOTAL,All sectors,1.33,e,1633104.1,103.448,96.0682,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2014,BES,Business enterprise sector,0.75,,1633104.1,103.448,96.0682,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2014,GOV,Government sector,0.18,,1633104.1,103.448,96.0682,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2014,HES,Higher education sector,0.36,e,1633104.1,103.448,96.0682,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2014,PNP,Private non-profit sector,0.04,,1633104.1,103.448,96.0682,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2015,TOTAL,All sectors,1.33,,1660512.5,104.52,96.6786,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2015,BES,Business enterprise sector,0.77,,1660512.5,104.52,96.6786,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2015,GOV,Government sector,0.17,,1660512.5,104.52,96.6786,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2015,HES,Higher education sector,0.34,e,1660512.5,104.52,96.6786,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2015,PNP,Private non-profit sector,0.04,,1660512.5,104.52,96.6786,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2016,TOTAL,All sectors,1.36,b,1701884.8,106.056,97.6523,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2016,BES,Business enterprise sector,0.83,b,1701884.8,106.056,97.6523,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2016,GOV,Government sector,0.17,,1701884.8,106.056,97.6523,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2016,HES,Higher education sector,0.33,e,1701884.8,106.056,97.6523,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2016,PNP,Private non-profit sector,0.03,,1701884.8,106.056,97.6523,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2017,TOTAL,All sectors,1.36,,1741307.4,107.86,98.2433,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2017,BES,Business enterprise sector,0.85,,1741307.4,107.86,98.2433,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2017,GOV,Government sector,0.17,,1741307.4,107.86,98.2433,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2017,HES,Higher education sector,0.32,e,1741307.4,107.86,98.2433,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2017,PNP,Private non-profit sector,0.02,,1741307.4,107.86,98.2433,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2018,TOTAL,All sectors,1.42,,1774453.9,108.936,99.1245,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2018,BES,Business enterprise sector,0.9,,1774453.9,108.936,99.1245,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2018,GOV,Government sector,0.18,,1774453.9,108.936,99.1245,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2018,HES,Higher education sector,0.32,e,1774453.9,108.936,99.1245,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2018,PNP,Private non-profit sector,0.02,,1774453.9,108.936,99.1245,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2019,TOTAL,All sectors,1.46,,1800281.8,109.554,100.0,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2019,BES,Business enterprise sector,0.92,,1800281.8,109.554,100.0,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2019,GOV,Government sector,0.18,,1800281.8,109.554,100.0,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2019,HES,Higher education sector,0.33,e,1800281.8,109.554,100.0,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2019,PNP,Private non-profit sector,0.03,,1800281.8,109.554,100.0,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2020,TOTAL,All sectors,1.5,,1665979.4,100.0,101.3812,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2020,BES,Business enterprise sector,0.93,,1665979.4,100.0,101.3812,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2020,GOV,Government sector,0.2,,1665979.4,100.0,101.3812,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2020,HES,Higher education sector,0.35,e,1665979.4,100.0,101.3812,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2020,PNP,Private non-profit sector,0.03,,1665979.4,100.0,101.3812,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2021,TOTAL,All sectors,1.41,,1838674.8,109.215,102.4496,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2021,BES,Business enterprise sector,0.85,,1838674.8,109.215,102.4496,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2021,GOV,Government sector,0.2,,1838674.8,109.215,102.4496,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2021,HES,Higher education sector,0.34,e,1838674.8,109.215,102.4496,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2021,PNP,Private non-profit sector,0.03,,1838674.8,109.215,102.4496,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2022,TOTAL,All sectors,1.37,,1998269.1,114.573,106.1352,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2022,BES,Business enterprise sector,0.81,,1998269.1,114.573,106.1352,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2022,GOV,Government sector,0.19,,1998269.1,114.573,106.1352,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2022,HES,Higher education sector,0.34,e,1998269.1,114.573,106.1352,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2022,PNP,Private non-profit sector,0.02,,1998269.1,114.573,106.1352,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2023,TOTAL,All sectors,1.37,,2141760.8,115.719,112.63,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2023,BES,Business enterprise sector,0.8,,2141760.8,115.719,112.63,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2023,GOV,Government sector,0.2,,2141760.8,115.719,112.63,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2023,HES,Higher education sector,0.34,e,2141760.8,115.719,112.63,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2023,PNP,Private non-profit sector,0.02,,2141760.8,115.719,112.63,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2024,TOTAL,All sectors,1.41,,2210594.7,116.951,115.0252,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2024,BES,Business enterprise sector,0.8,,2210594.7,116.951,115.0252,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2024,GOV,Government sector,0.21,,2210594.7,116.951,115.0252,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2024,HES,Higher education sector,0.38,e,2210594.7,116.951,115.0252,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
+2024,PNP,Private non-profit sector,0.02,,2210594.7,116.951,115.0252,"Derived from nominal GDP and chain-linked GDP volume index; GDP-wide proxy, not R&D-specific",Eurostat rd_e_gerdtot,Eurostat nama_10_gdp
