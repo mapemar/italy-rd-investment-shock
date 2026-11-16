@@ -90,3 +90,60 @@ No annual PNRR R&D shock total or causal multiplier is published in this version
 - CDP Venture Capital, GTF periodic disclosure (as at 31 December 2024): https://cds.cdpventurecapital.it/cdpventurecapital/public/cms/documents/Estratto%20periodica%20per%20sitoweb_GTF_20250610_VENG_Final.pdf
 - MIMIT, DTF and GTF reporting and control guidelines: https://www.mimit.gov.it/images/stories/documenti/allegati/LLGG_Rendicontazione_e_controllo_Investimenti_CDP_VC_PNRR_MIMIT_versione_2.pdf
 
+
+
+## 7. New execution evidence: Court of Auditors and ReGiS snapshots
+
+### 7.1 PRIN — first measure-level expenditure observation
+
+The Court of Auditors' May 2025 report, based on ReGiS, reports that the PRIN investment (EUR 1.8bn allocation) had recorded expenditure equal to **56.3%** of its allocation at 31 December 2024. This implies approximately **EUR 1,013.4m cumulative reported expenditure** (1,800 × 56.3%). This is the strongest measure-specific MUR expenditure observation identified so far.
+
+It is a cumulative stock of reported expenditure by the snapshot date, not an annual 2024 flow. It must not be spread mechanically across 2022–2024. It also does not establish that the full amount is additional relative to pre-existing research funding: the PRIN investment included projects already in the pipeline and national co-financed lines.
+
+The same Court of Auditors exercise selected EUR 19.16bn of PNRR R&D&I interventions across multiple missions and found EUR 6.16bn (32.2%) spent by 31 December 2024. This aggregate is a cross-check only; it includes PRIN and other measures and must not be added to the PRIN amount.
+
+### 7.2 MUR — administration-level execution snapshot
+
+The Government's Seventh PNRR Report reports, at 30 November 2025, MUR allocations of EUR 11,583.01m, of which EUR 599m relates to the student-housing financial instrument, and cumulative PNRR spending of EUR 7,343.19m. Excluding the student-housing instrument from the allocation denominator gives EUR 10,984.01m and a reported execution ratio of **66.9%**.
+
+This is not an R&D-only figure: MUR's PNRR portfolio also includes education, scholarships, skills and other interventions. It is an administration-level execution control, not a direct estimate of M4C2 R&D expenditure.
+
+### 7.3 MIMIT — financial-instrument execution at 30 November 2025
+
+The Seventh PNRR Report's Table 28 provides cumulative ReGiS spending for financial instruments and similar measures. The relevant entries are:
+
+| Measure | Budget (EUR m) | Reported spending (EUR m) | Ratio |
+|---|---:|---:|---:|
+| IPCEI | 1,500.00 | 269.44 | 17.96% |
+| Digital Transition Fund | 400.00 | 66.05 | 16.51% |
+| Green Transition Fund | 250.00 | 54.34 | 21.74% |
+| DTF + GTF | 650.00 | 120.39 | 18.52% |
+| Innovation agreements (territorialisation table) | 164.00 | 11.38 | 6.94% |
+
+These are ReGiS financial execution values for the relevant instruments at the snapshot date. They are not a direct measure of portfolio-company R&D. For DTF/GTF, keep three separate concepts: (i) ReGiS spending recorded by the administration; (ii) CDP's fund-level investment deliberations; and (iii) cash actually invested in portfolio companies. The EUR 120.39m ReGiS figure and the EUR 481m CDP cumulative deliberations are different stages/definitions and must not be added together.
+
+IPCEI is mixed: it includes R&D, innovation and first industrial deployment. Its reported spending cannot be classified 100% as R&D without project cost/work-package evidence.
+
+### 7.4 Innovation agreements — 2026 signed-project pipeline
+
+MIMIT's second four-monthly report for 1 May–31 August 2026 records **23 signed Innovation Agreements**. Across the 23 projects listed in the report, the stated total cost of R&D activities is approximately **EUR 166.57m**, while the administration's stated contribution is approximately **EUR 79.30m** (47.6% of total project R&D cost).
+
+This is a project pipeline/approved R&D-cost measure, not expenditure performed in 2026. The published report includes agreements under more than one ministerial decree (including the 2022 and 2025 calls); do not attribute the entire EUR 166.57m to PNRR M4C2-I2.2bis until each agreement's legal funding source is matched. It is nevertheless a valuable source for project-level R&D cost and public contribution, and should be captured separately pending the legal crosswalk.
+
+## 8. Updated interpretation of the shock
+
+We now have three distinct quantitative anchors:
+1. **PRIN:** EUR 1.013bn cumulative reported expenditure at 31 December 2024 (measure-specific, ReGiS-based).
+2. **DTF/GTF:** EUR 120.39m cumulative reported ReGiS spending at 30 November 2025, alongside EUR 481m cumulative CDP investment deliberations at end-2025. These are separate implementation stages.
+3. **Innovation agreements:** EUR 166.57m of R&D project costs across 23 agreements signed in May–August 2026, with EUR 79.30m stated public contribution; legal funding-source attribution and actual expenditure timing remain to be checked.
+
+These amounts are **not additive**: they refer to different dates, stages, funding concepts and, in the case of the innovation-agreement pipeline, not yet a confirmed common PNRR funding perimeter.
+
+No reliable annual 2020–2026 shock series can yet be constructed from these cumulative snapshots. The next step is to obtain annual transaction/project cash and cost profiles, not to allocate cumulative spending evenly across years. The current evidence does, however, show that the shock has several sizeable channels: direct university research (PRIN and other MUR measures), industrial R&D grants (IPCEI and Innovation Agreements), and VC-backed technology business creation (DTF/GTF).
+
+## Sources added
+
+- Court of Auditors, *Relazione sullo stato di attuazione del PNRR*, May 2025, p.185, PRIN expenditure and selected R&D&I cohort: https://www.mur.gov.it/sites/default/files/2025-05/Quinta%20relazione.pdf
+- Presidency of the Council of Ministers, *Settima relazione sullo stato di attuazione del PNRR*, 22 December 2025, Tables 27–29, MUR and financial-instrument expenditure: https://www.mur.gov.it/sites/default/files/2026-01/Settima%20relazione%20-%20sezione%201.pdf
+- MIMIT, *Report di monitoraggio del PNRR MIMIT – 2o semestre 2025*, including financial-instrument and territorialisation tables: https://www.mimit.gov.it/images/stories/documenti/allegati/pnrr/31122025_Mimit_Report_Semestrale_DEF_.pdf
+- MIMIT, *Accordi per l'innovazione – Report secondo quadrimestre 2026*, 1 May–31 August 2026: https://www.mimit.gov.it/images/stories/documenti/allegati/31_08_26_accordi-innonvazione-2Q-2026.pdf
