@@ -13,7 +13,7 @@ Do not treat a financing envelope, cash transfer or investment announcement as a
 
 ## 2. Annual unit of observation
 
-The core panel is one row per PNRR measure per calendar year, 2020–2026. It is a blank evidence-collection template, not an estimated dataset. Blank numeric fields mean not yet collected, not zero.
+The core panel is one row per PNRR measure per calendar year, extended to 2018–2030. It is a blank evidence-collection template, not an estimated dataset. 2018–2019 are the pre-RRF baseline; 2020–2026 are the RRF window subject to measure-specific eligibility; 2027–2030 capture persistence/spillovers and are not RRF-financed by default. Blank numeric fields mean not yet collected, not zero. See docs/policy_chronology_and_rrf_eligibility.md and data/processed/pnrr_measure_timeline.csv.
 
 For each measure-year, collect separately:
 - budget authorisations;
