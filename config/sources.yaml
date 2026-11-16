@@ -183,3 +183,23 @@ evidence_requirements:
       dataset_code: rd_e_gerdtot
       url: https://ec.europa.eu/eurostat/databrowser/view/rd_e_gerdtot/default/table
       content: Cross-country harmonised GERD by sector of performance; use for validation and EU comparison.
+
+  macro_outcome_convention:
+    primary_indicator: GERD as percentage of GDP (R&D intensity), percentage points
+    companion_indicators:
+      - nominal GERD EUR million
+      - nominal GDP EUR million
+      - real GERD in 2019 prices
+      - BERD_GDP
+      - HERD_GDP
+      - GOVERD_GDP
+      - R&D personnel FTE
+    eurostat_gerd:
+      dataset_code: rd_e_gerdtot
+      url: https://ec.europa.eu/eurostat/databrowser/view/rd_e_gerdtot/default/table
+      preferred_unit: percentage_of_GDP
+      note: Preferred harmonised master series for econometric and cross-country work; preserve observation flags and breaks.
+    eurostat_gdp:
+      dataset_code: nama_10_gdp
+      url: https://ec.europa.eu/eurostat/databrowser/view/nama_10_gdp/default/table
+      preferred_use: nominal GDP denominator and implicit GDP deflator; match price basis with GERD numerator.
