@@ -159,3 +159,14 @@ evidence_requirements:
     istat_business_rd_survey:
       url: https://www.istat.it/informazioni-sulla-rilevazione/ricerca-imprese/
       content: Annual business R&D intramural and extramural performance outcome.
+
+  rd_tax_credit_impact:
+    oecd_microberd_italy:
+      url: https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/10/the-impact-of-r-d-tax-incentives_bc42ab04/1937ac6b-en.pdf
+      content: Italy difference-in-differences estimates for 2007-2009 volume-based and 2015-2019 incremental tax-credit regimes; historical causal benchmarks only.
+    oecd_italy_survey_2026:
+      url: https://www.oecd.org/en/publications/oecd-economic-surveys-italy-2026_539538b2-en/full-report/enhancing-business-dynamism-to-raise-productivity_ec8ed53a.html
+      content: Reports tax incentives at 64% of total government support to business R&D in 2023; composition indicator, not causal additionality.
+    bancaditalia_qef_898:
+      url: https://www.bancaditalia.it/pubblicazioni/qef/2024-0898/
+      content: Comparative analysis of innovation and public support policies, Italy and peer countries.
