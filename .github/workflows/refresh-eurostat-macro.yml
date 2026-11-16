@@ -1,5 +1,9 @@
 name: Refresh Eurostat macro data
 on:
+  push:
+    paths:
+      - 'scripts/refresh_eurostat_macro.py'
+      - '.github/workflows/refresh-eurostat-macro.yml'
   workflow_dispatch:
   schedule:
     - cron: "17 6 15 * *"
