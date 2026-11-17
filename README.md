@@ -69,6 +69,11 @@ Every material amount or legal claim should carry a source reference. Where feas
 
 Never fill gaps with invented values. Distinguish observed data, official allocations, estimates, forecasts and assumptions.
 
+## Data assets and working database
+
+- [Workbook and data register](data/README.md) — workbook structure, accounting conventions, extraction status and next data-engineering steps.
+- [Reusable R&D Investment Shock skill](skills/rd-investment-shock/SKILL.md) — portable instructions for Frascati classification, execution, additionality, financial instruments and macro-model handoff.
+
 ## Getting started
 
 Read these files first:
