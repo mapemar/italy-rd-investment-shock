@@ -127,6 +127,6 @@ A versioned v0.2 extension has been added on branch `m4c2-aggregate-quantificati
 - Reconstructs enterprise co-financing for I3.3 PhDs from DM352/2022, DM117/2023 and DM630/2024; central estimate EUR 127.4m, with the 2024 top-up explicitly assumed.
 - Separately identifies EUR 31.7–42.4m university/host top-ups for PA and cultural-heritage doctoral scholarships in the DM118/2023 cohort; these are not classified as private.
 - Central private/likely-private co-financing proxy: EUR 593.6m; strict private-only floor: EUR 328.4m.
-- Combined central additional-R&D model output: EUR 1,575.3m (low EUR 629.7m; high EUR 2,658.5m).
+- Combined central additional-R&D model output: EUR 1,575.3m (low EUR 629.7m; high EUR 2,658.4m).
 
 These are preliminary model outputs, not official R&D expenditure or causal estimates. The private co-financing amount for I1.3/I1.4/I1.5 remains a proxy pending partner-level source classification; ITEC is a minimum implied by the call cap; DM630/2024 company top-ups are assumed centrally. M4C1 I3.4 doctoral-only execution is estimated pro rata. The M4C1 I4.1 and M4C2 I3.3 award-count discrepancies and the EUR 340.4m/360m I3.3 allocation vintage difference are documented in the v0.2 report.
