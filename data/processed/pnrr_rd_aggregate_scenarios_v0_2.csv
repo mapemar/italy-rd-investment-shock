@@ -1,0 +1,7 @@
+scope,scenario,estimated_rd_performed_eur_mn,estimated_additional_rd_eur_mn,cofinance_treatment,observation_status
+PNRR M4C2 only,low,3156.2,575.4,PRIN non-PNRR residual included provisionally; private co-financing excluded from v0.1 baseline,model output
+PNRR M4C2 only,central,3763.7,1374.5,PRIN non-PNRR residual included provisionally; private co-financing excluded from v0.1 baseline,model output
+PNRR M4C2 only,high,4354.7,2243.4,PRIN non-PNRR residual included provisionally; private co-financing excluded from v0.1 baseline,model output
+PNRR M4C2 plus M4C1 doctoral measures and associated co-financing,low,3297.0,629.7,Private co-financing low case excludes I1.3/I1.4/I1.5 project-cost gaps from strict private total; university top-up included separately,model output
+PNRR M4C2 plus M4C1 doctoral measures and associated co-financing,central,4200.9,1575.3,Includes EUR 593.6m central private/other co-financing proxy and EUR 37.0m M4C1 university/host top-up commitment,model output
+PNRR M4C2 plus M4C1 doctoral measures and associated co-financing,high,4920.0,2658.5,High sensitivity includes full project-cost gaps and upper doctoral top-up assumptions; ITEC amount remains minimum-only,model output
