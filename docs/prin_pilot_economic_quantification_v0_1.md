@@ -83,6 +83,12 @@ Employment intensity proxy:
 - EUR 268.09m / EUR 56,335 = approximately **4,759 R&D FTE-years** over the full project life.
 - This is labour input equivalent, not an estimate of net additional jobs or permanent headcount.
 
+R&D type and performing-sector allocation (assumptions for the model input, not observed project-level shares):
+- **R&D type:** 55% basic research, 40% applied research and 5% experimental development. The 55% basic-research anchor reflects Istat's finding that more than half of university R&D expenditure is basic research; the applied/experimental split is a modelling assumption pending PRIN project classification.
+- **Performing sector:** 90% higher education (HERD) and 10% government research institutes (GOVERD), reflecting the expected dominance of university-led PRIN consortia and the MUR eligibility of EPR. This is a provisional proxy, not a measured beneficiary share.
+- **Domestic performance:** 100% is assumed for the first pass because funded research units are Italian eligible institutions; any foreign partner expenditure must be deducted when project-level accounts are available.
+
+
 Import leakage (explicit assumption, not official data):
 - 10% of intermediate consumption imported.
 - 25% of equipment/capital expenditure imported.
