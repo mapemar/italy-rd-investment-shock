@@ -109,6 +109,10 @@ EUR million, nominal project expenditure, central assumptions:
 
 2025 includes the observed-proxy Jan–Aug profile plus the assumed Sep–Dec completion profile. 2026 covers Jan–Feb only.
 
+### Scale check against national R&D
+
+The 2024 central annual shock (EUR 191.5m) is approximately **0.62%** of Italy's total 2024 GERD (about EUR 31.0bn) and the assumed HERD component (EUR 172.4m) is approximately **2.1%** of 2024 university R&D expenditure (about EUR 8.35bn). This is a scale comparison, not an estimate of the observed contribution of PRIN to the national aggregate.
+
 ## 7. Scenario analysis
 
 | Scenario | Final execution | Additionality | Additional R&D EUR m |
