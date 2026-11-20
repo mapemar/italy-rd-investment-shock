@@ -178,3 +178,24 @@ At EUR 56,335 per FTE-year, the personnel component corresponds to approximately
 - Aggregate scenarios: `data/processed/pnrr_rd_aggregate_scenarios_v0_2.csv`.
 - Annual central profile: `data/processed/pnrr_rd_annual_shock_v0_2.csv`.
 - Previous M4C2 v0.1 outputs remain preserved and linked as the pre-extension baseline.
+
+
+## 9. Additional reconciliation controls
+
+### I3.3 scholarships versus financial commitments
+
+The MUR Seventh Report's cycle counts (1,708 + 1,708 + 2,489 = 5,905) are below the 5,956 total awards by 51 residual awards, while 5,780 are countable towards the target. The 51 residual awards are not allocated to a cycle in the aggregate evidence and remain excluded from the private co-financing calculation.
+
+Applying the original cycle-specific public unit contributions (EUR 30k for DM352 and DM117; EUR 60k for DM630) to the three published cycle counts yields EUR 251.82m of public scholarship financing before the residual awards. ANVUR reports EUR 340.5m committed for the whole I3.3 measure. The EUR 88.7m difference is not assigned to scholarships in this model; it may reflect other I3.3 components, changes in unit contribution or further commitments, and requires a project/act-level bridge. In particular, the original I3.3 investment also envisaged incentives for firms hiring researchers. Do not automatically classify the residual as doctoral R&D.
+
+### I4.1 award-count discrepancy
+
+The MUR Seventh Report reports 7,237 awards committed and 7,161 countable towards the target. Its cycle breakdown (2,132 + 4,444 + 708) sums to 7,284, which is 47 above the aggregate committed count. The report also refers to a 42-scholarship residual reallocation. The award-count discrepancy is preserved rather than silently reconciled; the financial model uses the observed aggregate expenditure and the 2,131 PA/cultural-heritage cycle-XXXIX count only for the university top-up estimate.
+
+### I3.4 doctoral spending proxy
+
+The EUR 2.624m estimated spend is a proportional allocation of the I3.4-wide EUR 20.4m expenditure to the EUR 34.5m doctoral sub-line. It is not an observed amount and should be replaced when MUR/ReGiS reports doctoral-only expenditure.
+
+### Co-financing classification
+
+The EUR 240.274m gap between approved project cost and approved public aid for I1.3/I1.4/I1.5 is consistent with the MUR Si.Ge.Co. designation of private co-financing. However, the public award tables do not identify the source sector of every contribution. It is therefore retained as a **provisional private/other co-financing proxy**, not a validated business-sector funding observation. The stricter private-only floor excludes this EUR 240.274m until partner-level contributions are classified.
