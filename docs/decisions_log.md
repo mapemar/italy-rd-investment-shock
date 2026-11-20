@@ -173,3 +173,13 @@ Record durable decisions here so that work does not depend on conversation histo
 - **Decision:** Build a separate aggregate estimate for the seven MUR research-oriented M4C2 investments (I1.1, I1.2, I1.3, I1.4, I1.5, I3.1 and I3.3). Split M4C2 I1.1 into PRIN projects-in-being, new PRIN calls, PNR and the researcher-recruitment fund. Keep M4C1 doctoral measures and MIMIT industrial innovation measures separately identifiable.
 - **Rationale:** These measures support different research, infrastructure, human-capital and innovation activities. A single allocation-to-R&D coefficient would obscure Frascati eligibility and counterfactual differences.
 - **Implication:** Use cumulative expenditure snapshots as execution bases, then apply measure-specific R&D-relevance and additionality assumptions. Treat annual performance profiles as modelled until transaction-level rendiconti are obtained. Keep PRIN non-PNRR residual financing separate and provisional. Do not treat recipient categories as performing sectors.
+
+
+## D022 — Extend the PNRR research estimate to doctoral programmes and co-financing
+
+- **Date:** 2026-11-20.
+- **Status:** Preliminary implementation; co-financing and award-count reconciliations remain open.
+- **Decision:** Extend the M4C2 estimate with M4C1 I4.1 doctoral programmes and the doctoral sub-line of M4C1 I3.4. Reconstruct enterprise/private co-financing from call rules and MUR award tables, while keeping university/host top-ups separate from private co-financing.
+- **Rationale:** Doctoral activity and partner contributions are material to the full financial perimeter but are not captured by the PNRR public allocation alone. The funding source and Frascati R&D share must remain distinct.
+- **Method:** Use actual cycle award counts where reported; apply DM352/2022 and DM117/2023 50% enterprise co-financing rules; for DM630/2024 use the EUR 60k MUR contribution and separately model the enterprise top-up above that amount. For ITEC, derive a minimum private contribution from the 49% public funding cap. For I1.3/I1.4/I1.5, use approved project cost less approved public aid as a provisional private/other co-financing proxy.
+- **Implication:** Report strict private-only lower bound separately from the central private/other proxy. Do not treat co-financing commitments as expenditure; apply execution, R&D relevance and additionality assumptions separately. Preserve unresolved discrepancies in the I3.3 and I4.1 award counts and in the I3.3 allocation vintage.
