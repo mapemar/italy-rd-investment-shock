@@ -90,8 +90,8 @@ The 49% maximum is specific to ITEC. It must not be applied to research infrastr
 |---|---:|---:|---:|---|
 | I1.3/I1.4/I1.5 project-cost gaps | 240.3 | 240.3 | 240.3 | Derived; private-source classification provisional |
 | ITEC private contribution | 225.9 | 225.9 | 225.9 | Minimum implied by 49% public cap |
-| I3.3 enterprise PhD co-financing | 102.5 | 127.4 | 139.8 | First two cohorts derived; third cohort assumed |
-| **Private/likely-private co-financing proxy** | **568.7** | **593.6** | **606.0** | Excludes any amount above ITEC minimum |
+| I3.3 enterprise PhD co-financing | 102.5 | 127.4 | 139.5 | First two cohorts derived; third cohort assumed |
+| **Private/likely-private co-financing proxy** | **568.7** | **593.6** | **605.7** | Excludes any amount above ITEC minimum |
 | M4C1 I4.1 university/host top-up | 31.7 | 37.0 | 42.4 | Separate non-private contribution |
 
 A stricter private-only floor, excluding the I1.3/I1.4/I1.5 cost gaps until partner source classification is confirmed, is **EUR 328.4m** (ITEC minimum plus the EUR 102.48m enterprise contribution derived for the first two doctoral cohorts). The central EUR 593.6m figure includes the EUR 240.3m project-cost gap as likely-private co-financing and EUR 24.9m assumed enterprise top-up for the XL doctoral cycle.
