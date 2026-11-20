@@ -149,3 +149,10 @@ Code should be modular, tested and deterministic where possible. Raw data should
 **Macro outcome convention:** the headline national outcome is GERD as a share of GDP (R&D intensity, percentage points); nominal and real GERD levels remain companion series. See [methodology](docs/methodology.md#11-main-macro-outcome-rd-intensity-as-a-share-of-gdp).
 
 - [Eurostat macro panel Italy 2010–2024](data/processed/eurostat_macro_panel_italy_2010_2024.csv) — GERD/GDP by sector, GDP and deflator proxy.
+
+
+## M4C2 aggregate research estimate (preliminary)
+
+- [M4C2 aggregate R&D quantification v0.1](docs/m4c2_aggregate_rd_quantification_v0_1.md) — all seven MUR research-oriented M4C2 investments, execution bridge, Frascati relevance and additionality scenarios.
+- [M4C2 measure-level estimates](data/processed/m4c2_rd_measure_estimate_v0_1.csv) — allocation, cumulative execution, R&D shares and low/central/high additionality by sub-measure.
+- [M4C2 annual shock scenarios](data/processed/m4c2_rd_annual_shock_v0_1.csv) — provisional 2021–2026 annual performance profiles; not observed annual accounts.
