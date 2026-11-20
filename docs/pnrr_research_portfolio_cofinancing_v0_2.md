@@ -199,3 +199,5 @@ The EUR 2.624m estimated spend is a proportional allocation of the I3.4-wide EUR
 ### Co-financing classification
 
 The EUR 240.274m gap between approved project cost and approved public aid for I1.3/I1.4/I1.5 is consistent with the MUR Si.Ge.Co. designation of private co-financing. However, the public award tables do not identify the source sector of every contribution. It is therefore retained as a **provisional private/other co-financing proxy**, not a validated business-sector funding observation. The stricter private-only floor excludes this EUR 240.274m until partner-level contributions are classified.
+
+On the central assumptions, the combined public allocation of EUR 8,823.4m plus EUR 593.6m private/likely-private co-financing and EUR 37.0m university/host top-up implies a **total financing envelope of approximately EUR 9,454.0m**. This is a reconstructed financing envelope, not a realised expenditure total. The co-financing component is about 6.3% of the reconstructed total envelope.
