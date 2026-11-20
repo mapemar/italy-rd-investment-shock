@@ -156,3 +156,11 @@ Code should be modular, tested and deterministic where possible. Raw data should
 - [M4C2 aggregate R&D quantification v0.1](docs/m4c2_aggregate_rd_quantification_v0_1.md) — all seven MUR research-oriented M4C2 investments, execution bridge, Frascati relevance and additionality scenarios.
 - [M4C2 measure-level estimates](data/processed/m4c2_rd_measure_estimate_v0_1.csv) — allocation, cumulative execution, R&D shares and low/central/high additionality by sub-measure.
 - [M4C2 annual shock scenarios](data/processed/m4c2_rd_annual_shock_v0_1.csv) — provisional 2021–2026 annual performance profiles; not observed annual accounts.
+
+
+## Doctoral programmes and co-financing extension (v0.2)
+
+- [PNRR research portfolio, doctoral measures and co-financing reconstruction](docs/pnrr_research_portfolio_cofinancing_v0_2.md) — adds M4C1 doctoral programmes, reconstructs enterprise/private and university/host co-financing, and extends the additional-R&D scenarios.
+- [Co-financing reconstruction by measure](data/processed/pnrr_rd_cofinancing_v0_2.csv) — call-level rules, approved project-cost gaps, public/private shares and assumptions.
+- [Extended aggregate scenarios](data/processed/pnrr_rd_aggregate_scenarios_v0_2.csv) — combined M4C2 and doctoral extension.
+- [Extended annual R&D shock profile](data/processed/pnrr_rd_annual_shock_v0_2.csv) — central annual profile, 2021–2026.
