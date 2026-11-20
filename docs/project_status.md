@@ -102,3 +102,31 @@ Statuses are qualitative management judgements, not measured completion percenta
 - [Data dictionary](data_dictionary.md)
 - [Decision log](decisions_log.md)
 - [Source catalogue](../config/sources.yaml)
+
+
+## New quantitative work — M4C2 aggregate pilot (20 November 2026)
+
+A preliminary aggregate model has been added on branch `m4c2-aggregate-quantification-v0-1`:
+
+- Latest MUR Si.Ge.Co. v5.0 allocation perimeter: EUR 8,284.9m across seven research-oriented M4C2 investments.
+- ANVUR cumulative execution base: EUR 5,459.8m (mostly October 2025; I3.1 updated to February 2026).
+- Modelled R&D performed, including a separate provisional PRIN residual-financing line: EUR 3,156.2m low / EUR 3,763.7m central / EUR 4,354.7m high.
+- Modelled additional R&D: EUR 575.4m low / EUR 1,374.5m central / EUR 2,243.4m high.
+- Central annual profile (current prices): EUR 10.2m in 2021; EUR 36.8m in 2022; EUR 170.5m in 2023; EUR 422.3m in 2024; EUR 498.7m in 2025; EUR 236.1m in 2026.
+
+The results are preliminary model outputs, not official R&D expenditure or causal estimates. The annual profile is assumed, the performing-sector and R&D-type splits are not yet estimated, private co-financing is not quantified, and final project-level rendiconti are still required. The M4C1 doctoral measures remain a separate extension. See [M4C2 aggregate quantification](m4c2_aggregate_rd_quantification_v0_1.md).
+
+
+## New extension — doctoral programmes and co-financing (20 November 2026)
+
+A versioned v0.2 extension has been added on branch `m4c2-aggregate-quantification-v0-1`:
+
+- Adds M4C1 I4.1 doctoral programmes (EUR 504m allocation; EUR 316.8m reported expenditure) and the M4C1 I3.4 doctoral sub-line (EUR 34.5m allocation; doctoral-only expenditure estimated pro rata pending disaggregation).
+- Reconstructs EUR 240.3m of approved project-cost gaps across 14 extended partnerships, 5 National Centres and 11 innovation ecosystems.
+- Derives a minimum EUR 225.9m private co-financing requirement for ITEC from the 49% public funding cap.
+- Reconstructs enterprise co-financing for I3.3 PhDs from DM352/2022, DM117/2023 and DM630/2024; central estimate EUR 127.4m, with the 2024 top-up explicitly assumed.
+- Separately identifies EUR 31.7–42.4m university/host top-ups for PA and cultural-heritage doctoral scholarships in the DM118/2023 cohort; these are not classified as private.
+- Central private/likely-private co-financing proxy: EUR 593.6m; strict private-only floor: EUR 328.4m.
+- Combined central additional-R&D model output: EUR 1,575.3m (low EUR 629.7m; high EUR 2,658.4m).
+
+These are preliminary model outputs, not official R&D expenditure or causal estimates. The private co-financing amount for I1.3/I1.4/I1.5 remains a proxy pending partner-level source classification; ITEC is a minimum implied by the call cap; DM630/2024 company top-ups are assumed centrally. M4C1 I3.4 doctoral-only execution is estimated pro rata. The M4C1 I4.1 and M4C2 I3.3 award-count discrepancies and the EUR 340.4m/360m I3.3 allocation vintage difference are documented in the v0.2 report.
