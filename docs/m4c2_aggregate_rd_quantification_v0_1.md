@@ -180,3 +180,5 @@ The MUR Si.Ge.Co. identifies private co-financing for I1.3, I1.4, I1.5, ITEC and
 - **Young-researcher funding is internally inconsistent across MUR reporting vintages.** The current Si.Ge.Co. and ANVUR allocation table show EUR 210m, while the MUR Seventh Report describes EUR 220m for the 2022 line and later 2025 calls. Do not add those call amounts on top of EUR 210m without a funding-source and revision crosswalk. The EUR 25.2m spending observation is the ANVUR snapshot, not a final execution total.
 - **I3.1 and I3.3 allocations are vintage-sensitive.** The latest Si.Ge.Co. v5.0 amounts (EUR 1,481.7m and EUR 340.4m) are used for the allocation register; the ANVUR spending observations are retained at their stated vintage and are not overwritten.
 
+
+- **I1.2 execution denominator also requires reconciliation.** ANVUR Table 1.2 reports EUR 25.2m spent against EUR 210m allocated and EUR 151.9m committed (12.0% of allocation; 16.6% of commitments). ANVUR Figure/Table 1.6 separately displays 27.7% for the “committed-spent” category. The v0.1 calculation uses the explicit EUR 25.2m amount and EUR 210m allocation, while flagging the percentage discrepancy.
