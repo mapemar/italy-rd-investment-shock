@@ -102,3 +102,16 @@ Statuses are qualitative management judgements, not measured completion percenta
 - [Data dictionary](data_dictionary.md)
 - [Decision log](decisions_log.md)
 - [Source catalogue](../config/sources.yaml)
+
+
+## New quantitative work — M4C2 aggregate pilot (20 November 2026)
+
+A preliminary aggregate model has been added on branch `m4c2-aggregate-quantification-v0-1`:
+
+- Latest MUR Si.Ge.Co. v5.0 allocation perimeter: EUR 8,284.9m across seven research-oriented M4C2 investments.
+- ANVUR cumulative execution base: EUR 5,459.8m (mostly October 2025; I3.1 updated to February 2026).
+- Modelled R&D performed, including a separate provisional PRIN residual-financing line: EUR 3,156.2m low / EUR 3,763.7m central / EUR 4,354.7m high.
+- Modelled additional R&D: EUR 575.4m low / EUR 1,374.5m central / EUR 2,243.4m high.
+- Central annual profile (current prices): EUR 10.2m in 2021; EUR 36.8m in 2022; EUR 170.5m in 2023; EUR 422.3m in 2024; EUR 498.7m in 2025; EUR 236.1m in 2026.
+
+The results are preliminary model outputs, not official R&D expenditure or causal estimates. The annual profile is assumed, the performing-sector and R&D-type splits are not yet estimated, private co-financing is not quantified, and final project-level rendiconti are still required. The M4C1 doctoral measures remain a separate extension. See [M4C2 aggregate quantification](m4c2_aggregate_rd_quantification_v0_1.md).
