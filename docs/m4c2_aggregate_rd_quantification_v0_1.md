@@ -171,3 +171,12 @@ The MUR Si.Ge.Co. identifies private co-financing for I1.3, I1.4, I1.5, ITEC and
 - Measure-level assumptions and calculations: `data/processed/m4c2_rd_measure_estimate_v0_1.csv`.
 - Annual low/central/high profiles: `data/processed/m4c2_rd_annual_shock_v0_1.csv`.
 - This version is a transparent first aggregate simulation. It does not overwrite the separate PRIN v0.1 pilot or claim validation of the national R&D shock.
+
+
+## 10. Critical reconciliation warnings
+
+- **The EUR 550m PRIN amount is one aggregate, not two separate allocations.** MUR DD 1567/2022 Table 7 describes EUR 550m of PRIN projects-in-being and refers to PRIN 2020 and PRIN 2022. The MUR Seventh Report separately describes the DD104/2022 first window as EUR 741.8m total, including EUR 550m PNRR. These references must be reconciled at call/project/CUP level. This estimate counts the EUR 550m PNRR component only once; it does not add a second EUR 550m for PRIN 2020.
+- **The EUR 191.8m DD104 residual is not a second PNRR allocation.** It is the arithmetic difference between the reported EUR 741.8m total first-window funding and EUR 550m PNRR contribution. Its exact source composition, execution and relationship with other national PRIN funding remain to be validated. It is included only as a separate sensitivity line.
+- **Young-researcher funding is internally inconsistent across MUR reporting vintages.** The current Si.Ge.Co. and ANVUR allocation table show EUR 210m, while the MUR Seventh Report describes EUR 220m for the 2022 line and later 2025 calls. Do not add those call amounts on top of EUR 210m without a funding-source and revision crosswalk. The EUR 25.2m spending observation is the ANVUR snapshot, not a final execution total.
+- **I3.1 and I3.3 allocations are vintage-sensitive.** The latest Si.Ge.Co. v5.0 amounts (EUR 1,481.7m and EUR 340.4m) are used for the allocation register; the ANVUR spending observations are retained at their stated vintage and are not overwritten.
+
