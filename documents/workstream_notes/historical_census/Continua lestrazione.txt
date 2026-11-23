@@ -1,0 +1,41 @@
+Ho ripreso l'estrazione e completato una nuova passata sulle fonti parlamentari e legislative 2018–2025.
+
+R&D Fiscal Census – Italy 2018–2025
+Pacchetto integrativo v19
+
+Contenuto riportato nelle note:
+- 71 record di misure e interventi;
+- 236 record di profili annuali;
+- 20 record di saldi fiscali;
+- 18 fonti documentali;
+- 6 esclusioni e misure qualitative.
+
+Principali misure esaminate:
+| Periodo | Misure particolarmente rilevanti |
+|---|---|
+| 2018–19 | Reclutamento ricercatori, OGS, GSSI, IPCEI, venture capital |
+| 2020 | Fondo nazionale ricerca e ANR, €500m Fondo trasferimento tecnologico, Human Technopole, infrastrutture di ricerca |
+| 2021 | FOE, PNR, infrastrutture di ricerca, credito R&D Sud, ecosistemi dell'innovazione |
+| 2022 | FIS, FISA, incremento FOE, piano CNR, credito R&D |
+| 2023 | ISPRA, Chips JU, finanziamenti MASAF, personale enti di ricerca |
+| 2024 | Personale enti non vigilati MUR, ricerca agricola, Chips JU, FCS |
+| 2025 | Ricerca sanitaria PNC, CREA, CNR, NATO Innovation Fund |
+
+Verifiche e correzioni riportate:
+- Fondo nazionale per la ricerca 2020: €25m nel 2020, €200m nel 2021 e €300m annui dal 2022.
+- Risorse per il trasferimento tecnologico: €500m nel 2020.
+- IPCEI: riconciliare le autorizzazioni 2019–2024 con i successivi rifinanziamenti.
+- CREA: €22,5m annui dal 2020.
+- ISPRA: distinguere autorizzazione legislativa e profili dei tre saldi.
+- NATO Innovation Fund: separare €7,65m di transazione finanziaria da €76.500 di costi correnti.
+- Green New Deal: distinguere dotazione del fondo, capacità di garanzia e spesa R&D effettiva.
+
+La v19 è un pacchetto integrativo, non il master v18 già consolidato. Gli identificativi Measure_ID sono indicati come chiave per riconciliare i record ed evitare duplicazioni prima della fusione.
+
+La conclusione operativa era consolidare v18 e v19 in un unico database soltanto dopo la riconciliazione degli identificativi e mantenendo separati:
+1. R&D strettamente identificabile secondo Frascati;
+2. supporto pubblico alla ricerca con componente R&D non interamente identificabile;
+3. innovazione, venture capital e strumenti finanziari;
+4. riduzioni e riallocazioni delle risorse pubbliche.
+
+Nota di archivio: questo file conserva il riepilogo della chat. Non sostituisce il workbook originale v19, che deve essere recuperato prima della riconciliazione record-level.
