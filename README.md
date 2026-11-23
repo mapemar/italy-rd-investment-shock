@@ -110,7 +110,6 @@ Code should be modular, tested and deterministic where possible. Raw data should
 
 **Execution evidence expanded.** The project now includes PRIN cumulative expenditure at end-2024, MUR/MIMIT ReGiS execution snapshots at end-November 2025, and 23 signed 2026 Innovation Agreements with stated R&D costs. These are cumulative execution/pipeline observations, not yet an annual causal R&D shock series.
 
-
 ## 2026 Budget Law and PNRR economies
 
 - [2026 Budget Law and PNRR economy reconciliation](docs/pnrr_2026_budget_reconciliation.md) — €7.102bn Treasury return, ministry-level and measure-level PNRR economies, and the double-counting implications.
@@ -128,24 +127,26 @@ Code should be modular, tested and deterministic where possible. Raw data should
 - [Industrial R&D project register](data/processed/industrial_rd_project_register.csv) — 24 IPCEI participant/CUP records plus implementation records for space, strategic supply chains, net-zero, technology transfer and PoC.
 - [Expanded policy measure screening](docs/policy_measure_screening.md) — source-backed eligibility/exclusion decisions and project-level data priorities.
 
-
 ## Venture capital and institutional-investor reform
 
 - [DTF and GTF fund-level evidence register](data/processed/venture_capital_funds.csv) — direct/indirect channels, envelope status, leverage and R&D evidence gaps.
 - [Venture capital and start-up finance methodology](docs/venture_capital_and_startup_finance.md) — treatment of DTF/GTF, portfolio-company R&D and Law 193/2024 Article 33.
 
-
 ## Historical national R&D policy baseline
 
 - [Historical PRIN funding, 2007–2022](data/processed/prin_historical_funding_2007_2022.csv) — MUR-reported annual funding allocations.
 - [Historical R&D policy register](data/processed/historical_rd_policy_register.csv) — PRIN, FCS/FIT, innovation agreements, R&D tax credits, DTF/GTF and institutional VC reform.
-
 - [R&D tax credit evidence 2020–2022](data/processed/rd_tax_credit_evidence_2020_2022.csv) — accrued R&D&I credits and Istat tax-relief indicators, with scope caveats.
-
 - [OECD R&D tax-credit impact evidence](data/processed/rd_tax_credit_impact_evidence.csv) — Italy-specific causal estimates for 2007–09 and 2015–19, plus 2023 policy-mix statistic; not directly transferable to 2020–22.
-
 - [Italy R&D macro baseline 2019–2025](data/processed/italy_rd_macro_baseline_2019_2025.csv) — Istat national R&D outcome series, sector breakdown and preliminary 2025 indicators.
 
 **Macro outcome convention:** the headline national outcome is GERD as a share of GDP (R&D intensity, percentage points); nominal and real GERD levels remain companion series. See [methodology](docs/methodology.md#11-main-macro-outcome-rd-intensity-as-a-share-of-gdp).
 
 - [Eurostat macro panel Italy 2010–2024](data/processed/eurostat_macro_panel_italy_2010_2024.csv) — GERD/GDP by sector, GDP and deflator proxy.
+
+## Workstream and version navigation
+
+- [Project workstream index](docs/WORKSTREAM_INDEX.md) — links to canonical methodology, existing PNRR analysis, supplementary chat work and current artefact locations.
+- [Chat-workstream consolidation (23 November 2026)](docs/chat_consolidation_2026-11-23.md) — reconciles recent chat work with the existing repository; explains what is and is not consolidated.
+- [Working-file and version register](docs/version_register_2026-11-23.md) — authoritative map of workbook vintages and uploaded text/JSON exports.
+- [23 November status addendum](docs/project_status_addendum_2026-11-23.md) — additional evidence, availability caveats and immediate next actions.
