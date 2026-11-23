@@ -1,0 +1,51 @@
+{
+  "source_workbook": "RD_Quantification_Working_Paper_v0.1.xlsx",
+  "export_note": "Worksheet cell values exported as JSON arrays. Formula cells are preserved as formula strings; Excel formatting, charts and cached formula results are not included.",
+  "sheets": {
+    "MUR_Cumulative": [
+      ["Measure_ID","Measure","PNRR allocation EUR m","ANVUR reported expenditure EUR m","Low R&D share","Central R&D share","High R&D share","Low eligible R&D EUR m","Central eligible R&D EUR m","High eligible R&D EUR m","Snapshot / caveat"],
+      ["MUR_PRIN","PNR and PRIN",1800,1593.1,1,1,1,"=D2*E2","=D2*F2","=D2*G2","ANVUR aggregate PNR/PRIN measure; not the PRIN 2022 PNRR call alone."],
+      ["MUR_YR","Young researchers",210,25.2,0.8,1,1,"=D3*E3","=D3*F3","=D3*G3","ANVUR reported expenditure; payroll/FTE and actual research activity require validation."],
+      ["MUR_EP","Extended partnerships",1610,1002.4,0.6,0.8,1,"=D4*E4","=D4*F4","=D4*G4","Collaborative R&D mixed with coordination, transfer and other activities."],
+      ["MUR_NC","National R&D Centres",1600,959.8,0.5,0.7,1,"=D5*E5","=D5*F5","=D5*G5","Research programmes mixed with facilities, management and other costs."],
+      ["MUR_ECOS","Innovation ecosystems",1242.8,823.1,0.25,0.4,1,"=D6*E6","=D6*F6","=D6*G6","Mixed R&D, technology transfer, skills and ecosystem services."],
+      ["MUR_INFRA","Research infrastructures",1578.1,888,0.25,0.4,1,"=D7*E7","=D7*F7","=D7*G7","Infrastructure observation updated to February 2026; include only R&D operating costs and R&D capital formation."],
+      ["MUR_PHD","Innovative PhDs with firms (M4C2 I3.3)",360,168.2,0.5,0.7,1,"=D8*E8","=D8*F8","=D8*G8","Revised allocation EUR 360m; doctoral research labour only, not generic training."],
+      ["MUR_DOCTORATES","Research doctorates, PA and cultural heritage (M4C1 I4.1)",504,316.8,0.4,0.6,1,"=D9*E9","=D9*F9","=D9*G9","Only doctoral research activity qualifies; programme mix requires validation."],
+      ["TOTAL",null,"=SUM(C2:C9)","=SUM(D2:D9)",null,null,null,"=SUM(H2:H9)","=SUM(I2:I9)","=SUM(J2:J9)","Cumulative reported expenditure snapshot; not an annual flow and not causal additionality."]
+    ],
+    "Scenario_Summary": [
+      ["Scenario","Cumulative eligible R&D EUR m","Interpretation"],
+      ["Low","=MUR_Cumulative!H10","Provisional Frascati eligibility coefficients from v15; conservative scenario."],
+      ["Central","=MUR_Cumulative!I10","Provisional Frascati eligibility coefficients from v15; working central estimate."],
+      ["High","=MUR_Cumulative!J10","100% attribution of reported expenditure; broad upper-bound sensitivity, not strict GERD."],
+      ["Reported expenditure","=MUR_Cumulative!D10","ANVUR reported expenditure across the eight MUR measures in the v15 inventory."],
+      ["Total allocation","=MUR_Cumulative!C10","Allocation across the same eight measures."],
+      ["Critical distinction","Treatment"],
+      ["Gross PNRR attribution","Eligible expenditure estimates above represent gross PNRR-financed R&D attribution."],
+      ["Causal additionality","Not estimated. Do not assume 100%; requires a counterfactual or defensible additionality parameter."],
+      ["Annual timing","Not identified. ANVUR provides cumulative snapshots, not complete annual expenditure profiles."],
+      ["Sector","Do not classify all MUR spending as HERD; identify the entity actually performing the R&D (university, EPR, firm, consortium)."],
+      ["Data vintage","ANVUR microdata generally October 2025; research infrastructure measure updated February 2026."]
+    ],
+    "Annual_Input_Gap": [
+      ["Required model input","Available in v15?","Current status","Next action"],
+      ["Annual allocation by measure","Partial","Some legal/budget profiles exist; no complete annual panel in Annual_Exposure_Input.","Populate measure-year allocations from legal acts and budget profiles."],
+      ["Annual commitments","No","Blank in Annual_Exposure_Input.","Extract final accounts / OpenBDAP and administrative monitoring."],
+      ["Annual cash payments","No","Dataset identifiers verified, but raw OpenBDAP rows not imported.","Download annual CAP/CAPPG datasets and map chapter/PG to measures."],
+      ["ESA accrual","No","Not assembled at measure level.","Reconcile cash and competence with ESA accrual and economic activity."],
+      ["Beneficiary expenditure","Partial","ANVUR cumulative reported expenditure; CNR-IAC pilot is a local-unit sample.","Obtain project/beneficiary rendiconti and validation status."],
+      ["Frascati-eligible R&D performance","Estimated cumulatively for MUR only","Low/central/high shares are assumptions, not official shares.","Validate categories and performing entities using project-level costs."],
+      ["Domestic performance share","No","Not systematically observed.","Identify location of actual R&D performance."],
+      ["Additionality","No","Separate causal parameter; no causal estimate yet.","Use evaluation/cut-off/comparison evidence or transparent sensitivity."],
+      ["Annual additional R&D shock","No","Shock_Estimation sheet remains blank.","Only calculate once annual performance and additionality are available."]
+    ],
+    "Extraction_Progress": [
+      ["Source file / version","Evidence in project","What it contributes","What it does not establish"],
+      ["Italy_RD_Investment_Shock_Database_v15.xlsx","27 tabs; version 3.0 dated 16 Nov 2026","Master structure, macro baseline, policy inventory, MUR cumulative estimates, VC and OpenBDAP methodology.","No complete annual R&D shock; Annual_Exposure_Input and Shock_Estimation blank."],
+      ["Continua Stima PNRR R&D.txt","v18, Extraction Round 10; 106 RT_Extracted_Data records","Selected 2018–2025 legal/budget extractions, including FOE, FISA, tax-credit and MUR examples.","Not a complete national census; multiple years and ministries remain partial."],
+      ["Continua lestrazione.txt","v19 integrative package: 71 measures, 236 annual profiles, 20 fiscal-balance records, 18 sources, 6 exclusions","Additional measure-level evidence and classification corrections, including FNR, technology-transfer fund, FIS/FISA, CREA, ISPRA and NATO Innovation Fund.","v19 is supplementary, not merged with v18; record reconciliation still required."],
+      ["PRIN_2022_PNRR_Pilot_Final_v0.2.xlsx","Separate PRIN pilot workbook","Methodological pilot, award totals, CNR-IAC local-unit sample, Frascati crosswalk and automation backlog.","Not the national master and not an annual national R&D expenditure series."]
+    ]
+  }
+}
