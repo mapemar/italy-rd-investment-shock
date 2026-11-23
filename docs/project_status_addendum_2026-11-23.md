@@ -5,9 +5,9 @@ This addendum records the integration of recent chat work into the existing repo
 ## Newly registered evidence and working artefacts
 
 - **Historical national fiscal census:** v18 and v19 chat extraction notes are archived under `documents/workstream_notes/historical_census/`. The original Excel workbooks were not available for upload. The census remains a separate 2018–2025 workstream and is not automatically part of the PNRR-only headline estimand.
-- **MUR cumulative scenarios:** the review of master workbook v15 yielded preliminary low/central/high cumulative eligible-R&D scenarios of EUR 3,333.2m / EUR 4,084.3m / EUR 5,776.6m. These are cumulative gross scenario estimates based on provisional coefficients; not annual flows, not net additionality and not a replacement for the repository's first quantitative diagnostic.
-- **PRIN 2022 PNRR pilot:** final pilot workbook v0.2 is archived under `data/intermediate/pilots/`. It remains a methodological feasibility test. The CNR-IAC expenditure/allocation discrepancy and calendar-year timing limitations are unresolved.
-- **MUR quantification working paper:** v0.1 is archived under `data/intermediate/working_papers/` and supplements, rather than replaces, the master v15 workbook.
+- **MUR cumulative scenarios:** the review of master workbook v15 yielded preliminary low/central/high cumulative eligible-R&D scenarios of EUR 3,333.2m / EUR 4,084.3m / EUR 5,776.6m. These are cumulative gross scenario estimates based on provisional coefficients; not annual flows, not net additionality and not a replacement for the repository's first quantitative diagnostic. Worksheet cell content and formula strings are archived as JSON under `data/intermediate/working_papers/`; the original Excel binary was not uploaded.
+- **PRIN 2022 PNRR pilot:** a v0.2 content note is archived under `data/intermediate/pilots/`, including award totals, CNR-IAC case study, Frascati crosswalk, automation backlog and source register. The original Excel binary was not uploaded. The pilot remains a methodological feasibility test; the CNR-IAC expenditure/allocation discrepancy and calendar-year timing limitations are unresolved.
+- **Methodology note:** the 20 November v0.1 policy-to-macro note has been transcribed to Markdown under `documents/methodology/`. It is historical supporting material; `docs/methodology.md` remains canonical.
 
 ## Reconciliation with existing repository outputs
 
@@ -15,7 +15,7 @@ The repository already includes a first quantitative GERD/innovation diagnostic,
 
 ## Data availability and validation
 
-The master v15 workbook and original v18/v19 workbooks were not available as binary files in the current upload environment. Do not describe them as uploaded or consolidated. The archived chat notes are summaries, not primary evidence; opaque conversation citation IDs are not durable source references. Retrieve the original workbooks and source documents before record-level reconciliation.
+The master v15 workbook and original v18/v19 workbooks were not available as binary files in the current upload environment. The PRIN pilot and MUR quantification workbook are represented by text/JSON exports, not original Excel binaries. Do not describe these original workbooks as uploaded or consolidated. The archived chat notes are summaries, not primary evidence; opaque conversation citation IDs are not durable source references. Retrieve the original workbooks and source documents before record-level reconciliation.
 
 ## Immediate next actions
 
