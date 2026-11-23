@@ -1,0 +1,42 @@
+Ho proseguito l'estrazione su più annualità e non soltanto sul 2018. Ho creato una nuova versione del database, partendo dalla v14 e preservando i dati già presenti.
+
+R&D National Measures Census – v18
+Extraction Round 10 · 106 record nel foglio RT_Extracted_Data
+
+Risultati delle nuove estrazioni
+
+| Anno | Misura | Dati numerici estratti |
+|---|---|---|
+| 2018 | Stabilizzazione ricercatori e tecnologi negli EPR | €13m nel 2018; €57m annui dal 2019 |
+| 2019 | Credito d'imposta R&S: modifica normativa | Aliquota ordinaria 25%, 50% per determinate spese; massimale €10m |
+| 2019 | Assunzione straordinaria di ricercatori universitari | €20m nel 2019; €58,6m nel 2020 e 2021 |
+| 2019 | Fondo Venture Capital | €30m annui nel 2019–2021; €5m annui nel 2022–2025 |
+| 2019 | Fondo AI, Blockchain e IoT | €15m |
+| 2020 | Nuovo credito R&S | €724m di beneficio stimato per R&S; €681,2m escludendo la quota inward BERD |
+| 2020 | Recupero del precedente credito R&S | €974,1m nel 2021 |
+| 2022 | Incremento FOE | €90m annui nel 2022–2024; €100m dal 2025 |
+| 2022 | FISA | €50m nel 2022, €150m nel 2023, €200m nel 2024 |
+| 2022 | Proroga credito R&S | Effetto stimato di €249,9m nel 2024 e €499,7m nel 2025 |
+| 2023 | MUR – Missione Ricerca e innovazione | €2.631m di competenza integrata; riduzione di €3,5m sul cap. 1739 |
+
+Fonti indicate nelle note di chat: dossier VQ1334, VQ2305, VQ3424, dossier della legge di bilancio 2021 e Volume III della legge di bilancio 2023. I riferimenti di citazione della chat originale non sono identificatori bibliografici permanenti e devono essere ricostruiti dai documenti originali prima di riutilizzarli.
+
+Correzioni metodologiche:
+1. Il dato di €227,1m nel 2021–2023 non è un credito R&S puro. È il profilo di cassa complessivo del nuovo credito, comprendente R&S, innovazione e innovazione ecologica. Il dato R&S stimato separatamente nelle note è €724m.
+2. Il FOE 2022 distingue €90m di spesa in conto capitale e €62,5m di spesa corrente, oltre a €30,3m di maggiori entrate riflesse.
+
+Stato dell'estrazione:
+| Anno | Stato |
+|---|---|
+| 2018 | Parziale; VQ4768 non accessibile direttamente, usate fonti parlamentari alternative |
+| 2019 | VQ1334 analizzato nei passaggi R&D individuati; altri documenti da completare |
+| 2020 | VQ2305 analizzato per il credito R&S; altri documenti da completare |
+| 2021 | Misure principali individuate; verifica integrale di RT e stati di previsione ancora necessaria |
+| 2022 | FOE, FISA e credito R&S approfonditi; ricognizione complessiva incompleta |
+| 2023 | MUR Missione 1 e alcune misure settoriali; analisi ministeriale incompleta |
+| 2024 | MUR e Salute esaminati in parte; altri ministeri da completare |
+| 2025 | MUR, Salute, agricoltura e alcune misure di innovazione; emendamenti e RT da completare |
+
+La v18 è una versione di lavoro con nuove estrazioni documentate, non una ricognizione nazionale certificata come completa. La priorità indicata era completare le Sezioni II, estraendo sistematicamente capitoli e piani gestionali MUR, MIMIT, Salute, Agricoltura e Difesa, con competenza e cassa per ciascun anno, e poi riconciliare le misure con le Relazioni tecniche e i tre saldi.
+
+Nota di archivio: questo file conserva il riepilogo della chat. Non sostituisce il workbook originale v18, che deve essere recuperato prima della riconciliazione record-level.
