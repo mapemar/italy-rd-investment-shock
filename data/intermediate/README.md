@@ -10,10 +10,10 @@ This directory stores extracted or harmonised working datasets that are not yet 
 
 ## Current artefacts
 
-| Path | Version | Description | Status |
+| Path | Source version | Description | Status |
 |---|---|---|---|
-| `working_papers/RD_Quantification_Working_Paper_v0.1.xlsx` | v0.1 | MUR cumulative low/central/high estimates and annual-input gaps | Supplementary, not validated annual shock |
-| `pilots/PRIN_2022_PNRR_Pilot_Final_v0.2.xlsx` | v0.2 | PRIN 2022 PNRR project-level pilot, includes ANVUR reference | Feasibility pilot; unresolved reconciliation/timing caveats |
+| `working_papers/RD_Quantification_Working_Paper_v0.1.json` | v0.1 XLSX export | MUR cumulative low/central/high scenarios, annual-input gap and extraction progress; formulas preserved as strings | Worksheet-level JSON export; original Excel binary not uploaded |
+| `pilots/PRIN_2022_PNRR_Pilot_Final_v0.2.md` | v0.2 XLSX content note | PRIN awards, CNR-IAC sample, Frascati crosswalk, agent backlog and source register | Text companion; original Excel binary not uploaded |
 
 ## Rules
 
@@ -22,3 +22,4 @@ This directory stores extracted or harmonised working datasets that are not yet 
 - Do not label a pilot as nationally representative.
 - Keep the historical national census distinct from the PNRR-only estimand.
 - Missing observations remain missing, not zero.
+- Text/JSON exports are not byte-equivalent replacements for source workbooks; retain the original binary in the Project Library until it can be uploaded.
