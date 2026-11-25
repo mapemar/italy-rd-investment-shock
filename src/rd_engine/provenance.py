@@ -113,6 +113,11 @@ def ingest_bytes(
     if not run_id.strip():
         raise ValueError("run_id must be non-empty.")
 
+    timestamp = retrieved_at or datetime.now(timezone.utc)
+    if timestamp.tzinfo is None:
+        raise ValueError("retrieved_at must be timezone-aware.")
+    timestamp = timestamp.astimezone(timezone.utc)
+
     canonical_url = canonicalize_url(source_url)
     document_id = stable_document_id(institution, document_title)
     version_id = content_version_id(content)
@@ -134,11 +139,6 @@ def ingest_bytes(
             handle.flush()
             os.fsync(handle.fileno())
         destination.chmod(0o444)
-
-    timestamp = retrieved_at or datetime.now(timezone.utc)
-    if timestamp.tzinfo is None:
-        raise ValueError("retrieved_at must be timezone-aware.")
-    timestamp = timestamp.astimezone(timezone.utc)
 
     return {
         "document_id": document_id,
