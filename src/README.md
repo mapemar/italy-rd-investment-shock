@@ -1,14 +1,16 @@
 # Source code
 
-Python modules should be added here as the analytical workflow is specified.
+The reusable Python package currently starts with `rd_engine.provenance`.
 
-Planned modules:
-- `document_reader/`: PDF/text ingestion and evidence extraction.
-- `amendment_reader/`: version comparison and legal amendment tracking.
-- `policy_classifier/`: measure classification and R&D eligibility.
-- `budget_reconstruction/`: annual budget and expenditure reconciliation.
-- `rd_statistics/`: Eurostat/OECD retrieval and harmonisation.
+## Implemented
+- `rd_engine/provenance.py`: HTTPS source URL canonicalisation, stable document identity, content-version hashing, immutable raw-byte ingestion, provenance records and checksum validation.
+
+## Planned modules
+- `document_reader/`: PDF/HTML/XLSX ingestion and page/sheet/table extraction.
+- `entity_resolution/`: project, CUP, beneficiary and institutional-sector matching.
+- `financial_reconciliation/`: funding-chain reconciliation and annual allocation.
+- `frascati/`: evidence-based activity and cost classification.
 - `additionality/`: parameter management and counterfactual estimation.
-- `shock_estimation/`: annual scenario calculations and model exports.
+- `shock_estimation/`: annual scenarios and model exports.
 
-Keep each module independently testable. Do not create speculative calculations before the input schema and evidence requirements are agreed.
+Keep modules independently testable. Deterministic transformations belong in Python; LLM outputs are candidate evidence/classifications and must retain source locators and reviewer status. Do not create empirical calculations before the input schema and evidence requirements are agreed.
