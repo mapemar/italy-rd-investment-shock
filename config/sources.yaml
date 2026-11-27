@@ -92,10 +92,15 @@ source_families:
     note: Preserve cash, commitments, ESA accrual recognition and beneficiary R&D performance as separate timing fields.
   statistics:
     eurostat:
+      verified_datasets:
+        - rd_e_gerdtot
+        - rd_e_gerdfund
+        - rd_e_fundgerd
+        - rd_p_persocc
+        - gba_nabsfin07
       candidate_datasets:
         - rd_e_gerdact
-        - rd_e_gerdtot
-      note: Verify dataset codes, dimensions, units and current metadata before extraction.
+      note: Verified identifiers and current coverage are documented in docs/literature_review/italy_macro_rd_data_availability_round5.md. Confirm all dimensions, units, flags and annual cross-breakdown coverage before extraction. Do not assume detailed R&D type/cost dataset codes without verification.
     oecd:
       candidate_topics:
         - GERD
@@ -105,7 +110,9 @@ source_families:
         - GERD by source of funds
         - GERD by type of R&D
         - GBARD
-      note: Resolve exact OECD dataset and indicator identifiers from current OECD metadata.
+        - GTARD
+        - Implied marginal R&D tax subsidy rates / B-index
+      note: GTARD and tax-wedge series are separate from Eurostat GERD/GBARD; resolve exact Italy-specific series, coverage and vintage from OECD R&D Tax Incentives Database.
   financial_instruments:
     - CDP
     - CDP Venture Capital
