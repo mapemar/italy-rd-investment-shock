@@ -155,6 +155,28 @@ The first sources located do not support a universal additionality coefficient.
 
 These estimates are not directly comparable: they use different samples, periods, instruments, outcome definitions, identification strategies and meta-analytic methods. The 2022 result is an estimate from a particular comparative meta-regression, not a plug-in parameter for the Italian data engine.
 
+## 5.1 Firm-level microfoundations: observable investment versus research effort
+
+Akcigit, Hanley and Stantcheva (2021), in the full working-paper version reviewed for this round, provide a complementary firm-level model rather than an aggregate QUEST-type macro model.
+
+Their framework explicitly separates:
+- observable R&D investment (r_{t-1}): monetary resources spent on R&D, including scientists/researchers' pay, laboratory equipment, materials and research supplies (section 2.1, pp. 6–7);
+- unobservable R&D effort (l_t): organisational/research effort that cannot be directly monitored or verified by government;
+- firm research productivity (	heta_t): a heterogeneous, privately observed firm characteristic governing the efficiency with which observable investment and unobservable effort generate innovation.
+
+The paper matches firm-level data to patent data and stresses that observed R&D expenditure is not a sufficient statistic for the full innovation-production process. Its policy design depends on complementarities among observable investment, unobservable effort and firm productivity, as well as the persistence of productivity and inter-firm spillovers (abstract and introduction, pp. 1–4; section 2.1, pp. 6–8).
+
+**Data implication:** for business R&D measures, where firm-level data access permits, preserve at least eligible/actual R&D investment, researcher labour costs and firm/beneficiary characteristics separately. Patents and citations can provide innovation-output measures. Unobservable effort is not a directly extractable fiscal or accounting variable; it belongs to the behavioural model and must not be imputed as observed expenditure.
+
+This reinforces the distinction between:
+- public support received;
+- observable R&D resources spent by the firm;
+- the firm's latent research effort/productivity;
+- innovation output (patents/citations);
+- additional R&D relative to the counterfactual.
+
+This firm-level structure is not a variable list to transplant wholesale into the macro dataset. It is useful for designing the microdata layer and identifying why a single subsidy amount or expenditure total cannot identify the behavioural response.
+
 ## 6. Preliminary model-to-data map for Italy
 
 The evidence suggests maintaining separate **data blocks**, while postponing the decision on how many model shocks are ultimately needed.
