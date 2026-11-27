@@ -177,6 +177,29 @@ This reinforces the distinction between:
 
 This firm-level structure is not a variable list to transplant wholesale into the macro dataset. It is useful for designing the microdata layer and identifying why a single subsidy amount or expenditure total cannot identify the behavioural response.
 
+### 5.2 Measurement and identification lessons from Becker (2015)
+
+The full survey provides several concrete requirements for the microdata layer:
+
+- Section 2.1 (pp. 3–4) distinguishes R&D input measures (expenditure/intensity) from output measures (patents/innovation counts). Patent counts are heterogeneous in economic value and patenting propensity; neither input nor output alone fully captures innovation.
+- Section 2.2 (pp. 4–5) describes the standard firm/industry/country R&D investment equation and explains two alternative ways to represent tax incentives: a simple eligibility dummy, or preferably a price variable such as the **user cost of R&D**, which captures marginal R&D cost and permits estimation of a price elasticity.
+- Direct subsidies may be measured by a receipt dummy or financial amount; treatment-effect designs compare subsidised and non-subsidised firms and can provide an explicit counterfactual.
+- University research spillovers can be proxied with university/department research spending and science-specific department characteristics at regional/industry level. High-skilled human capital can be proxied by scientists/engineers in firms or tertiary-educated workforce shares. Formal R&D cooperation can be represented by participation indicators.
+- Section 2.2 also stresses that R&D investment is dynamic: high adjustment costs, temporary hiring/firing costs for specialised staff, uncertainty and sustained project commitments imply smoothing and lagged responses. A dynamic empirical specification includes lagged R&D expenditure.
+- Section 2.3 (pp. 6–7) warns that public subsidies may be endogenous because selection depends on firm and application characteristics; tax credits and user costs may also be endogenous to tax policy and macroeconomic conditions.
+
+**Extraction implication:** for business incentives, a firm-year panel is materially more informative than an aggregate annual public allocation series. At minimum, collect firm R&D expenditure/intensity, direct grant receipt and amount, tax relief or constructed user-cost wedge, firm size, sector, researcher/scientist employment, university-linkage/cooperation indicators and a stable firm identifier. Preserve the timing of awards, tax claims and R&D performance separately. These are candidate microdata requirements, not a decision to build a new schema immediately.
+
+### 5.3 Instrument design matters: direct subsidies versus tax credits
+
+Dimos et al. (2022), section 2 (pp. 2–4), distinguish:
+- tax credits, typically received ex post after eligible R&D is performed and often available to all eligible firms on either a volume or incremental basis;
+- direct subsidies, typically awarded ex ante or during the R&D project, targeted to selected projects and subject to public-agency selection.
+
+The two instruments may share the objective of reducing private R&D cost, but they differ in timing, targeting, administrative discretion, information asymmetry and possible selection effects. The authors find a similar average additionality estimate in their comparative meta-regression, while also documenting firm-size, industry and policy-mix heterogeneity and low statistical power.
+
+**Implication for Italy:** do not combine direct grants and tax credits into one observed fiscal series. If a macro model later represents both through a common cost wedge, the data engine must still preserve the underlying instrument-specific fiscal and behavioural evidence so that the mapping can be justified and sensitivity-tested.
+
 ## 6. Preliminary model-to-data map for Italy
 
 The evidence suggests maintaining separate **data blocks**, while postponing the decision on how many model shocks are ultimately needed.
